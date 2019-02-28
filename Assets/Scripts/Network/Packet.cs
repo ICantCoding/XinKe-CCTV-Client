@@ -39,32 +39,50 @@ public class Packet
         byte[] bytes = new byte[length];
         
         byte[] sendIdBytes = BitConverter.GetBytes(m_sendId);
+        if (BitConverter.IsLittleEndian)
+        {
+            Array.Reverse(sendIdBytes, 0, sendIdBytes.Length);
+        }
         Array.Copy(sendIdBytes, 0, bytes, 0, sendIdBytes.Length);
         startIndex += sendIdBytes.Length;
 
         byte[] nodeIdBytes = BitConverter.GetBytes(m_nodeId);
+        if (BitConverter.IsLittleEndian)
+        {
+            Array.Reverse(nodeIdBytes, 0, nodeIdBytes.Length);
+        }
         Array.Copy(nodeIdBytes, 0, bytes, startIndex, nodeIdBytes.Length);
         startIndex += nodeIdBytes.Length;
 
         byte[] firstIdBytes = BitConverter.GetBytes(m_firstId);
+        if (BitConverter.IsLittleEndian)
+        {
+            Array.Reverse(firstIdBytes, 0, firstIdBytes.Length);
+        }
         Array.Copy(firstIdBytes, 0, bytes, startIndex, firstIdBytes.Length);
         startIndex += firstIdBytes.Length;
 
         byte[] secondIdBytes = BitConverter.GetBytes(m_secondId);
+        if (BitConverter.IsLittleEndian)
+        {
+            Array.Reverse(secondIdBytes, 0, secondIdBytes.Length);
+        }
         Array.Copy(secondIdBytes, 0, bytes, startIndex, secondIdBytes.Length);
         startIndex += secondIdBytes.Length;
 
         byte[] msgLenBytes = BitConverter.GetBytes(m_msgLen);
+        if (BitConverter.IsLittleEndian)
+        {
+            Array.Reverse(msgLenBytes, 0, msgLenBytes.Length);
+        }
         Array.Copy(msgLenBytes, 0, bytes, startIndex, msgLenBytes.Length);
         startIndex += msgLenBytes.Length;
 
-        Array.Copy(m_data, 0, bytes, startIndex, m_data.Length);
-
-        //判断当前系统是否是小端序， 注意网路传输（网络字节序）是大端序
         if (BitConverter.IsLittleEndian)
         {
-            Array.Reverse(bytes, 0, bytes.Length);
+            Array.Reverse(m_data, 0, m_data.Length);
         }
+        Array.Copy(m_data, 0, bytes, startIndex, m_data.Length);
 
         return bytes;
     }
