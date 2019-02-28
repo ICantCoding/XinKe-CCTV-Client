@@ -38,46 +38,11 @@ public class Packet
         int startIndex = 0;
         byte[] bytes = new byte[length];
         
-        byte[] sendIdBytes = BitConverter.GetBytes(m_sendId);
-        if (BitConverter.IsLittleEndian)
-        {
-            Array.Reverse(sendIdBytes, 0, sendIdBytes.Length);
-        }
-        Array.Copy(sendIdBytes, 0, bytes, 0, sendIdBytes.Length);
-        startIndex += sendIdBytes.Length;
-
-        byte[] nodeIdBytes = BitConverter.GetBytes(m_nodeId);
-        if (BitConverter.IsLittleEndian)
-        {
-            Array.Reverse(nodeIdBytes, 0, nodeIdBytes.Length);
-        }
-        Array.Copy(nodeIdBytes, 0, bytes, startIndex, nodeIdBytes.Length);
-        startIndex += nodeIdBytes.Length;
-
-        byte[] firstIdBytes = BitConverter.GetBytes(m_firstId);
-        if (BitConverter.IsLittleEndian)
-        {
-            Array.Reverse(firstIdBytes, 0, firstIdBytes.Length);
-        }
-        Array.Copy(firstIdBytes, 0, bytes, startIndex, firstIdBytes.Length);
-        startIndex += firstIdBytes.Length;
-
-        byte[] secondIdBytes = BitConverter.GetBytes(m_secondId);
-        if (BitConverter.IsLittleEndian)
-        {
-            Array.Reverse(secondIdBytes, 0, secondIdBytes.Length);
-        }
-        Array.Copy(secondIdBytes, 0, bytes, startIndex, secondIdBytes.Length);
-        startIndex += secondIdBytes.Length;
-
-        byte[] msgLenBytes = BitConverter.GetBytes(m_msgLen);
-        if (BitConverter.IsLittleEndian)
-        {
-            Array.Reverse(msgLenBytes, 0, msgLenBytes.Length);
-        }
-        Array.Copy(msgLenBytes, 0, bytes, startIndex, msgLenBytes.Length);
-        startIndex += msgLenBytes.Length;
-
+        AppendNetworkBytes(bytes, m_sendId, ref startIndex);
+        AppendNetworkBytes(bytes, m_nodeId, ref startIndex);
+        AppendNetworkBytes(bytes, m_firstId, ref startIndex);
+        AppendNetworkBytes(bytes, m_secondId, ref startIndex);
+        AppendNetworkBytes(bytes, m_msgLen, ref startIndex);
         if (BitConverter.IsLittleEndian)
         {
             Array.Reverse(m_data, 0, m_data.Length);
@@ -85,6 +50,16 @@ public class Packet
         Array.Copy(m_data, 0, bytes, startIndex, m_data.Length);
 
         return bytes;
+    }
+    private void AppendNetworkBytes(byte[] sourcesBytes, System.UInt16 appendData, ref int startIndex)
+    {   
+        byte[] appendBytes = BitConverter.GetBytes(appendData);
+        if (BitConverter.IsLittleEndian)
+        {
+            Array.Reverse(appendBytes, 0, appendBytes.Length);
+        }
+        Array.Copy(appendBytes, 0, sourcesBytes, startIndex, appendBytes.Length);
+        startIndex += appendBytes.Length;
     }
     #endregion
 }

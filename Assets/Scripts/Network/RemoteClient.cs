@@ -286,11 +286,8 @@ public class RemoteClient
             StartReceive();
             //首次向服务器发送客户端信息.
             Debug.Log("连接服务器成功，需要传递自身信息到服务器...");
-            for (int i = 0; i < 3000; i++)
-            {
-                Packet packet = new Packet(GameGlobal.Instance.PlayerInfo.Id, 101, 102, 103, 2, BitConverter.GetBytes(GameGlobal.Instance.PlayerInfo.Id));
-                Send(packet.Packet2Bytes());
-            }
+            Packet packet = new Packet(GameGlobal.Instance.PlayerInfo.Id, 101, 102, 103, 2, BitConverter.GetBytes(GameGlobal.Instance.PlayerInfo.Id));
+            Send(packet.Packet2Bytes());
         }
     }
     private void StartReceive()

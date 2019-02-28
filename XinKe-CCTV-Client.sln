@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinKe-CCTV-Client", "Assembly-CSharp.csproj", "{8921C2BD-7B95-D070-34BD-DBFF7B80D9CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XinKe-CCTV-Client", "Assembly-CSharp-Editor.csproj", "{535A8FA5-2B57-BE29-4D7D-46F34C5C452C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8921C2BD-7B95-D070-34BD-DBFF7B80D9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8921C2BD-7B95-D070-34BD-DBFF7B80D9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8921C2BD-7B95-D070-34BD-DBFF7B80D9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8921C2BD-7B95-D070-34BD-DBFF7B80D9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535A8FA5-2B57-BE29-4D7D-46F34C5C452C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535A8FA5-2B57-BE29-4D7D-46F34C5C452C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535A8FA5-2B57-BE29-4D7D-46F34C5C452C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535A8FA5-2B57-BE29-4D7D-46F34C5C452C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
