@@ -127,6 +127,7 @@ public class RemoteClient
                 //开始接受数据
                 StartReceive();
                 //首次向服务器发送客户端信息.
+                Thread.Sleep(10); //首次向服务器发送客户端信息时，先暂停10毫秒
                 SendU3DClientLoginInfo();
             }
             else
