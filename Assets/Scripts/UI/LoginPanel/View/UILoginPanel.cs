@@ -216,8 +216,7 @@ public class UILoginPanel : UIPanel
     private void ShowResponseMsgText(string content)
     {
         m_responseMsgText.text = content;
-        Debug.Log("content: " + content);
-        HideResponseMsgText();
+        HideResponseMsgTextEffect();
     }
     #endregion
 

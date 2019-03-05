@@ -178,6 +178,10 @@ class MessageReader
                     
                     byte[] bytes = new byte[m_stream.wpos];
                     Array.Copy(m_stream.Data, 0, bytes, 0, bytes.Length);
+                    if(BitConverter.IsLittleEndian)
+                    {
+                        Array.Reverse(bytes, 0, bytes.Length);
+                    }
                     Packet p = new Packet(m_sendId, m_nodeId, m_firstId, m_secondId, m_msgLen, bytes);
                     if (m_messageHandler != null)
                     {

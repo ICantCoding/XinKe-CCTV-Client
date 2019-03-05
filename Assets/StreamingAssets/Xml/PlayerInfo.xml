@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PlayerInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Id>100</Id>
+  <Id>102</Id>
   <Name>田山杉</Name>
   <ServerIpAddress>127.0.0.1</ServerIpAddress>
   <ServerPort>3322</ServerPort>
