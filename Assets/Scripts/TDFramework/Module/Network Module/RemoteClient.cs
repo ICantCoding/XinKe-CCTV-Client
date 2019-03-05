@@ -7,6 +7,8 @@ using System.Net.Sockets;
 using System.Threading;
 using UnityEngine;
 using TDFramework;
+using PureMVC.Patterns.Observer;
+using PureMVC.Interfaces;
 
 public class SendBuffer
 {
@@ -19,11 +21,18 @@ public class SendBuffer
 }
 
 public delegate void MessageHandler(Packet msg);
+public delegate void RemoteClientConnectServerSuccessCallback();
+public delegate void RemoteClientConnectServerFailCallback();
 
 public class RemoteClient
 {
     #region 常量
     private const int BufferSize = 8192;
+    #endregion
+
+    #region 回调代理
+    public RemoteClientConnectServerSuccessCallback ConnectServerSuccessCallback = null;
+    public RemoteClientConnectServerFailCallback ConnectServerFailCallback = null;
     #endregion
 
     #region 字段
@@ -35,6 +44,8 @@ public class RemoteClient
     private List<SendBuffer> m_sendBufferList = new List<SendBuffer>();
     private MessageReader m_messageReader = null;
     private NetworkEngine m_networkEngine = null;
+
+    private Notifier m_notifier; //用于发送PureMVC消息
     #endregion
 
     #region 构造方法
@@ -44,6 +55,7 @@ public class RemoteClient
         m_serverPort = serverPort;
         m_messageReader = new MessageReader(HandleMessage);
         m_networkEngine = networkEngine;
+        m_notifier = new Notifier();
     }
     #endregion
 
@@ -126,12 +138,18 @@ public class RemoteClient
                 //连接服务器成功， 可在此添加连接服务器成功的操作, 目前还不知道需要执行什么操作，暂时保留
                 //开始接受数据
                 StartReceive();
-                //首次向服务器发送客户端信息.
-                Thread.Sleep(10); //首次向服务器发送客户端信息时，先暂停10毫秒
-                SendU3DClientLoginInfo();
+                //连接服务器成功的回调
+                if(ConnectServerSuccessCallback != null)
+                {
+                    ConnectServerSuccessCallback();
+                }
             }
             else
             {
+                if(ConnectServerFailCallback != null)
+                {
+                    ConnectServerFailCallback();
+                }
                 Debug.LogError("客户端连接服务器失败, Reason: " + reasonStr);
             }
         }
@@ -317,18 +335,13 @@ public class RemoteClient
     }
     #endregion
 
-
-
-    #region Send 具体数据方法
-    private void SendU3DClientLoginInfo()
+    #region PureMVC消息发送
+    public void SendNotification(string notificationName, object body, string type)
     {
-        U3DClientLogin u3dClientLogin = new U3DClientLogin()
+        if(m_notifier != null)
         {
-            m_clientId = SingletonMgr.GameGlobalInfo.PlayerInfo.Id,
-            m_clientName = SingletonMgr.GameGlobalInfo.PlayerInfo.Name,
-        };
-        Packet packet = new Packet(u3dClientLogin.m_clientId, 0, 0, 0, u3dClientLogin.Size, u3dClientLogin.Packet2Bytes());
-        Send(packet.Packet2Bytes());
+            m_notifier.SendNotification(notificationName, body, type);
+        }
     }
     #endregion
 }

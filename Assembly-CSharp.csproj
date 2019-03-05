@@ -53,6 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Define\EventID.cs" />
+     <Compile Include="Assets\Scripts\Define\ResultID.cs" />
      <Compile Include="Assets\Scripts\TDFramework\AppStart\AppConfig.cs" />
      <Compile Include="Assets\Scripts\TDFramework\AppStart\AppConfigPath.cs" />
      <Compile Include="Assets\Scripts\TDFramework\AppStart\AppStart.cs" />
@@ -73,13 +75,60 @@
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Packet.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\RemoteClient.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\NetworkModule.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Core\Controller.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Core\Model.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Core\View.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Interfaces\ICommand.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Interfaces\IController.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Interfaces\IFacade.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Interfaces\IMediator.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Interfaces\IModel.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Interfaces\INotification.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Interfaces\INotifier.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Interfaces\IObserver.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Interfaces\IProxy.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Interfaces\IView.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Patterns\Command\MacroCommand.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Patterns\Command\SimpleCommand.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Patterns\Facade\Facade.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Patterns\Mediator\Mediator.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Patterns\Observer\Notification.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Patterns\Observer\Notifier.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Patterns\Observer\Observer.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Patterns\Proxy\Proxy.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\Base\UIPage.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\Base\UIPanel.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\Base\UIView.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\Effect\Base\UIPointerEffect.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\Effect\Derived\RotateEffect.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\Effect\Derived\ScaleEffect.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\EventCenter\IRegisterPureMVC.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\EventCenter\Template\Template_Command.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\EventCenter\Template\Template_Mediator.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\EventCenter\Template\Template_Panel_Mediator.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\EventCenter\Template\Template_Proxy.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\UIMgr.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Utils\CrcHelper.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Utils\HumanRead.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Utils\Ini\IniFileReader.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Utils\Ini\IniHelper.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Utils\MD5Helper.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Utils\Util.cs" />
+     <Compile Include="Assets\Scripts\UI\LoginPanel\UILoginPanel_Command.cs" />
+     <Compile Include="Assets\Scripts\UI\LoginPanel\UILoginPanel_Mediator.cs" />
+     <Compile Include="Assets\Scripts\UI\LoginPanel\UILoginPanel_Proxy.cs" />
+     <Compile Include="Assets\Scripts\UI\LoginPanel\View\UILoginPanel.cs" />
+     <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Scripts\TDFramework\UI\UIFramework\ReadMe.txt" />
+     <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Scripts\TDFramework\UI\ReadMe.txt" />
      <None Include="Assets\StreamingAssets\Xml\PlayerInfo.xml" />
+     <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\readme_DOTweenPro.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/XinKeWork/Day20190219/CCTV Client/CCTV Client/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -295,6 +344,24 @@
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>E:/XinKeWork/Day20190219/CCTV Client/CCTV Client/Assets/Scripts/TDFramework/SDK/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/XinKeWork/Day20190219/CCTV Client/CCTV Client/Assets/Scripts/TDFramework/SDK/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/XinKeWork/Day20190219/CCTV Client/CCTV Client/Assets/Scripts/TDFramework/SDK/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/XinKeWork/Day20190219/CCTV Client/CCTV Client/Assets/Scripts/TDFramework/SDK/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/XinKeWork/Day20190219/CCTV Client/CCTV Client/Assets/Scripts/TDFramework/SDK/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>E:/XinKeWork/Day20190219/CCTV Client/CCTV Client/Assets/Scripts/TDFramework/SDK/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>E:/XinKeWork/Day20190219/CCTV Client/CCTV Client/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>

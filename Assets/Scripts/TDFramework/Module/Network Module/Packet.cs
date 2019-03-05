@@ -15,11 +15,11 @@ public interface IPacket
 public class Packet : IPacket
 {
     #region 字段
-    private System.UInt16 m_sendId;
-    private System.UInt16 m_nodeId;
-    private System.UInt16 m_firstId;
-    private System.UInt16 m_secondId;
-    private System.UInt16 m_msgLen;
+    public System.UInt16 m_sendId;
+    public System.UInt16 m_nodeId;
+    public System.UInt16 m_firstId;
+    public System.UInt16 m_secondId;
+    public System.UInt16 m_msgLen;
     public byte[] m_data;//服务器响应报文的具体数据内容
     #endregion
 
@@ -125,6 +125,57 @@ public class U3DClientLogin : IPacket
         startIndex += clientIdBytes.Length;
         Array.Copy(clientNameBytes, 0, bytes, startIndex, clientNameBytes.Length);
 
+        return bytes;
+    }
+    #endregion
+}
+public class U3DClientLoginResponse : IPacket
+{
+    #region 字段和属性
+    public UInt16 m_resultId; //返回ResultId
+    public string m_msg; //返回原因
+    //数据占用字节大小
+    public UInt16 Size
+    {
+        get
+        {
+            byte[] resultIdBytes = BitConverter.GetBytes(m_resultId);
+            byte[] msgBytes = System.Text.Encoding.UTF8.GetBytes(m_msg);
+            UInt16 size = (UInt16)(resultIdBytes.Length + msgBytes.Length);
+            return size;
+        }
+    }
+    #endregion
+
+    #region 构造函数
+    public U3DClientLoginResponse()
+    {
+
+    }
+    public U3DClientLoginResponse(byte[] bytes)
+    {
+        if (bytes.Length <= 0)
+        {
+            return;
+        }
+        int readIndex = 0;
+        m_resultId = BitConverter.ToUInt16(bytes, readIndex);
+        readIndex += 2;
+        m_msg = System.Text.Encoding.UTF8.GetString(bytes, readIndex, bytes.Length - readIndex);
+    }
+    #endregion
+
+    #region 方法
+    public byte[] Packet2Bytes()
+    {
+        byte[] resultIdBytes = BitConverter.GetBytes(m_resultId);
+        byte[] msgBytes = System.Text.Encoding.UTF8.GetBytes(m_msg);
+        int size = resultIdBytes.Length + msgBytes.Length;
+        byte[] bytes = new byte[size];
+        int startIndex = 0;
+        Array.Copy(resultIdBytes, 0, bytes, startIndex, resultIdBytes.Length);
+        startIndex += resultIdBytes.Length;
+        Array.Copy(msgBytes, 0, bytes, startIndex, msgBytes.Length);
         return bytes;
     }
     #endregion

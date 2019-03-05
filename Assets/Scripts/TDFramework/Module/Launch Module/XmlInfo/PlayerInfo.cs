@@ -16,6 +16,8 @@ public class PlayerInfo
     public string ServerIpAddress;
     [XmlElement("ServerPort")]
     public int ServerPort;
+    [XmlElement("CctvServerId")]
+    public UInt16 CctvServerId;
     #endregion
 
     #region 方法
@@ -26,8 +28,31 @@ public class PlayerInfo
         playerInfo.Name = "U3D客户端1";
         playerInfo.ServerIpAddress = "127.0.0.1";
         playerInfo.ServerPort = 3322;
+        playerInfo.CctvServerId = 0;
 
-        if(File.Exists(AppConfigPath.PlayerInfoXmlPath))
+        if (File.Exists(AppConfigPath.PlayerInfoXmlPath))
+        {
+            File.Delete(AppConfigPath.PlayerInfoXmlPath);
+        }
+
+        FileStream fileStream = new FileStream(AppConfigPath.PlayerInfoXmlPath,
+            FileMode.Create, FileAccess.ReadWrite, FileShare.ReadWrite);
+        StreamWriter sw = new StreamWriter(fileStream, System.Text.Encoding.UTF8);
+        XmlSerializer xml = new XmlSerializer(playerInfo.GetType());
+        xml.Serialize(sw, playerInfo);
+        sw.Close();
+        fileStream.Close();
+    }
+    public static void SerializePlayerInfo2Xml(UInt16 id, string name, string serverIp, int serverPort)
+    {
+        PlayerInfo playerInfo = new PlayerInfo();
+        playerInfo.Id = id;
+        playerInfo.Name = name;
+        playerInfo.ServerIpAddress = serverIp;
+        playerInfo.ServerPort = serverPort;
+        playerInfo.CctvServerId = 0;
+
+        if (File.Exists(AppConfigPath.PlayerInfoXmlPath))
         {
             File.Delete(AppConfigPath.PlayerInfoXmlPath);
         }

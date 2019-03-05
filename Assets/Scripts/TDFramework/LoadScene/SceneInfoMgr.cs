@@ -48,9 +48,10 @@ namespace TDFramework
     public class SceneInfoMgr : Singleton<SceneInfoMgr>
     {
         #region 常量
-        private const string Loading = "Loading";
         private const string LaunchSplash = "LaunchSplash";
+        private const string Loading = "Loading";
         private const string AppStart = "AppStart";
+        private const string MainStation = "MainStation";
         #endregion
 
         #region 集合管理
@@ -74,6 +75,13 @@ namespace TDFramework
                 return GetSceneInfoByName(AppStart).Name;
             }
         }
+        public string MainStationScene
+        {
+            get
+            {
+                return GetSceneInfoByName(MainStation).Name;
+            }
+        }
         public string LoadingScene
         {
             get
@@ -85,18 +93,18 @@ namespace TDFramework
 
         public SceneInfoMgr()
         {
-            //异步加载场景过渡Scene
+            //启动LaunchSplash的Scene
             SceneInfo sceneInfo = new SceneInfo()
             {
                 Index = 0,
-                Name = Loading,
+                Name = LaunchSplash,
             };
             SceneInfoDict.Add(sceneInfo.Name, sceneInfo);
-            //启动LaunchSplash的Scene
+            //异步加载场景过渡Scene
             sceneInfo = new SceneInfo()
             {
                 Index = 1,
-                Name = LaunchSplash,
+                Name = Loading,
             };
             SceneInfoDict.Add(sceneInfo.Name, sceneInfo);
             //AppStart的Scene
@@ -104,6 +112,13 @@ namespace TDFramework
             {
                 Index = 2,
                 Name = AppStart,
+            };
+            SceneInfoDict.Add(sceneInfo.Name, sceneInfo);
+            //MainStation
+            sceneInfo = new SceneInfo()
+            {
+                Index = 3,
+                Name = MainStation,
             };
             SceneInfoDict.Add(sceneInfo.Name, sceneInfo);
         }

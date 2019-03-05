@@ -8,8 +8,9 @@ namespace TDFramework
     public class AppStart : MonoBehaviour
     {
         #region Unity生命周期
-        void Start()
+        void Awake()
         {
+            DontDestroyOnLoad(this.gameObject);
 			//初始化LaunchModule, 加载应用所需的配置数据
 			SingletonMgr.ModuleMgr.RegisterModule("LaunchModule");
 			//初始化NetworkModule, 让应用连接到服务器

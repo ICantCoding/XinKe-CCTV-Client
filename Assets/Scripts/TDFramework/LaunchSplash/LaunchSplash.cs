@@ -34,7 +34,7 @@ namespace TDFramework
         #region 回调方法
         public void OnVideoPlayerPlayEnd(VideoPlayer source)
         {
-            LoadSceneMgr.Instance.LoadScene(SingletonMgr.SceneInfoMgr.AppStartScene);
+            SingletonMgr.LoadSceneMgr.LoadScene(SingletonMgr.SceneInfoMgr.AppStartScene);
         }
         #endregion
     }

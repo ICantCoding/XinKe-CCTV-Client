@@ -15,11 +15,27 @@ namespace TDFramework
         public override void Init()
         {
             m_networkEngine = SingletonMgr.NetworkEngine;
-            m_networkEngine.Run(SingletonMgr.GameGlobalInfo.PlayerInfo.ServerIpAddress, SingletonMgr.GameGlobalInfo.PlayerInfo.ServerPort);
         }
         public override void Release()
         {
-            //关闭客户端连接服务器
+            Stop();
+        }
+        #endregion
+
+        #region 方法
+        public void Run(RemoteClientConnectServerSuccessCallback successCallback,
+            RemoteClientConnectServerFailCallback failCallback)
+        {
+            m_networkEngine.Run(SingletonMgr.GameGlobalInfo.PlayerInfo.ServerIpAddress,
+                SingletonMgr.GameGlobalInfo.PlayerInfo.ServerPort, successCallback, failCallback);
+        }
+        public void Run(string serverIp, int serverPort,
+            RemoteClientConnectServerSuccessCallback successCallback, RemoteClientConnectServerFailCallback failCallback)
+        {
+            m_networkEngine.Run(serverIp, serverPort, successCallback, failCallback);
+        }
+        public void Stop()
+        {
             if (m_networkEngine != null)
             {
                 m_networkEngine.Stop();
@@ -27,5 +43,17 @@ namespace TDFramework
             }
         }
         #endregion
+
+        #region Send网络消息方法
+        //客户端登录请求
+        public void SendU3DClientLoginInfoRequest()
+        {
+            if(m_networkEngine != null)
+            {
+                m_networkEngine.SendU3DClientLoginInfoRequest();
+            }
+        }
+        #endregion
+
     }
 }
