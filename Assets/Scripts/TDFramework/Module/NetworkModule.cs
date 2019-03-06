@@ -11,6 +11,21 @@ namespace TDFramework
         private NetworkEngine m_networkEngine = null;
         #endregion
 
+        #region 状态字段
+        //客户端是否连接到服务器
+        public bool IsConnected
+        {
+            get
+            {
+                if(m_networkEngine != null)
+                {
+                    return m_networkEngine.IsConnected;
+                }
+                return false;
+            }
+        }
+        #endregion
+
         #region 抽象方法实现
         public override void Init()
         {

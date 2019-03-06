@@ -175,10 +175,19 @@ public class UILoginPanel : UIPanel
             NetworkModule networkModule = (NetworkModule)SingletonMgr.ModuleMgr.GetModule("NetworkModule");
             if (networkModule != null)
             {
-                PlayerInfo.SerializePlayerInfo2Xml(System.UInt16.Parse(m_u3dIdInput.text),
-                    m_u3dNameInput.text, m_serverIpInput.text, int.Parse(m_serverPortInput.text));
-                SingletonMgr.GameGlobalInfo.PlayerInfo = PlayerInfo.DeserializePlayerInfoFromXml();
-                networkModule.Run(RemoteClientConnectServerSuccess_Callback, RemoteClientConnectServerFail_Callback);
+                if (networkModule.IsConnected)
+                {
+                    //如果客户端Socket已经连接到服务器，那么只需向服务器发送客户端基本信息（针对登录失败后，再次登录的情况）
+                    networkModule.SendU3DClientLoginInfoRequest();
+                }
+                else
+                {
+                    //如果首次客户端连接服务器，需要先连接客户端后，再向服务器发送客户端基本信息
+                    PlayerInfo.SerializePlayerInfo2Xml(System.UInt16.Parse(m_u3dIdInput.text),
+                                        m_u3dNameInput.text, m_serverIpInput.text, int.Parse(m_serverPortInput.text));
+                    SingletonMgr.GameGlobalInfo.PlayerInfo = PlayerInfo.DeserializePlayerInfoFromXml();
+                    networkModule.Run(RemoteClientConnectServerSuccess_Callback, RemoteClientConnectServerFail_Callback);
+                }
             }
         }
     }

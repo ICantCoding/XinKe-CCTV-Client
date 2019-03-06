@@ -14,10 +14,25 @@ public class NetworkEngine : MonoSingleton<NetworkEngine>
     private Notifier m_notifier = null;
     #endregion
 
-    #region 字段和属性
+    #region 字段
     //待处理的数据包Packet队列.
     private Queue<Packet> m_pendingPacketQueue = new Queue<Packet>();
     private RemoteClient m_remoteClient = null;
+    #endregion
+
+    #region 状态属性
+    //客户端是否已经连接到服务器
+    public bool IsConnected
+    {
+        get
+        {
+            if(m_remoteClient != null)
+            {
+                return m_remoteClient.Valid();
+            }
+            return false;
+        }
+    }
     #endregion
 
     #region Unity生命周期
