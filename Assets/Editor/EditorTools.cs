@@ -10,4 +10,9 @@ public class EditorTools
 	{
 		PlayerInfo.SerializePlayerInfo2Xml();
 	}
+	[MenuItem("Tools/Xml/生成StationInfo.xml", false, 2)]
+	private static void CreateStationInfoXml()
+	{
+		StationInfoList.SerializeStationInfoList2Xml();
+	}
 }

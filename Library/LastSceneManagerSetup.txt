@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/LaunchSplash.unity
+- path: Assets/Scenes/AppStart.unity
   isLoaded: 1
   isActive: 1

@@ -18,10 +18,15 @@ public class UILoginPanel : UIPanel
     private Button m_saveBtn;
     private Button m_loginBtn;
     private Text m_responseMsgText;
+    private List<StationStatusCom> m_stationStatusComList = new List<StationStatusCom>();
     #endregion
 
     #region  事件状态字段
     private bool m_isLoginSuccess = false;
+    #endregion
+
+    #region 网络引擎字段
+    private PlayerNetworkEngine m_playerNetworkEngine;
     #endregion
 
     #region Unity生命周期
@@ -33,6 +38,8 @@ public class UILoginPanel : UIPanel
         UILoginPanel_Command command = new UILoginPanel_Command();
         RegisterCommand(EventID_Cmd.U3DClientOnLineSuccess, command);
         RegisterCommand(EventID_Cmd.U3DClientOnLineFail, command);
+        RegisterCommand(EventID_Cmd.StationClientOnLineSuccess, command);
+        RegisterCommand(EventID_Cmd.StationClientOnLineFail, command);
         RegisterMediator(new UILoginPanel_Mediator()); //注册Mediator
         RegisterMediator(this); //注册UIPanelMediator
         RegisterProxy(new UILoginPanel_Proxy());    //注册Proxy
@@ -53,6 +60,15 @@ public class UILoginPanel : UIPanel
             m_loginBtn.onClick.AddListener(OnLoginBtnClick);
         }
         m_responseMsgText = transform.Find("Image/Image/ResponseMsgText").GetComponent<Text>();
+
+        m_playerNetworkEngine = GameObject.Find("NetworkEngine/Player").GetComponent<PlayerNetworkEngine>();
+
+        Transform stationStausTrans = transform.Find("Station Staus/Scroll View/Viewport/Content");
+        int count = stationStausTrans.childCount;
+        for (int i = 0; i < count; ++i)
+        {
+            m_stationStatusComList.Add(stationStausTrans.GetChild(i).GetComponent<StationStatusCom>());
+        }
     }
     void Start()
     {
@@ -89,6 +105,8 @@ public class UILoginPanel : UIPanel
     {
         RemoveCommand(EventID_Cmd.U3DClientOnLineSuccess);
         RemoveCommand(EventID_Cmd.U3DClientOnLineFail);
+        RemoveCommand(EventID_Cmd.StationClientOnLineSuccess);
+        RemoveCommand(EventID_Cmd.StationClientOnLineFail);
         RemoveMediator(UILoginPanel_Mediator.NAME);
         RemoveMediator(this.MediatorName);
         RemoveProxy(UILoginPanel_Proxy.NAME);
@@ -101,6 +119,8 @@ public class UILoginPanel : UIPanel
         return new string[]{
             EventID_UI.U3DClientOnLineSuccess,
             EventID_UI.U3DClientOnLineFail,
+            EventID_UI.StationClientOnLineSuccess,
+            EventID_UI.StationClientOnLineFail,
         };
     }
     public override void HandleNotification(INotification notification)
@@ -115,6 +135,16 @@ public class UILoginPanel : UIPanel
             case EventID_UI.U3DClientOnLineFail:
                 {
                     U3DClientOnLineFail_Callback(notification);
+                    break;
+                }
+            case EventID_UI.StationClientOnLineSuccess:
+                {
+                    StationClientOnLineSuccess_Callback(notification);
+                    break;
+                }
+            case EventID_UI.StationClientOnLineFail:
+                {
+                    StationClientOnLineFail_Callback(notification);
                     break;
                 }
             default:
@@ -172,21 +202,23 @@ public class UILoginPanel : UIPanel
     {
         if (CheckTableInfoIsCorrect())
         {
-            NetworkModule networkModule = (NetworkModule)SingletonMgr.ModuleMgr.GetModule("NetworkModule");
-            if (networkModule != null)
+            if (m_playerNetworkEngine != null)
             {
-                if (networkModule.IsConnected)
+                if (m_playerNetworkEngine.IsConnected)
                 {
                     //如果客户端Socket已经连接到服务器，那么只需向服务器发送客户端基本信息（针对登录失败后，再次登录的情况）
-                    networkModule.SendU3DClientLoginInfoRequest();
+                    m_playerNetworkEngine.SendU3DClientLoginInfoRequest();
                 }
                 else
                 {
                     //如果首次客户端连接服务器，需要先连接客户端后，再向服务器发送客户端基本信息
                     PlayerInfo.SerializePlayerInfo2Xml(System.UInt16.Parse(m_u3dIdInput.text),
-                                        m_u3dNameInput.text, m_serverIpInput.text, int.Parse(m_serverPortInput.text));
+                        m_u3dNameInput.text,
+                        m_serverIpInput.text,
+                        int.Parse(m_serverPortInput.text));
                     SingletonMgr.GameGlobalInfo.PlayerInfo = PlayerInfo.DeserializePlayerInfoFromXml();
-                    networkModule.Run(RemoteClientConnectServerSuccess_Callback, RemoteClientConnectServerFail_Callback);
+                    m_playerNetworkEngine.Run(RemoteClientConnectServerSuccess_Callback,
+                        RemoteClientConnectServerFail_Callback);
                 }
             }
         }
@@ -203,16 +235,31 @@ public class UILoginPanel : UIPanel
         string msg = (string)notification.Body;
         ShowResponseMsgText(msg);
     }
+    private void StationClientOnLineSuccess_Callback(INotification notification)
+    {
+        object[] objs = (object[])notification.Body;
+        System.UInt16 stationIndex = (System.UInt16)objs[0];
+        System.UInt16 stationSocketType = (System.UInt16)objs[1];
+        StationStatusCom com = m_stationStatusComList[stationIndex];
+        com.SetCell(stationSocketType, true);
+    }
+    private void StationClientOnLineFail_Callback(INotification notification)
+    {
+        object[] objs = (object[])notification.Body;
+        System.UInt16 stationIndex = (System.UInt16)objs[0];
+        System.UInt16 stationSocketType = (System.UInt16)objs[1];
+        StationStatusCom com = m_stationStatusComList[stationIndex];
+        com.SetCell(stationSocketType, true);
+    }
     #endregion
 
     #region 回调方法处理
     private void RemoteClientConnectServerSuccess_Callback()
     {
-        NetworkModule networkModule = (NetworkModule)SingletonMgr.ModuleMgr.GetModule("NetworkModule");
-        if (networkModule != null)
+        if (m_playerNetworkEngine != null)
         {
-            System.Threading.Thread.Sleep(10);
-            networkModule.SendU3DClientLoginInfoRequest();
+            System.Threading.Thread.Sleep(20);
+            m_playerNetworkEngine.SendU3DClientLoginInfoRequest();
         }
     }
     private void RemoteClientConnectServerFail_Callback()

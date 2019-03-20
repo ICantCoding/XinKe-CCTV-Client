@@ -29,6 +29,16 @@ public class UILoginPanel_Command : SimpleCommand
                     U3DClientOnLineFail_Callback(notification);
                     break;
                 }
+            case EventID_Cmd.StationClientOnLineSuccess:
+            {
+                StationClientOnLineSuccess_Callback(notification);
+                break;
+            }
+            case EventID_Cmd.StationClientOnLineFail:
+            {
+                StationClientOnLineFail_Callback(notification);
+                break;
+            }
             default:
                 break;
         }
@@ -44,6 +54,14 @@ public class UILoginPanel_Command : SimpleCommand
     {
         string reasonMsg = (string)notification.Body;
         SendNotification(EventID_UI.U3DClientOnLineFail, reasonMsg, null);
+    }
+    private void StationClientOnLineSuccess_Callback(INotification notification)
+    {
+        SendNotification(EventID_UI.StationClientOnLineSuccess, notification.Body, null);
+    }
+    private void StationClientOnLineFail_Callback(INotification notification)
+    {
+        SendNotification(EventID_UI.StationClientOnLineFail, notification.Body, null);
     }
     #endregion
 }

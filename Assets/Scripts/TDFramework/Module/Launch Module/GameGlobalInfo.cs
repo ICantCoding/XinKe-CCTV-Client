@@ -9,9 +9,22 @@ public class GameGlobalInfo : Singleton<GameGlobalInfo>
     private PlayerInfo m_playerInfo = null;
     public PlayerInfo PlayerInfo
     {
-        get{return m_playerInfo;}
-        set{
+        get { return m_playerInfo; }
+        set
+        {
             m_playerInfo = value;
+        }
+    }
+    #endregion
+
+    #region 站台信息
+    private StationInfoList m_stationInfoList = null;
+    public StationInfoList StationInfoList
+    {
+        get { return m_stationInfoList; }
+        set
+        {
+            m_stationInfoList = value;
         }
     }
     #endregion

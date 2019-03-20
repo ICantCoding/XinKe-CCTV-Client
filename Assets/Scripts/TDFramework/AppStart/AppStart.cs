@@ -12,19 +12,18 @@ namespace TDFramework
         {
             DontDestroyOnLoad(this.gameObject);
 			//初始化LaunchModule, 加载应用所需的配置数据
-			SingletonMgr.ModuleMgr.RegisterModule("LaunchModule");
-			//初始化NetworkModule, 让应用连接到服务器
-			SingletonMgr.ModuleMgr.RegisterModule("NetworkModule");
+			SingletonMgr.ModuleMgr.RegisterModule(StringMgr.LaunchModuleName);
+            SingletonMgr.ModuleMgr.RegisterModule(StringMgr.NetworkModuleName);
         }
 		void OnDestroy()
 		{
-			SingletonMgr.ModuleMgr.RemoveModule("LaunchModule");
-            SingletonMgr.ModuleMgr.RemoveModule("NetworkModule");
+			SingletonMgr.ModuleMgr.RemoveModule(StringMgr.LaunchModuleName);
+            SingletonMgr.ModuleMgr.RemoveModule(StringMgr.NetworkModuleName);
 		}
         void OnApplicationQuit()
         {
-            SingletonMgr.ModuleMgr.RemoveModule("LaunchModule");
-            SingletonMgr.ModuleMgr.RemoveModule("NetworkModule");
+            SingletonMgr.ModuleMgr.RemoveModule(StringMgr.LaunchModuleName);
+            SingletonMgr.ModuleMgr.RemoveModule(StringMgr.NetworkModuleName);
         }
         #endregion
     }

@@ -7,17 +7,16 @@ using UnityEngine;
 using TDFramework;
 using PureMVC.Patterns.Observer;
 
-public class NetworkEngine : MonoSingleton<NetworkEngine>
+public class BaseNetworkEngine : MonoBehaviour, INetworkEngine
 {
-
     #region 组合功能
-    private Notifier m_notifier = null;
+    protected Notifier m_notifier = null;
     #endregion
 
     #region 字段
     //待处理的数据包Packet队列.
-    private Queue<Packet> m_pendingPacketQueue = new Queue<Packet>();
-    private RemoteClient m_remoteClient = null;
+    protected Queue<Packet> m_pendingPacketQueue = new Queue<Packet>();
+    protected RemoteClient m_remoteClient = null;
     #endregion
 
     #region 状态属性
@@ -26,7 +25,7 @@ public class NetworkEngine : MonoSingleton<NetworkEngine>
     {
         get
         {
-            if(m_remoteClient != null)
+            if (m_remoteClient != null)
             {
                 return m_remoteClient.Valid();
             }
@@ -36,15 +35,22 @@ public class NetworkEngine : MonoSingleton<NetworkEngine>
     #endregion
 
     #region Unity生命周期
-    void Awake()
+    protected virtual void Awake()
     {
         //网络引擎不可销毁
-        DontDestroyOnLoad(this.gameObject);
         m_notifier = new Notifier();
+    }
+    protected virtual void OnDestroy()
+    {
+        Stop();
+    }
+    protected virtual void OnApplicationQuit()
+    {
+        Stop();
     }
     #endregion
 
-    #region 方法
+    #region INetworkEngine抽象方法实现
     public void Packet2NetworkEnginePendingPacketQueue(Packet packet)
     {
         lock (this)
@@ -52,7 +58,18 @@ public class NetworkEngine : MonoSingleton<NetworkEngine>
             m_pendingPacketQueue.Enqueue(packet);
         }
     }
-    public void Run(string serverIp, int serverPort, RemoteClientConnectServerSuccessCallback successCallback,
+    #endregion
+
+    #region 方法
+    public virtual void Run(RemoteClientConnectServerSuccessCallback successCallback,
+        RemoteClientConnectServerFailCallback failCallback)
+    {
+        Run(SingletonMgr.GameGlobalInfo.PlayerInfo.ServerIpAddress,
+            SingletonMgr.GameGlobalInfo.PlayerInfo.ServerPort,
+            successCallback,
+            failCallback);
+    }
+    public virtual void Run(string serverIp, int serverPort, RemoteClientConnectServerSuccessCallback successCallback,
         RemoteClientConnectServerFailCallback failCallback)
     {
         m_remoteClient = new RemoteClient(this, serverIp, serverPort);
@@ -64,7 +81,7 @@ public class NetworkEngine : MonoSingleton<NetworkEngine>
             StartCoroutine(UpdateInMainThread4PacketQueue());
         }
     }
-    public void Stop()
+    public virtual void Stop()
     {
         if (m_remoteClient != null)
         {
@@ -77,7 +94,7 @@ public class NetworkEngine : MonoSingleton<NetworkEngine>
     #region 处理队列中的Packet
     //处理队列Packet消息，方法二, 目前我尝试采用这种方式
     //使用协程技术，在主线程中处理PacketQueue队列中的Packet包
-    IEnumerator UpdateInMainThread4PacketQueue()
+    protected IEnumerator UpdateInMainThread4PacketQueue()
     {
         while (true)
         {
@@ -96,9 +113,9 @@ public class NetworkEngine : MonoSingleton<NetworkEngine>
                             //一个客户端登录请求的Response
                             ReceiveU3DClientLoginInfoResponse(packet);
                         }
-                        else
+                        else if (firstId == 0 && secondId == 1)
                         {
-
+                            ReceiveStationClientLoginInfoResponse(packet);
                         }
                     }
                 }
@@ -119,39 +136,24 @@ public class NetworkEngine : MonoSingleton<NetworkEngine>
     #endregion
 
     #region Send网络消息方法
-    public void SendU3DClientLoginInfoRequest()
+    public virtual void SendU3DClientLoginInfoRequest()
     {
-        U3DClientLogin u3dClientLogin = new U3DClientLogin()
-        {
-            m_clientId = SingletonMgr.GameGlobalInfo.PlayerInfo.Id,
-            m_clientName = SingletonMgr.GameGlobalInfo.PlayerInfo.Name,
-        };
-        Packet packet = new Packet(u3dClientLogin.m_clientId, 0, 0, 0, u3dClientLogin.Size, u3dClientLogin.Packet2Bytes());
-        if (m_remoteClient != null)
-        {
-            m_remoteClient.Send(packet.Packet2Bytes());
-        }
+
+    }
+    public virtual void SendStationClientLoginInfoRequest()
+    {
+
     }
     #endregion
 
     #region Receive网络消息处理方法
-    private void ReceiveU3DClientLoginInfoResponse(Packet packet)
+    public virtual void ReceiveU3DClientLoginInfoResponse(Packet packet)
     {
-        U3DClientLoginResponse response = new U3DClientLoginResponse(packet.m_data);
-        if (response == null) return;
-        if (response.m_resultId == ResultID.Success_ResultId)
-        {
-            //登录成功
-            //发送PureMVC消息，通知客户端已经登录到服务器
-            SendNotification(EventID_Cmd.U3DClientOnLineSuccess, null, null);
-        }
-        else
-        {
-            //登录失败
-            Debug.Log("resultId: " + response.m_resultId.ToString());
-            string reasonMsg = response.m_msg;
-            SendNotification(EventID_Cmd.U3DClientOnLineFail, reasonMsg, null);
-        }
+
+    }
+    public virtual void ReceiveStationClientLoginInfoResponse(Packet packet)
+    {
+
     }
     #endregion
 }

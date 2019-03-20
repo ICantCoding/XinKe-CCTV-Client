@@ -43,13 +43,13 @@ public class RemoteClient
     private byte[] m_buffer = new byte[BufferSize]; //接收数据流缓存，Tcp数据流无界限
     private List<SendBuffer> m_sendBufferList = new List<SendBuffer>();
     private MessageReader m_messageReader = null;
-    private NetworkEngine m_networkEngine = null;
+    private INetworkEngine m_networkEngine = null;
 
     private Notifier m_notifier; //用于发送PureMVC消息
     #endregion
 
     #region 构造方法
-    public RemoteClient(NetworkEngine networkEngine, string serverIp, int serverPort)
+    public RemoteClient(INetworkEngine networkEngine, string serverIp, int serverPort)
     {
         m_serverIp = serverIp;
         m_serverPort = serverPort;

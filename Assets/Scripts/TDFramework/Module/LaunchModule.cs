@@ -14,6 +14,8 @@ namespace TDFramework
         {
             //读取 U3D客户端信息(包括ClientId, ClientName, ServerIPAddress, ServerPort)
             SingletonMgr.GameGlobalInfo.PlayerInfo = PlayerInfo.DeserializePlayerInfoFromXml();
+            //读取 Station站台信息(包括站台客户端Id, Name, Index)
+            SingletonMgr.GameGlobalInfo.StationInfoList = StationInfoList.DeserializeStationInfoListFromXml();
         }
         public override void Release()
         {

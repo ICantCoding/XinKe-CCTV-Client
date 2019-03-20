@@ -8,7 +8,6 @@ namespace TDFramework
     public class SingletonMgr
     {
         public static GameGlobalInfo GameGlobalInfo = GameGlobalInfo.Instance;
-        public static NetworkEngine NetworkEngine = NetworkEngine.Instance;
         public static ModuleMgr ModuleMgr = ModuleMgr.Instance;
         public static SceneInfoMgr SceneInfoMgr = SceneInfoMgr.Instance;
         public static LoadSceneMgr LoadSceneMgr = LoadSceneMgr.Instance;
