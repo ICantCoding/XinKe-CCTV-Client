@@ -1,22 +1,23 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TDFramework;
 using UnityEngine;
 
 public class StationNetworkEngine : BaseNetworkEngine
 {
     #region 字段
-    //客户端Id
-    public UInt16 m_stationSocketType = 0;
+    //Station客户端类型
+    public UInt16 m_stationClientType = 0;
     //站台Index
     public UInt16 m_stationIndex = 0;
     #endregion
 
     #region 属性
-    public UInt16 StationSocketType
+    public UInt16 StationClientType
     {
-        get { return m_stationSocketType; }
-        set { m_stationSocketType = value; }
+        get { return m_stationClientType; }
+        set { m_stationClientType = value; }
     }
     public UInt16 StationIndex
     {
@@ -32,12 +33,12 @@ public class StationNetworkEngine : BaseNetworkEngine
     }
     #endregion
 
-    #region 重写方法
-    public override void SendStationClientLoginInfoRequest()
+    #region 方法
+    public void SendStationClientLoginInfoRequest()
     {
         StationClientLogin stationClientLogin = new StationClientLogin()
         {
-            m_stationSocketType = StationSocketType,
+            m_stationClientType = StationClientType,
             m_stationIndex = StationIndex,
         };
         Packet packet = new Packet(0, 0, 0, 1, stationClientLogin.Size, stationClientLogin.Packet2Bytes());
@@ -46,38 +47,20 @@ public class StationNetworkEngine : BaseNetworkEngine
             m_remoteClient.Send(packet.Packet2Bytes());
         }
     }
-    public override void ReceiveStationClientLoginInfoResponse(Packet packet)
-    {
-        StationClientLoginResponse response = new StationClientLoginResponse(packet.m_data);
-        if (response == null) return;
-        if (response.m_resultId == ResultID.Success_ResultId)
-        {
-            //StationSocket连接服务器成功
-            object[] objs = new object[2];
-            objs[0] = StationIndex;
-            objs[1] = StationSocketType;
-            SendNotification(EventID_Cmd.StationClientOnLineSuccess, objs, null);
-        }
-        else
-        {
-            //StationSocket连接服务器失败
-            object[] objs = new object[2];
-            objs[0] = StationIndex;
-            objs[1] = StationSocketType;
-            SendNotification(EventID_Cmd.StationClientOnLineFail, objs, null);
-        }
-    }
     #endregion
 
     #region 网络连接，回调方法
     private void RemoteClientConnectServerSuccess_Callback()
     {
-        System.Threading.Thread.Sleep(10);
+        System.Threading.Thread.Sleep(20);
         SendStationClientLoginInfoRequest();
     }
     private void RemoteClientConnectServerFail_Callback()
     {
-        
+        object[] objs = new object[2];
+        objs[0] = StationIndex;
+        objs[1] = StationClientType;
+        SendNotification(EventID_Cmd.StationClientOnLineFail, objs, null);
     }
     #endregion
 }

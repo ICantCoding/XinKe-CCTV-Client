@@ -53,11 +53,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Define\EventID.cs" />
-     <Compile Include="Assets\Scripts\Define\ResultID.cs" />
+     <Compile Include="Assets\Scripts\CCTV\Define\EventID.cs" />
+     <Compile Include="Assets\Scripts\CCTV\Define\ResultID.cs" />
+     <Compile Include="Assets\Scripts\CCTV\Npc\NpcAction.cs" />
+     <Compile Include="Assets\Scripts\CCTV\Npc\NpcMgr.cs" />
+     <Compile Include="Assets\Scripts\CCTV\Station\Station.cs" />
+     <Compile Include="Assets\Scripts\CCTV\Station\StationMgr.cs" />
      <Compile Include="Assets\Scripts\TDFramework\AppStart\AppConfig.cs" />
      <Compile Include="Assets\Scripts\TDFramework\AppStart\AppConfigPath.cs" />
      <Compile Include="Assets\Scripts\TDFramework\AppStart\AppStart.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Define\IntMgr.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Define\StringMgr.cs" />
      <Compile Include="Assets\Scripts\TDFramework\DesignMode\Singleton\MonoSingleton.cs" />
      <Compile Include="Assets\Scripts\TDFramework\DesignMode\Singleton\Singleton.cs" />
      <Compile Include="Assets\Scripts\TDFramework\DesignMode\Singleton\SingletonMgr.cs" />
@@ -66,22 +72,28 @@
      <Compile Include="Assets\Scripts\TDFramework\LoadScene\LoadSceneMgr.cs" />
      <Compile Include="Assets\Scripts\TDFramework\LoadScene\SceneInfoMgr.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Launch Module\GameGlobalInfo.cs" />
-     <Compile Include="Assets\Scripts\TDFramework\Module\Launch Module\IntMgr.cs" />
-     <Compile Include="Assets\Scripts\TDFramework\Module\Launch Module\StringMgr.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Launch Module\LaunchModule.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Launch Module\XmlInfo\PlayerInfo.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Launch Module\XmlInfo\StationInfo.cs" />
-     <Compile Include="Assets\Scripts\TDFramework\Module\LaunchModule.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\ModuleMgr.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Help\MemoryStream.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Help\MessageReader.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Interface\INetworkEngine.cs" />
-     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MemoryStream.cs" />
-     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MessageReader.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MessageHandle\Handle\BaseHandle.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MessageHandle\Handle\NpcPositionHandle.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MessageHandle\Handle\StationClientLoginResponseHandle.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MessageHandle\Handle\U3DClientLoginResponseHandle.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MessageHandle\NetworkMsgHandleFuncMap.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\NetworkEngine\BaseNetworkEngine.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\NetworkEngine\NetworkEngine.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\NetworkEngine\PlayerNetworkEngine.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\NetworkEngine\StationNetworkEngine.cs" />
-     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Packet.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\NetworkModule.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Packet\NpcPosition.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Packet\Packet.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Packet\StationClientLogin.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Packet\U3DClientLogin.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\RemoteClient.cs" />
-     <Compile Include="Assets\Scripts\TDFramework\Module\NetworkModule.cs" />
      <Compile Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
      <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Core\Controller.cs" />
      <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Core\Model.cs" />

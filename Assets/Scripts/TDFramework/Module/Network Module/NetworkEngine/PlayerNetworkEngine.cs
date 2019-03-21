@@ -10,7 +10,7 @@ using PureMVC.Patterns.Observer;
 public class PlayerNetworkEngine : BaseNetworkEngine
 {
     #region Send网络消息方法
-    public override void SendU3DClientLoginInfoRequest()
+    public void SendU3DClientLoginInfoRequest()
     {
         U3DClientLogin u3dClientLogin = new U3DClientLogin()
         {
@@ -21,26 +21,6 @@ public class PlayerNetworkEngine : BaseNetworkEngine
         if (m_remoteClient != null)
         {
             m_remoteClient.Send(packet.Packet2Bytes());
-        }
-    }
-    #endregion
-
-    #region Receive网络消息处理方法
-    public override void ReceiveU3DClientLoginInfoResponse(Packet packet)
-    {
-        U3DClientLoginResponse response = new U3DClientLoginResponse(packet.m_data);
-        if (response == null) return;
-        if (response.m_resultId == ResultID.Success_ResultId)
-        {
-            //登录成功
-            //发送PureMVC消息，通知客户端已经登录到服务器
-            SendNotification(EventID_Cmd.U3DClientOnLineSuccess, null, null);
-        }
-        else
-        {
-            //登录失败
-            string reasonMsg = response.m_msg;
-            SendNotification(EventID_Cmd.U3DClientOnLineFail, reasonMsg, null);
         }
     }
     #endregion

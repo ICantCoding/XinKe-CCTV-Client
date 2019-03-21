@@ -62,25 +62,25 @@ public class NetworkEngine : MonoBehaviour
                 {
                     case "ShangXingShangChe":
                     {
-                        engine.StationSocketType = 1;
+                        engine.StationClientType = 1;
                         engine.StationIndex = stationInfo.Index;
                         break;
                     }
                     case "ShangXingXiaChe":
                     {
-                        engine.StationSocketType = 2;
+                        engine.StationClientType = 2;
                         engine.StationIndex = stationInfo.Index;
                         break;
                     }
                     case "XiaXingShangChe":
                     {
-                        engine.StationSocketType = 3;
+                        engine.StationClientType = 3;
                         engine.StationIndex = stationInfo.Index;
                         break;
                     }
                     case "XiaXingXiaChe":
                     {
-                        engine.StationSocketType = 4;
+                        engine.StationClientType = 4;
                         engine.StationIndex = stationInfo.Index;
                         break;
                     }

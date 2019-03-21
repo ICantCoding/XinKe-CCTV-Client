@@ -92,8 +92,6 @@ public class BaseNetworkEngine : MonoBehaviour, INetworkEngine
     #endregion
 
     #region 处理队列中的Packet
-    //处理队列Packet消息，方法二, 目前我尝试采用这种方式
-    //使用协程技术，在主线程中处理PacketQueue队列中的Packet包
     protected IEnumerator UpdateInMainThread4PacketQueue()
     {
         while (true)
@@ -105,17 +103,12 @@ public class BaseNetworkEngine : MonoBehaviour, INetworkEngine
                     Packet packet = m_pendingPacketQueue.Dequeue();
                     if (packet != null)
                     {
-                        //执行消息Packet的后续处理...
                         UInt16 firstId = packet.m_firstId;
                         UInt16 secondId = packet.m_secondId;
-                        if (firstId == 0 && secondId == 0)
+                        BaseHandle handle = SingletonMgr.NetworkMsgHandleFuncMap.GetHandleInstantiateObj(firstId, secondId, this);
+                        if (handle != null)
                         {
-                            //一个客户端登录请求的Response
-                            ReceiveU3DClientLoginInfoResponse(packet);
-                        }
-                        else if (firstId == 0 && secondId == 1)
-                        {
-                            ReceiveStationClientLoginInfoResponse(packet);
+                            handle.ReceivePacket(packet);
                         }
                     }
                 }
@@ -125,6 +118,7 @@ public class BaseNetworkEngine : MonoBehaviour, INetworkEngine
     }
     #endregion
 
+
     #region PureMVC消息发送
     public void SendNotification(string notificationName, object body, string type)
     {
@@ -132,28 +126,6 @@ public class BaseNetworkEngine : MonoBehaviour, INetworkEngine
         {
             m_notifier.SendNotification(notificationName, body, type);
         }
-    }
-    #endregion
-
-    #region Send网络消息方法
-    public virtual void SendU3DClientLoginInfoRequest()
-    {
-
-    }
-    public virtual void SendStationClientLoginInfoRequest()
-    {
-
-    }
-    #endregion
-
-    #region Receive网络消息处理方法
-    public virtual void ReceiveU3DClientLoginInfoResponse(Packet packet)
-    {
-
-    }
-    public virtual void ReceiveStationClientLoginInfoResponse(Packet packet)
-    {
-
     }
     #endregion
 }
