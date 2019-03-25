@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-E:/XinKeWork/Day20190219/PC/CCTV Client/CCTV Client.exe
+C:/Users/ShanWazi/Desktop/CCTV PC/CCTV Client/CCTV Client.exe
 SceneListBegin?
 Assets/Scenes/LaunchSplash.unity
 Assets/Scenes/Loading.unity
