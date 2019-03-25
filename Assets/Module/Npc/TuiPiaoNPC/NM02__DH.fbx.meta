@@ -1,0 +1,2471 @@
+fileFormatVersion: 2
+guid: 9592c0eba35f4c74ea0fc51fa797c55a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: All_KZQ
+    100002: Ankle_L
+    100004: Ankle_R
+    100006: BackA_M
+    100008: BackB_M
+    100010: BigToe_L
+    100012: BigToe_R
+    100014: Chest_M
+    100016: Cup_L
+    100018: Cup_R
+    100020: DeformationSystem
+    100022: Elbow_L
+    100024: Elbow_R
+    100026: Hair_M
+    100028: Head_M
+    100030: Heel_L
+    100032: Heel_R
+    100034: Hip_L
+    100036: Hip_R
+    100038: IndexFinger1_L
+    100040: IndexFinger1_R
+    100042: IndexFinger2_L
+    100044: IndexFinger2_R
+    100046: IndexFinger3_L
+    100048: IndexFinger3_R
+    100050: IndexFinger4_L
+    100052: IndexFinger4_R
+    100054: Jaw_M
+    100056: JawEnd_M
+    100058: Knee_L
+    100060: Knee_R
+    100062: MiddleFinger1_L
+    100064: MiddleFinger1_R
+    100066: MiddleFinger2_L
+    100068: MiddleFinger2_R
+    100070: MiddleFinger3_L
+    100072: MiddleFinger3_R
+    100074: MiddleFinger4_L
+    100076: MiddleFinger4_R
+    100078: MiddleToe1_L
+    100080: MiddleToe1_R
+    100082: MiddleToe2_L
+    100084: MiddleToe2_R
+    100086: MX
+    100088: Neck_M
+    100090: //RootNode
+    100092: NM02__DH:D1
+    100094: NM02__DH:D1 1
+    100096: NM02__DH:group1
+    100098: NM02__DH:ikHandle1
+    100100: NM02__DH:ikHandle2
+    100102: NM02__DH:ikHandle3
+    100104: NM02__DH:ikHandle4
+    100106: NM02__DH:ikHandle5
+    100108: NM02__DH:ikHandle6
+    100110: NM02__DH:Jingbu
+    100112: NM02__DH:L_Foot
+    100114: NM02__DH:L_hand
+    100116: NM02__DH:l_hand_fk1
+    100118: NM02__DH:l_hand_fk2
+    100120: NM02__DH:l_hand_fk3
+    100122: NM02__DH:l_ik1
+    100124: NM02__DH:l_ik2
+    100126: NM02__DH:l_ik3
+    100128: NM02__DH:l_ik4
+    100130: NM02__DH:l_role
+    100132: NM02__DH:nurbsCircle10
+    100134: NM02__DH:nurbsCircle11
+    100136: NM02__DH:nurbsCircle11 1
+    100138: NM02__DH:nurbsCircle11 2
+    100140: NM02__DH:nurbsCircle11 3
+    100142: NM02__DH:nurbsCircle11 4
+    100144: NM02__DH:nurbsCircle11 5
+    100146: NM02__DH:nurbsCircle11 6
+    100148: NM02__DH:nurbsCircle11 7
+    100150: NM02__DH:nurbsCircle11 8
+    100152: NM02__DH:nurbsCircle11 9
+    100154: NM02__DH:nurbsCircle3
+    100156: NM02__DH:nurbsCircle4
+    100158: NM02__DH:nurbsCircle5
+    100160: NM02__DH:nurbsCircle6
+    100162: NM02__DH:nurbsCircle7
+    100164: NM02__DH:nurbsCircle7 1
+    100166: NM02__DH:nurbsCircle7 2
+    100168: NM02__DH:nurbsCircle8
+    100170: NM02__DH:nurbsCircle8 1
+    100172: NM02__DH:nurbsCircle8 2
+    100174: NM02__DH:nurbsCircle9
+    100176: NM02__DH:R_Foot
+    100178: NM02__DH:R_hand
+    100180: NM02__DH:r_hand_fk1
+    100182: NM02__DH:r_hand_fk2
+    100184: NM02__DH:r_hand_fk3
+    100186: NM02__DH:r_ik1
+    100188: NM02__DH:r_ik2
+    100190: NM02__DH:r_ik3
+    100192: NM02__DH:r_ik4
+    100194: NM02__DH:r_role
+    100196: NM02__DH:S1
+    100198: NM02__DH:S1 1
+    100200: NM02__DH:W1
+    100202: NM02__DH:W1 1
+    100204: NM02__DH:X1
+    100206: NM02__DH:X1 1
+    100208: NM02__DH:Z1
+    100210: NM02__DH:Z1 1
+    100212: PinkyFinger1_L
+    100214: PinkyFinger1_R
+    100216: PinkyFinger2_L
+    100218: PinkyFinger2_R
+    100220: PinkyFinger3_L
+    100222: PinkyFinger3_R
+    100224: PinkyFinger4_L
+    100226: PinkyFinger4_R
+    100228: PinkyToe_L
+    100230: PinkyToe_R
+    100232: RingFinger1_L
+    100234: RingFinger1_R
+    100236: RingFinger2_L
+    100238: RingFinger2_R
+    100240: RingFinger3_L
+    100242: RingFinger3_R
+    100244: RingFinger4_L
+    100246: RingFinger4_R
+    100248: Root_M
+    100250: Scapula_L
+    100252: Scapula_R
+    100254: Shoulder_L
+    100256: Shoulder_R
+    100258: ThumbFinger1_L
+    100260: ThumbFinger1_R
+    100262: ThumbFinger2_L
+    100264: ThumbFinger2_R
+    100266: ThumbFinger3_L
+    100268: ThumbFinger3_R
+    100270: ThumbFinger4_L
+    100272: ThumbFinger4_R
+    100274: Wrist_L
+    100276: Wrist_R
+    400000: All_KZQ
+    400002: Ankle_L
+    400004: Ankle_R
+    400006: BackA_M
+    400008: BackB_M
+    400010: BigToe_L
+    400012: BigToe_R
+    400014: Chest_M
+    400016: Cup_L
+    400018: Cup_R
+    400020: DeformationSystem
+    400022: Elbow_L
+    400024: Elbow_R
+    400026: Hair_M
+    400028: Head_M
+    400030: Heel_L
+    400032: Heel_R
+    400034: Hip_L
+    400036: Hip_R
+    400038: IndexFinger1_L
+    400040: IndexFinger1_R
+    400042: IndexFinger2_L
+    400044: IndexFinger2_R
+    400046: IndexFinger3_L
+    400048: IndexFinger3_R
+    400050: IndexFinger4_L
+    400052: IndexFinger4_R
+    400054: Jaw_M
+    400056: JawEnd_M
+    400058: Knee_L
+    400060: Knee_R
+    400062: MiddleFinger1_L
+    400064: MiddleFinger1_R
+    400066: MiddleFinger2_L
+    400068: MiddleFinger2_R
+    400070: MiddleFinger3_L
+    400072: MiddleFinger3_R
+    400074: MiddleFinger4_L
+    400076: MiddleFinger4_R
+    400078: MiddleToe1_L
+    400080: MiddleToe1_R
+    400082: MiddleToe2_L
+    400084: MiddleToe2_R
+    400086: MX
+    400088: Neck_M
+    400090: //RootNode
+    400092: NM02__DH:D1
+    400094: NM02__DH:D1 1
+    400096: NM02__DH:group1
+    400098: NM02__DH:ikHandle1
+    400100: NM02__DH:ikHandle2
+    400102: NM02__DH:ikHandle3
+    400104: NM02__DH:ikHandle4
+    400106: NM02__DH:ikHandle5
+    400108: NM02__DH:ikHandle6
+    400110: NM02__DH:Jingbu
+    400112: NM02__DH:L_Foot
+    400114: NM02__DH:L_hand
+    400116: NM02__DH:l_hand_fk1
+    400118: NM02__DH:l_hand_fk2
+    400120: NM02__DH:l_hand_fk3
+    400122: NM02__DH:l_ik1
+    400124: NM02__DH:l_ik2
+    400126: NM02__DH:l_ik3
+    400128: NM02__DH:l_ik4
+    400130: NM02__DH:l_role
+    400132: NM02__DH:nurbsCircle10
+    400134: NM02__DH:nurbsCircle11
+    400136: NM02__DH:nurbsCircle11 1
+    400138: NM02__DH:nurbsCircle11 2
+    400140: NM02__DH:nurbsCircle11 3
+    400142: NM02__DH:nurbsCircle11 4
+    400144: NM02__DH:nurbsCircle11 5
+    400146: NM02__DH:nurbsCircle11 6
+    400148: NM02__DH:nurbsCircle11 7
+    400150: NM02__DH:nurbsCircle11 8
+    400152: NM02__DH:nurbsCircle11 9
+    400154: NM02__DH:nurbsCircle3
+    400156: NM02__DH:nurbsCircle4
+    400158: NM02__DH:nurbsCircle5
+    400160: NM02__DH:nurbsCircle6
+    400162: NM02__DH:nurbsCircle7
+    400164: NM02__DH:nurbsCircle7 1
+    400166: NM02__DH:nurbsCircle7 2
+    400168: NM02__DH:nurbsCircle8
+    400170: NM02__DH:nurbsCircle8 1
+    400172: NM02__DH:nurbsCircle8 2
+    400174: NM02__DH:nurbsCircle9
+    400176: NM02__DH:R_Foot
+    400178: NM02__DH:R_hand
+    400180: NM02__DH:r_hand_fk1
+    400182: NM02__DH:r_hand_fk2
+    400184: NM02__DH:r_hand_fk3
+    400186: NM02__DH:r_ik1
+    400188: NM02__DH:r_ik2
+    400190: NM02__DH:r_ik3
+    400192: NM02__DH:r_ik4
+    400194: NM02__DH:r_role
+    400196: NM02__DH:S1
+    400198: NM02__DH:S1 1
+    400200: NM02__DH:W1
+    400202: NM02__DH:W1 1
+    400204: NM02__DH:X1
+    400206: NM02__DH:X1 1
+    400208: NM02__DH:Z1
+    400210: NM02__DH:Z1 1
+    400212: PinkyFinger1_L
+    400214: PinkyFinger1_R
+    400216: PinkyFinger2_L
+    400218: PinkyFinger2_R
+    400220: PinkyFinger3_L
+    400222: PinkyFinger3_R
+    400224: PinkyFinger4_L
+    400226: PinkyFinger4_R
+    400228: PinkyToe_L
+    400230: PinkyToe_R
+    400232: RingFinger1_L
+    400234: RingFinger1_R
+    400236: RingFinger2_L
+    400238: RingFinger2_R
+    400240: RingFinger3_L
+    400242: RingFinger3_R
+    400244: RingFinger4_L
+    400246: RingFinger4_R
+    400248: Root_M
+    400250: Scapula_L
+    400252: Scapula_R
+    400254: Shoulder_L
+    400256: Shoulder_R
+    400258: ThumbFinger1_L
+    400260: ThumbFinger1_R
+    400262: ThumbFinger2_L
+    400264: ThumbFinger2_R
+    400266: ThumbFinger3_L
+    400268: ThumbFinger3_R
+    400270: ThumbFinger4_L
+    400272: ThumbFinger4_R
+    400274: Wrist_L
+    400276: Wrist_R
+    4300000: MX
+    7400000: standup
+    7400002: walk
+    7400004: idle_motou
+    7400006: idle_jixiedai
+    7400008: run
+    7400010: sitdown
+    9500000: //RootNode
+    13700000: MX
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NM02__DH_NM03__Tposs_lambert2
+    second: {fileID: 2100000, guid: 36ab60d3b36fe5545a77ab4cf9d4a36c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: standup
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DeformationSystem
+        weight: 1
+      - path: DeformationSystem/All_KZQ
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1/NM02__DH:ikHandle1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:ikHandle2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2/NM02__DH:ikHandle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_role
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1/NM02__DH:nurbsCircle10
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1/NM02__DH:nurbsCircle11
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1/NM02__DH:nurbsCircle11
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1/NM02__DH:nurbsCircle11
+          2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1/NM02__DH:nurbsCircle11
+          3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1/NM02__DH:nurbsCircle11
+          4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1/NM02__DH:nurbsCircle11 5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1/NM02__DH:nurbsCircle11 6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1/NM02__DH:nurbsCircle11 7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1/NM02__DH:nurbsCircle11 8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1/NM02__DH:nurbsCircle11 9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1/NM02__DH:ikHandle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:ikHandle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2/NM02__DH:ikHandle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_role
+        weight: 1
+      - path: DeformationSystem/Root_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Hair_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M/JawEnd_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L/RingFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R/RingFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/Heel_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/BigToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/PinkyToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/Heel_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/BigToe_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/PinkyToe_R
+        weight: 1
+      - path: MX
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DeformationSystem
+        weight: 1
+      - path: DeformationSystem/All_KZQ
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1/NM02__DH:ikHandle1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:ikHandle2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2/NM02__DH:ikHandle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_role
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1/NM02__DH:nurbsCircle10
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1/NM02__DH:nurbsCircle11
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1/NM02__DH:nurbsCircle11
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1/NM02__DH:nurbsCircle11
+          2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1/NM02__DH:nurbsCircle11
+          3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1/NM02__DH:nurbsCircle11
+          4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1/NM02__DH:nurbsCircle11 5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1/NM02__DH:nurbsCircle11 6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1/NM02__DH:nurbsCircle11 7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1/NM02__DH:nurbsCircle11 8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1/NM02__DH:nurbsCircle11 9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1/NM02__DH:ikHandle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:ikHandle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2/NM02__DH:ikHandle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_role
+        weight: 1
+      - path: DeformationSystem/Root_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Hair_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M/JawEnd_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L/RingFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R/RingFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/Heel_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/BigToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/PinkyToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/Heel_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/BigToe_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/PinkyToe_R
+        weight: 1
+      - path: MX
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_motou
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DeformationSystem
+        weight: 1
+      - path: DeformationSystem/All_KZQ
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1/NM02__DH:ikHandle1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:ikHandle2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2/NM02__DH:ikHandle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_role
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1/NM02__DH:nurbsCircle10
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1/NM02__DH:nurbsCircle11
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1/NM02__DH:nurbsCircle11
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1/NM02__DH:nurbsCircle11
+          2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1/NM02__DH:nurbsCircle11
+          3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1/NM02__DH:nurbsCircle11
+          4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1/NM02__DH:nurbsCircle11 5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1/NM02__DH:nurbsCircle11 6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1/NM02__DH:nurbsCircle11 7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1/NM02__DH:nurbsCircle11 8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1/NM02__DH:nurbsCircle11 9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1/NM02__DH:ikHandle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:ikHandle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2/NM02__DH:ikHandle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_role
+        weight: 1
+      - path: DeformationSystem/Root_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Hair_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M/JawEnd_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L/RingFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R/RingFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/Heel_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/BigToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/PinkyToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/Heel_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/BigToe_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/PinkyToe_R
+        weight: 1
+      - path: MX
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_jixiedai
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DeformationSystem
+        weight: 1
+      - path: DeformationSystem/All_KZQ
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1/NM02__DH:ikHandle1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:ikHandle2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2/NM02__DH:ikHandle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_role
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1/NM02__DH:nurbsCircle10
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1/NM02__DH:nurbsCircle11
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1/NM02__DH:nurbsCircle11
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1/NM02__DH:nurbsCircle11
+          2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1/NM02__DH:nurbsCircle11
+          3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1/NM02__DH:nurbsCircle11
+          4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1/NM02__DH:nurbsCircle11 5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1/NM02__DH:nurbsCircle11 6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1/NM02__DH:nurbsCircle11 7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1/NM02__DH:nurbsCircle11 8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1/NM02__DH:nurbsCircle11 9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1/NM02__DH:ikHandle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:ikHandle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2/NM02__DH:ikHandle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_role
+        weight: 1
+      - path: DeformationSystem/Root_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Hair_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M/JawEnd_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L/RingFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R/RingFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/Heel_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/BigToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/PinkyToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/Heel_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/BigToe_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/PinkyToe_R
+        weight: 1
+      - path: MX
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 245
+      lastFrame: 263
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DeformationSystem
+        weight: 1
+      - path: DeformationSystem/All_KZQ
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1/NM02__DH:ikHandle1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:ikHandle2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2/NM02__DH:ikHandle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_role
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1/NM02__DH:nurbsCircle10
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1/NM02__DH:nurbsCircle11
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1/NM02__DH:nurbsCircle11
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1/NM02__DH:nurbsCircle11
+          2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1/NM02__DH:nurbsCircle11
+          3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1/NM02__DH:nurbsCircle11
+          4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1/NM02__DH:nurbsCircle11 5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1/NM02__DH:nurbsCircle11 6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1/NM02__DH:nurbsCircle11 7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1/NM02__DH:nurbsCircle11 8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1/NM02__DH:nurbsCircle11 9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1/NM02__DH:ikHandle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:ikHandle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2/NM02__DH:ikHandle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_role
+        weight: 1
+      - path: DeformationSystem/Root_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Hair_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M/JawEnd_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L/RingFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R/RingFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/Heel_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/BigToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/PinkyToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/Heel_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/BigToe_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/PinkyToe_R
+        weight: 1
+      - path: MX
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sitdown
+      takeName: Take 001
+      firstFrame: 275
+      lastFrame: 335
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DeformationSystem
+        weight: 1
+      - path: DeformationSystem/All_KZQ
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik1/NM02__DH:ikHandle1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:ikHandle2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_ik4/NM02__DH:l_ik3/NM02__DH:l_ik2/NM02__DH:ikHandle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:L_Foot/NM02__DH:l_role
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:Jingbu/NM02__DH:nurbsCircle9/NM02__DH:group1/NM02__DH:nurbsCircle10
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:D1/NM02__DH:nurbsCircle11
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:S1/NM02__DH:nurbsCircle11
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:W1/NM02__DH:nurbsCircle11
+          2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:X1/NM02__DH:nurbsCircle11
+          3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:l_hand_fk1/NM02__DH:nurbsCircle7/NM02__DH:l_hand_fk2/NM02__DH:nurbsCircle7
+          1/NM02__DH:l_hand_fk3/NM02__DH:nurbsCircle7 2/NM02__DH:L_hand/NM02__DH:Z1/NM02__DH:nurbsCircle11
+          4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:D1
+          1/NM02__DH:nurbsCircle11 5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:S1
+          1/NM02__DH:nurbsCircle11 6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:W1
+          1/NM02__DH:nurbsCircle11 7
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:X1
+          1/NM02__DH:nurbsCircle11 8
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:nurbsCircle3/NM02__DH:nurbsCircle4/NM02__DH:nurbsCircle5/NM02__DH:nurbsCircle6/NM02__DH:r_hand_fk1/NM02__DH:nurbsCircle8/NM02__DH:r_hand_fk2/NM02__DH:nurbsCircle8
+          1/NM02__DH:r_hand_fk3/NM02__DH:nurbsCircle8 2/NM02__DH:R_hand/NM02__DH:Z1
+          1/NM02__DH:nurbsCircle11 9
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik1/NM02__DH:ikHandle4
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:ikHandle5
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_ik4/NM02__DH:r_ik3/NM02__DH:r_ik2/NM02__DH:ikHandle6
+        weight: 1
+      - path: DeformationSystem/All_KZQ/NM02__DH:R_Foot/NM02__DH:r_role
+        weight: 1
+      - path: DeformationSystem/Root_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Hair_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Neck_M/Head_M/Jaw_M/JawEnd_M
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/PinkyFinger1_L/PinkyFinger2_L/PinkyFinger3_L/PinkyFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/Cup_L/RingFinger1_L/RingFinger2_L/RingFinger3_L/RingFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/IndexFinger1_L/IndexFinger2_L/IndexFinger3_L/IndexFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/MiddleFinger1_L/MiddleFinger2_L/MiddleFinger3_L/MiddleFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_L/Shoulder_L/Elbow_L/Wrist_L/ThumbFinger1_L/ThumbFinger2_L/ThumbFinger3_L/ThumbFinger4_L
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/PinkyFinger1_R/PinkyFinger2_R/PinkyFinger3_R/PinkyFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/Cup_R/RingFinger1_R/RingFinger2_R/RingFinger3_R/RingFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/IndexFinger1_R/IndexFinger2_R/IndexFinger3_R/IndexFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/MiddleFinger1_R/MiddleFinger2_R/MiddleFinger3_R/MiddleFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R
+        weight: 1
+      - path: DeformationSystem/Root_M/BackA_M/BackB_M/Chest_M/Scapula_R/Shoulder_R/Elbow_R/Wrist_R/ThumbFinger1_R/ThumbFinger2_R/ThumbFinger3_R/ThumbFinger4_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/Heel_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/BigToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/MiddleToe2_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_L/Knee_L/Ankle_L/MiddleToe1_L/PinkyToe_L
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/Heel_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/BigToe_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/MiddleToe2_R
+        weight: 1
+      - path: DeformationSystem/Root_M/Hip_R/Knee_R/Ankle_R/MiddleToe1_R/PinkyToe_R
+        weight: 1
+      - path: MX
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

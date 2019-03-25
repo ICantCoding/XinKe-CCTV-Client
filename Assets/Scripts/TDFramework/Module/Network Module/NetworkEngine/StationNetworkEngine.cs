@@ -38,6 +38,7 @@ public class StationNetworkEngine : BaseNetworkEngine
     {
         StationClientLogin stationClientLogin = new StationClientLogin()
         {
+            m_u3dId = SingletonMgr.GameGlobalInfo.PlayerInfo.Id,
             m_stationClientType = StationClientType,
             m_stationIndex = StationIndex,
         };

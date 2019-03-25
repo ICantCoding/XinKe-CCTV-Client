@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 3276135261
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c387993a922e07b799bd84e2c05d2e42
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7aee4af8e206cd0281160ccacbab8e84
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 54d95729809cc2047960fb58352aa751, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+- Class: 208
+  Script: {instanceID: 0}
+Assets:
+- Assets/Module/Npc/TuiPiaoNPC/casual11_m_30_XG.jpg
+- Assets/Module/Npc/TuiPiaoNPC/Materials/casual11_m_30_XG.mat
+- Assets/Module/Npc/AnimatorController/EnterStationTrainUp.controller
+- Assets/Module/Npc/TuiPiaoNPC/EnterZhaJi.anim
+- Assets/Module/Npc/TuiPiaoNPC/NM02__DH.fbx
+- Assets/Prefabs/Npc/NpcMan.prefab
+Dependencies: []

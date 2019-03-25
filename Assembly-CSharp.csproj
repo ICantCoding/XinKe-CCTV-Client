@@ -62,6 +62,8 @@
      <Compile Include="Assets\Scripts\TDFramework\AppStart\AppConfig.cs" />
      <Compile Include="Assets\Scripts\TDFramework\AppStart\AppConfigPath.cs" />
      <Compile Include="Assets\Scripts\TDFramework\AppStart\AppStart.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Define\GameLayerMgr.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Define\GameTagMgr.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Define\IntMgr.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Define\StringMgr.cs" />
      <Compile Include="Assets\Scripts\TDFramework\DesignMode\Singleton\MonoSingleton.cs" />
@@ -80,6 +82,7 @@
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Help\MessageReader.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Interface\INetworkEngine.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MessageHandle\Handle\BaseHandle.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MessageHandle\Handle\NpcAnimationHandle.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MessageHandle\Handle\NpcPositionHandle.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MessageHandle\Handle\StationClientLoginResponseHandle.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\MessageHandle\Handle\U3DClientLoginResponseHandle.cs" />
@@ -89,11 +92,20 @@
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\NetworkEngine\PlayerNetworkEngine.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\NetworkEngine\StationNetworkEngine.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\NetworkModule.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Packet\NpcAnimation.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Packet\NpcPosition.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Packet\Packet.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Packet\StationClientLogin.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\Packet\U3DClientLogin.cs" />
      <Compile Include="Assets\Scripts\TDFramework\Module\Network Module\RemoteClient.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Module\Resources Module\ResourcesModule.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Pool\ClassObjectPool.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Pool\ObjectManager.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\ResourcesLoad\AssetBundleHelper\ABPathConfig.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\ResourcesLoad\AssetBundleHelper\AssetBundleConfig.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\ResourcesLoad\AssetBundleHelper\AssetBundleManager.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\ResourcesLoad\ResourceEngine.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\ResourcesLoad\ResourceMgr.cs" />
      <Compile Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
      <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Core\Controller.cs" />
      <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Core\Model.cs" />
@@ -116,6 +128,7 @@
      <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Patterns\Observer\Notifier.cs" />
      <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Patterns\Observer\Observer.cs" />
      <Compile Include="Assets\Scripts\TDFramework\SDK\PureMVC\Patterns\Proxy\Proxy.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\Struct\TDDoubleLinkedList\TDDoubleLinkedList.cs" />
      <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\Base\UIPage.cs" />
      <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\Base\UIPanel.cs" />
      <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\Base\UIView.cs" />
@@ -140,6 +153,8 @@
      <Compile Include="Assets\Scripts\UI\LoginPanel\Unit\StationStatusCom.cs" />
      <Compile Include="Assets\Scripts\UI\LoginPanel\View\UILoginPanel.cs" />
      <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Scripts\TDFramework\ResourcesLoad\AssetBundleHelper\Config\AssetBundleDependenceConfig.xml" />
+     <None Include="Assets\Scripts\TDFramework\ResourcesLoad\AssetBundleHelper\ReadMe.txt" />
      <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\DemiLib\Core\DemiLib.xml" />
      <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTween\DOTween50.xml" />
      <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTween\DOTween46.xml" />

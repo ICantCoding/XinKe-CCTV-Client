@@ -34,6 +34,12 @@ public class NetworkMsgHandleFuncMap : Singleton<NetworkMsgHandleFuncMap>
         secondId = 2;
         handleClassName = "NpcPositionHandle";
         AddHandleClassName(firstId, secondId, handleClassName);
+
+        //NpcAnimation同步信令
+        firstId = 0;
+        secondId = 3;
+        handleClassName = "NpcAnimationHandle";
+        AddHandleClassName(firstId, secondId, handleClassName);
     }
     #endregion 
 

@@ -16,5 +16,7 @@ namespace TDFramework
         //应用内场景跳转的场景信息管理单例类
         public static SceneInfoMgr SceneInfoMgr = SceneInfoMgr.Instance;
         public static LoadSceneMgr LoadSceneMgr = LoadSceneMgr.Instance;
+        //游戏对象池管理单例类
+        public static ObjectManager ObjectManager = ObjectManager.Instance;
     }
 }

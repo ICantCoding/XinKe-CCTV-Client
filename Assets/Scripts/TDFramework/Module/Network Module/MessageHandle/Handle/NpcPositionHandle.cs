@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TDFramework;
 
 public class NpcPositionHandle : BaseHandle
 {
@@ -21,27 +23,32 @@ public class NpcPositionHandle : BaseHandle
         NpcPosition response = new NpcPosition(packet.m_data);
         if (response == null) return;
         int npcId = response.m_npcId;
+        UInt16 stationIndex = response.m_stationIndex;
+        UInt16 stationClientType = response.m_stationClientType;
 
         if (m_stationMgr == null)
         {
-            GameObject go = GameObject.Find("StationMgr");
+            GameObject go = GameObject.Find(StringMgr.StationMgrName);
             if (go != null)
             {
                 m_stationMgr = go.GetComponent<StationMgr>();
             }
         }
         if (m_stationMgr == null) return;
-        NpcAction npcAction = m_stationMgr.GetNpcAction(0, NpcActionStatus.EnterStationTrainUp_NpcActionStatus, npcId);
+        NpcAction npcAction = m_stationMgr.GetNpcAction(stationIndex, (NpcActionStatus)stationClientType, npcId);
         if (npcAction == null)
         {
-            GameObject npcGo = GameObject.Instantiate(m_stationMgr.npcPrefab);
+            GameObject npcGo = SingletonMgr.ObjectManager.Instantiate("Assets/Prefabs/Npc/NpcMan.prefab", false, false);
             npcAction = npcGo.GetComponent<NpcAction>();
             npcAction.NpcId = npcId;
-            m_stationMgr.AddNpcAction(0, NpcActionStatus.EnterStationTrainUp_NpcActionStatus, npcAction);
-        }
-        if (npcAction != null)
-        {
+            m_stationMgr.AddNpcAction(stationIndex, (NpcActionStatus)stationClientType, npcAction);
             npcAction.transform.localPosition = new Vector3(response.m_posX, response.m_posY, response.m_posZ);
+            npcAction.transform.localEulerAngles = new Vector3(response.m_angleX, response.m_angleY, response.m_angleZ);
+        }
+        else
+        {
+            npcAction.DestionationPos = new Vector3(response.m_posX, response.m_posY, response.m_posZ);
+            npcAction.DestionationAngle = new Vector3(response.m_angleX, response.m_angleY, response.m_angleZ);
         }
     }
     #endregion

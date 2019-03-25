@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 2900808755
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assetbundleconfig
+      Dependencies: {}
+    Info_1:
+      Name: npcman
+      Dependencies: {}
+    Info_2:
+      Name: stationsocketitem
+      Dependencies: {}

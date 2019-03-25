@@ -6,18 +6,6 @@ using System.Xml.Serialization;
 
 public class StationInfo
 {
-    //上行上车Id， 用于网络连接Id标识
-    [XmlElement("ShangXingShangCheId")]
-    public UInt16 ShangXingShangCheId;
-    //上行下车Id, 用于网络连接Id标识
-    [XmlElement("ShangXingXiaCheId")]
-    public UInt16 ShangXingXiaCheId;
-    //下行上车Id, 用于网络连接Id标识
-    [XmlElement("XiaXingShangCheId")]
-    public UInt16 XiaXingShangCheId;
-    //下行下车Id, 用于网络连接Id标识
-    [XmlElement("XiaXingXiaCheId")]
-    public UInt16 XiaXingXiaCheId;
     [XmlElement("Index")]
     public UInt16 Index;
     [XmlElement("Name")]
@@ -64,10 +52,6 @@ public class StationInfoList
         StationInfoList list = new StationInfoList();
 
         StationInfo station = new StationInfo();
-        station.ShangXingShangCheId = 1001;
-        station.ShangXingXiaCheId = 1002;
-        station.XiaXingShangCheId = 1003;
-        station.XiaXingXiaCheId = 1004;
         station.Index = 0;
         station.Name = "赵营";
         station.EngName = "ZhaoYing";

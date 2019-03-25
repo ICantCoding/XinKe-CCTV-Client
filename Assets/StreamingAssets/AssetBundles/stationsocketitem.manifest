@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 3406284704
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8fa9f73ee59ccab2b9eabc503d7a4f10
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 75595e42e6cea06d354846de088ca19c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 02fa82b09a1255b44a0cc6adf2f06bf2, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/UI/StationSocketItem.prefab
+Dependencies: []

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AssetBundleConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ABList Path="Assets/Scripts/TDFramework/ResourcesLoad/AssetBundleHelper/Config/AssetBundleConfig.asset" Crc="3459079331" ABName="assetbundleconfig" AssetName="AssetBundleConfig.asset" />
+  <ABList Path="Assets/Scripts/TDFramework/ResourcesLoad/AssetBundleHelper/Config/AssetBundleDependenceConfig.bytes" Crc="2226670194" ABName="assetbundleconfig" AssetName="AssetBundleDependenceConfig.bytes" />
+  <ABList Path="Assets/Scripts/TDFramework/ResourcesLoad/AssetBundleHelper/Config/AssetBundleDependenceConfig.xml" Crc="4102649066" ABName="assetbundleconfig" AssetName="AssetBundleDependenceConfig.xml" />
+  <ABList Path="Assets/Prefabs/Npc/NpcMan.prefab" Crc="315186434" ABName="npcman" AssetName="NpcMan.prefab" />
+  <ABList Path="Assets/Prefabs/UI/StationSocketItem.prefab" Crc="85586061" ABName="stationsocketitem" AssetName="StationSocketItem.prefab" />
+</AssetBundleConfig>

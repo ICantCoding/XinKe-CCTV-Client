@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\EditorTools.cs" />
+     <Compile Include="Assets\Scripts\TDFramework\ResourcesLoad\AssetBundleHelper\Editor\PackageAB.cs" />
      <Compile Include="Assets\Scripts\TDFramework\SDK\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
      <Compile Include="Assets\Scripts\TDFramework\UI\UIFramework\Editor\UIPanelAssetInfo.cs" />
      <None Include="Assets\Scripts\TDFramework\SDK\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />

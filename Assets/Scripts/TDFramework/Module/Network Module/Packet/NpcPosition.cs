@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
+//Npc同步位置信息 
+// sendId=Station自身ID, nodeId=0(0表示服务器Id), firstId=0, secondId=2, msglen=NpcPosition.Size, data=NpcPosition的字节
 public class NpcPosition : IPacket
 {
     #region 字段和属性
@@ -12,21 +14,11 @@ public class NpcPosition : IPacket
     public float m_angleY;
     public float m_angleZ;
     public int m_npcId;
+    public UInt16 m_stationIndex;
+    public UInt16 m_stationClientType;
     public UInt16 Size
     {
-        get
-        {
-            byte[] posXBytes = BitConverter.GetBytes(m_posX);
-            byte[] posYBytes = BitConverter.GetBytes(m_posY);
-            byte[] posZBytes = BitConverter.GetBytes(m_posZ);
-            byte[] angleXBytes = BitConverter.GetBytes(m_angleX);
-            byte[] angleYBytes = BitConverter.GetBytes(m_angleY);
-            byte[] angleZBytes = BitConverter.GetBytes(m_angleZ);
-            byte[] npcIdBytes = BitConverter.GetBytes(m_npcId);
-            UInt16 size = (UInt16)(posXBytes.Length + posYBytes.Length + posZBytes.Length + angleXBytes.Length + angleYBytes.Length +
-                angleZBytes.Length + npcIdBytes.Length);
-            return size;
-        }
+        get { return 32; }
     }
     #endregion
 
@@ -52,6 +44,10 @@ public class NpcPosition : IPacket
         m_angleZ = BitConverter.ToSingle(bytes, readIndex);
         readIndex += 4;
         m_npcId = BitConverter.ToInt32(bytes, readIndex);
+        readIndex += 4;
+        m_stationIndex = BitConverter.ToUInt16(bytes, readIndex);
+        readIndex += 2;
+        m_stationClientType = BitConverter.ToUInt16(bytes, readIndex);
     }
     #endregion 
 
@@ -64,9 +60,10 @@ public class NpcPosition : IPacket
         byte[] angleYBytes = BitConverter.GetBytes(m_angleY);
         byte[] angleZBytes = BitConverter.GetBytes(m_angleZ);
         byte[] npcIdBytes = BitConverter.GetBytes(m_npcId);
-        int size = posXBytes.Length + posYBytes.Length + posZBytes.Length + angleXBytes.Length + angleYBytes.Length +
-                angleZBytes.Length + npcIdBytes.Length;
-        byte[] bytes = new byte[size];
+        byte[] stationIndexBytes = BitConverter.GetBytes(m_stationIndex);
+        byte[] stationClientTypeBytes = BitConverter.GetBytes(m_stationClientType);
+        byte[] bytes = new byte[Size];
+
         int startIndex = 0;
         Array.Copy(posXBytes, 0, bytes, startIndex, posXBytes.Length);
         startIndex += posXBytes.Length;
@@ -81,7 +78,10 @@ public class NpcPosition : IPacket
         Array.Copy(angleZBytes, 0, bytes, startIndex, angleZBytes.Length);
         startIndex += angleZBytes.Length;
         Array.Copy(npcIdBytes, 0, bytes, startIndex, npcIdBytes.Length);
-
+        startIndex += npcIdBytes.Length;
+        Array.Copy(stationIndexBytes, 0, bytes, startIndex, stationIndexBytes.Length);
+        startIndex += stationIndexBytes.Length;
+        Array.Copy(stationClientTypeBytes, 0, bytes, startIndex, stationClientTypeBytes.Length);
         return bytes;
     }
 }

@@ -7,33 +7,26 @@ using System.Collections.Generic;
 public class StationClientLogin : IPacket
 {
     #region 字段和属性
-    // public const UInt16 ShangXingShangChe = 1;
-    // public const UInt16 ShangXingXiaChe = 2;
-    // public const UInt16 XiaXingShangChe = 3;
-    // public const UInt16 XiaXingXiaChe = 4;
+    public UInt16 m_u3dId;
     public UInt16 m_stationClientType; //StationSocket类型, 1, 2, 3, 4
     public UInt16 m_stationIndex; //Station索引值
     public UInt16 Size
     {
-        get
-        {
-            byte[] stationClientTypeBytes = BitConverter.GetBytes(m_stationClientType);
-            byte[] stationIndexBytes = BitConverter.GetBytes(m_stationIndex);
-            UInt16 size = (UInt16)(stationClientTypeBytes.Length + stationIndexBytes.Length);
-            return size;
-        }
+        get { return 6; }
     }
     #endregion
 
     #region 构造函数
     public StationClientLogin()
     {
-        
+
     }
     public StationClientLogin(byte[] bytes)
     {
-        if(bytes.Length <= 0) return;
+        if (bytes.Length <= 0) return;
         int readIndex = 0;
+        m_u3dId = BitConverter.ToUInt16(bytes, readIndex);
+        readIndex += 2;
         m_stationClientType = BitConverter.ToUInt16(bytes, readIndex);
         readIndex += 2;
         m_stationIndex = BitConverter.ToUInt16(bytes, readIndex);
@@ -42,12 +35,14 @@ public class StationClientLogin : IPacket
 
     public byte[] Packet2Bytes()
     {
+        byte[] u3dIdBytes = BitConverter.GetBytes(m_u3dId);
         byte[] stationClientTypeBytes = BitConverter.GetBytes(m_stationClientType);
         byte[] stationIndexBytes = BitConverter.GetBytes(m_stationIndex);
 
-        int size = stationClientTypeBytes.Length + stationIndexBytes.Length;
-        byte[] bytes = new byte[size];
+        byte[] bytes = new byte[Size];
         int startIndex = 0;
+        Array.Copy(u3dIdBytes, 0, bytes, startIndex, u3dIdBytes.Length);
+        startIndex += u3dIdBytes.Length;
         Array.Copy(stationClientTypeBytes, 0, bytes, startIndex, stationClientTypeBytes.Length);
         startIndex += stationClientTypeBytes.Length;
         Array.Copy(stationIndexBytes, 0, bytes, startIndex, stationIndexBytes.Length);
