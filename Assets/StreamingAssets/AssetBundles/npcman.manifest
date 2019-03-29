@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3276135261
+CRC: 3411571476
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c387993a922e07b799bd84e2c05d2e42
+    Hash: 38f9d1b2b2cbba1c8bf9e4c94de5b6b2
   TypeTreeHash:
     serializedVersion: 2
     Hash: 7aee4af8e206cd0281160ccacbab8e84
@@ -42,8 +42,8 @@ ClassTypes:
 Assets:
 - Assets/Module/Npc/TuiPiaoNPC/casual11_m_30_XG.jpg
 - Assets/Module/Npc/TuiPiaoNPC/Materials/casual11_m_30_XG.mat
-- Assets/Module/Npc/AnimatorController/EnterStationTrainUp.controller
 - Assets/Module/Npc/TuiPiaoNPC/EnterZhaJi.anim
 - Assets/Module/Npc/TuiPiaoNPC/NM02__DH.fbx
+- Assets/Module/Npc/AnimatorController/NpcAnimatorCtrl.controller
 - Assets/Prefabs/Npc/NpcMan.prefab
 Dependencies: []

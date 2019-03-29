@@ -45,11 +45,8 @@ public class NpcPositionHandle : BaseHandle
             npcAction.transform.localPosition = new Vector3(response.m_posX, response.m_posY, response.m_posZ);
             npcAction.transform.localEulerAngles = new Vector3(response.m_angleX, response.m_angleY, response.m_angleZ);
         }
-        else
-        {
-            npcAction.DestionationPos = new Vector3(response.m_posX, response.m_posY, response.m_posZ);
-            npcAction.DestionationAngle = new Vector3(response.m_angleX, response.m_angleY, response.m_angleZ);
-        }
+        npcAction.DestionationPos = new Vector3(response.m_posX, response.m_posY, response.m_posZ);
+        npcAction.DestionationAngle = new Vector3(response.m_angleX, response.m_angleY, response.m_angleZ);
     }
     #endregion
 }

@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 2f7c721a0fd9b4d4e802b431c1ca850e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: locator10
+    100004: locator11
+    100006: locator12
+    100008: locator13
+    100010: locator14
+    100012: locator15
+    100014: locator16
+    100016: locator17
+    100018: locator18
+    100020: locator19
+    100022: locator20
+    100024: locator21
+    100026: locator22
+    100028: locator23
+    100030: locator24
+    100032: locator25
+    100034: locator26
+    100036: locator27
+    100038: locator28
+    100040: locator29
+    100042: locator30
+    100044: locator31
+    100046: locator32
+    100048: locator33
+    100050: locator34
+    100052: locator35
+    100054: locator36
+    100056: locator37
+    100058: locator38
+    100060: locator39
+    100062: locator40
+    100064: locator41
+    100066: locator42
+    100068: locator43
+    100070: locator44
+    100072: locator45
+    100074: locator46
+    100076: locator47
+    100078: locator49
+    100080: locator5
+    100082: locator50
+    100084: locator51
+    100086: locator52
+    100088: locator53
+    100090: locator6
+    100092: locator7
+    100094: locator8
+    100096: locator9
+    100098: ZYZ_KL
+    100100: ZYZ_KR
+    100102: ZYZ_ZL
+    100104: ZYZ_ZR
+    400000: //RootNode
+    400002: locator10
+    400004: locator11
+    400006: locator12
+    400008: locator13
+    400010: locator14
+    400012: locator15
+    400014: locator16
+    400016: locator17
+    400018: locator18
+    400020: locator19
+    400022: locator20
+    400024: locator21
+    400026: locator22
+    400028: locator23
+    400030: locator24
+    400032: locator25
+    400034: locator26
+    400036: locator27
+    400038: locator28
+    400040: locator29
+    400042: locator30
+    400044: locator31
+    400046: locator32
+    400048: locator33
+    400050: locator34
+    400052: locator35
+    400054: locator36
+    400056: locator37
+    400058: locator38
+    400060: locator39
+    400062: locator40
+    400064: locator41
+    400066: locator42
+    400068: locator43
+    400070: locator44
+    400072: locator45
+    400074: locator46
+    400076: locator47
+    400078: locator49
+    400080: locator5
+    400082: locator50
+    400084: locator51
+    400086: locator52
+    400088: locator53
+    400090: locator6
+    400092: locator7
+    400094: locator8
+    400096: locator9
+    400098: ZYZ_KL
+    400100: ZYZ_KR
+    400102: ZYZ_ZL
+    400104: ZYZ_ZR
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

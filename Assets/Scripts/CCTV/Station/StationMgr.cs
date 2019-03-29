@@ -24,6 +24,8 @@ public class StationMgr : MonoBehaviour
             station.AddNpcMgr(new NpcMgr(NpcActionStatus.ExitStationTrainDown_NpcActionStatus));
             AddStation2Mgr(i, station);
         }
+
+        ReadStationPoint.BuildStationDevices(this);
     }
     #endregion
 
@@ -66,6 +68,15 @@ public class StationMgr : MonoBehaviour
         Station station = GetStation(stationIndex);
         if(station == null) return null;
         return station.GetNpcAction(npcActionStatus, npcId);    
+    }
+    #endregion
+
+    #region 设备相关
+    public Device GetDevice(int stationIndex, DeviceType deviceType, int deviceId)
+    {
+        Station station = GetStation(stationIndex);
+        if(station == null) return null;
+        return station.GetDevice(deviceType, deviceId);
     }
     #endregion
 }

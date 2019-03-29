@@ -40,6 +40,18 @@ public class NetworkMsgHandleFuncMap : Singleton<NetworkMsgHandleFuncMap>
         secondId = 3;
         handleClassName = "NpcAnimationHandle";
         AddHandleClassName(firstId, secondId, handleClassName);
+
+        //NpcDestroy销毁信令
+        firstId = 0;
+        secondId = 4;
+        handleClassName = "NpcDestroyHandle";
+        AddHandleClassName(firstId, secondId, handleClassName);
+    
+        //DeviceAction设备动作信令
+        firstId = 0;
+        secondId = 5;
+        handleClassName = "DeviceActionHandle";
+        AddHandleClassName(firstId, secondId, handleClassName);
     }
     #endregion 
 
