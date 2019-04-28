@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScreenWidth>1920</ScreenWidth>
+  <ScreenHeight>1080</ScreenHeight>
+  <FullMode>1</FullMode>
+  <ScreenRefreshRate>0</ScreenRefreshRate>
+  <ScreenXCount>2</ScreenXCount>
+  <ScreenYCount>2</ScreenYCount>
+</AppInfo>

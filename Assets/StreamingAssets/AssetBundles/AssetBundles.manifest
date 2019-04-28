@@ -1,13 +1,66 @@
 ManifestFileVersion: 0
-CRC: 2744433459
+CRC: 2540118432
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: assetbundleconfig
       Dependencies: {}
     Info_1:
-      Name: npcman
+      Name: rendertexture
       Dependencies: {}
     Info_2:
+      Name: cctv camera
+      Dependencies: {}
+    Info_3:
+      Name: man1_npc
+      Dependencies: {}
+    Info_4:
+      Name: man2_npc
+      Dependencies:
+        Dependency_0: man1_npc
+    Info_5:
+      Name: man3_npc
+      Dependencies:
+        Dependency_0: man1_npc
+    Info_6:
+      Name: man4_npc
+      Dependencies:
+        Dependency_0: man1_npc
+    Info_7:
+      Name: man5_npc
+      Dependencies:
+        Dependency_0: man1_npc
+    Info_8:
+      Name: woman1_npc
+      Dependencies: {}
+    Info_9:
+      Name: woman2_npc
+      Dependencies:
+        Dependency_0: woman1_npc
+    Info_10:
+      Name: woman3_npc
+      Dependencies:
+        Dependency_0: woman1_npc
+    Info_11:
+      Name: woman4_npc
+      Dependencies:
+        Dependency_0: woman1_npc
+    Info_12:
+      Name: woman5_npc
+      Dependencies:
+        Dependency_0: woman1_npc
+    Info_13:
+      Name: bigscreen
+      Dependencies: {}
+    Info_14:
+      Name: rawbigscreen
+      Dependencies: {}
+    Info_15:
+      Name: rawsmallscreen
+      Dependencies: {}
+    Info_16:
+      Name: smallscreen
+      Dependencies: {}
+    Info_17:
       Name: stationsocketitem
       Dependencies: {}

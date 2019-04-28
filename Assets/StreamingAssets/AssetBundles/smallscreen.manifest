@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1822361661
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1bd15c517dedf469c4042faf9ef65b5d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ef1c40819f4e86c4a774e2633980d0a2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eeae2634924ede24494d899687af7b05, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/UI/SmallScreen.prefab
+Dependencies: []

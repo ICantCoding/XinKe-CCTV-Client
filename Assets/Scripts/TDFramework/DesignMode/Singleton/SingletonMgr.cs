@@ -18,5 +18,9 @@ namespace TDFramework
         public static LoadSceneMgr LoadSceneMgr = LoadSceneMgr.Instance;
         //游戏对象池管理单例类
         public static ObjectManager ObjectManager = ObjectManager.Instance;
+        //游戏资源单例类
+        public static ResourceMgr ResourceMgr = ResourceMgr.Instance;
+        //消息MessageID管理类MessageIDMgr的单例类
+        public static MessageIDMgr MessageIDMgr = MessageIDMgr.Instance;
     }
 }

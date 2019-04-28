@@ -1,0 +1,79 @@
+ManifestFileVersion: 0
+CRC: 3327729212
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6ad376c6e75fcefc2e06633d9c8603bc
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 89010fa122ffffe6344faa21dd7249a1
+HashAppended: 0
+ClassTypes:
+- Class: 84
+  Script: {instanceID: 0}
+Assets:
+- Assets/Res/RenderTexture/New Render Texture 9 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 13 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 5 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 12 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 3 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 8 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 6 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 3 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 9 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 15 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 15 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 12 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 13 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 1 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 7 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 10 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 4 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 3 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 16 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 6 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 1 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 10 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 7 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 14 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 4 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 10 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 5 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 4 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 13 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 2 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 7 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 8 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 9 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 5 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 3 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 16 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 2 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 11 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 14 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 15 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 1 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 12 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 11 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 8 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 16 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 6 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 15 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 13 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 5 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 2 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 7 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 2 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 12 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 10 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 16 4.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 6 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 14 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 14 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 4 3.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 9 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 11 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 11 2.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 8 1.renderTexture
+- Assets/Res/RenderTexture/New Render Texture 1 1.renderTexture
+Dependencies: []

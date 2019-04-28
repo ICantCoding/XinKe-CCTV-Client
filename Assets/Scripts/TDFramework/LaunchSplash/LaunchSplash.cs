@@ -11,6 +11,7 @@ namespace TDFramework
 
         #region 字段
         private VideoPlayer m_videoPlayer = null;
+        private bool m_screenAdaptFlag = false;
         #endregion
 
         #region Unity生命周期
@@ -22,9 +23,20 @@ namespace TDFramework
                 m_videoPlayer.loopPointReached += OnVideoPlayerPlayEnd;
             }
         }
+        void LateUpdate()
+        {
+            if (m_screenAdaptFlag == false)
+            {
+                //读取 AppInfo信息
+                SingletonMgr.GameGlobalInfo.AppInfo = AppInfo.DeserializeAppInfoFromXml();
+                Screen.SetResolution(SingletonMgr.GameGlobalInfo.AppInfo.ScreenWidth, SingletonMgr.GameGlobalInfo.AppInfo.ScreenHeight, 
+                    (FullScreenMode)SingletonMgr.GameGlobalInfo.AppInfo.FullMode, SingletonMgr.GameGlobalInfo.AppInfo.ScreenRefreshRate);
+                m_screenAdaptFlag = true;
+            }
+        }
         private void OnDestroy()
         {
-            if(m_videoPlayer != null)
+            if (m_videoPlayer != null)
             {
                 m_videoPlayer.loopPointReached -= OnVideoPlayerPlayEnd;
             }

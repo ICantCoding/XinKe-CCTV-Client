@@ -13,6 +13,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
+public enum PingBiMenType
+{
+    Up,     //上行屏蔽门
+    Down,   //下行屏蔽门
+    None = 9999,
+}
+
 public class PingBiMenDevice : Device
 {
 
@@ -27,6 +34,7 @@ public class PingBiMenDevice : Device
     #endregion
 
     #region 状态字段
+    [SerializeField] private PingBiMenType m_pingBiMenType = PingBiMenType.None;
     //屏蔽门左侧门打开偏移量
     public Vector3 m_leftOpenLocalPositionOffset;
     //屏蔽门右侧门打开偏移量
@@ -44,6 +52,11 @@ public class PingBiMenDevice : Device
     #endregion
 
     #region 属性
+    public PingBiMenType PingBiMenType
+    {
+        get { return m_pingBiMenType; }
+        set { m_pingBiMenType = value; }
+    }
     public override DeviceType DeviceType
     {
         get { return DeviceType.PingBiMen; }

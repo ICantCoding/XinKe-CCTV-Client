@@ -1,0 +1,1306 @@
+fileFormatVersion: 2
+guid: d66b4c90f9a0393409f35057717b4670
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Tcb
+    100004: Tcb1
+    100006: z:anjian
+    100008: z:Buti
+    100010: z:chukou
+    100012: z:Ding
+    100014: z:dingban
+    100016: z:guanggao
+    100018: z:lubiao
+    100020: z:lubiao 1
+    100022: z:pingbimen
+    100024: z:polySurface278125
+    100026: z:polySurface278126
+    100028: z:shoupiaoji
+    100030: z:Tingchebiao
+    100032: z:Wanqiang
+    100034: z:zhantai
+    100036: z:zhiti
+    100038: z:ZY:DianTi
+    100040: z:ZY:diantifushou
+    100042: z:ZY:diantifushou1
+    100044: z:ZY:Dimian
+    100046: z:ZY:pCube100
+    100048: z:ZY:pCube100 1
+    100050: z:ZY:pCube100 2
+    100052: z:ZY:pCube101
+    100054: z:ZY:pCube101 1
+    100056: z:ZY:pCube101 2
+    100058: z:ZY:pCube102
+    100060: z:ZY:pCube102 1
+    100062: z:ZY:pCube102 2
+    100064: z:ZY:pCube103
+    100066: z:ZY:pCube103 1
+    100068: z:ZY:pCube103 2
+    100070: z:ZY:pCube104
+    100072: z:ZY:pCube104 1
+    100074: z:ZY:pCube104 2
+    100076: z:ZY:pCube105
+    100078: z:ZY:pCube105 1
+    100080: z:ZY:pCube105 2
+    100082: z:ZY:pCube106
+    100084: z:ZY:pCube106 1
+    100086: z:ZY:pCube106 2
+    100088: z:ZY:pCube107
+    100090: z:ZY:pCube107 1
+    100092: z:ZY:pCube107 2
+    100094: z:ZY:pCube108
+    100096: z:ZY:pCube108 1
+    100098: z:ZY:pCube108 2
+    100100: z:ZY:pCube109
+    100102: z:ZY:pCube109 1
+    100104: z:ZY:pCube109 2
+    100106: z:ZY:pCube110
+    100108: z:ZY:pCube110 1
+    100110: z:ZY:pCube110 2
+    100112: z:ZY:pCube111
+    100114: z:ZY:pCube111 1
+    100116: z:ZY:pCube111 2
+    100118: z:ZY:pCube112
+    100120: z:ZY:pCube112 1
+    100122: z:ZY:pCube112 2
+    100124: z:ZY:pCube113
+    100126: z:ZY:pCube113 1
+    100128: z:ZY:pCube113 2
+    100130: z:ZY:pCube114
+    100132: z:ZY:pCube114 1
+    100134: z:ZY:pCube114 2
+    100136: z:ZY:pCube115
+    100138: z:ZY:pCube115 1
+    100140: z:ZY:pCube115 2
+    100142: z:ZY:pCube116
+    100144: z:ZY:pCube116 1
+    100146: z:ZY:pCube116 2
+    100148: z:ZY:pCube118
+    100150: z:ZY:pCube118 1
+    100152: z:ZY:pCube118 2
+    100154: z:ZY:pCube119
+    100156: z:ZY:pCube119 1
+    100158: z:ZY:pCube119 2
+    100160: z:ZY:pCube67
+    100162: z:ZY:pCube67 1
+    100164: z:ZY:pCube67 2
+    100166: z:ZY:pCube68
+    100168: z:ZY:pCube68 1
+    100170: z:ZY:pCube68 2
+    100172: z:ZY:pCube69
+    100174: z:ZY:pCube69 1
+    100176: z:ZY:pCube69 2
+    100178: z:ZY:pCube70
+    100180: z:ZY:pCube70 1
+    100182: z:ZY:pCube70 2
+    100184: z:ZY:pCube71
+    100186: z:ZY:pCube71 1
+    100188: z:ZY:pCube71 2
+    100190: z:ZY:pCube72
+    100192: z:ZY:pCube72 1
+    100194: z:ZY:pCube72 2
+    100196: z:ZY:pCube73
+    100198: z:ZY:pCube73 1
+    100200: z:ZY:pCube73 2
+    100202: z:ZY:pCube74
+    100204: z:ZY:pCube74 1
+    100206: z:ZY:pCube74 2
+    100208: z:ZY:pCube75
+    100210: z:ZY:pCube75 1
+    100212: z:ZY:pCube75 2
+    100214: z:ZY:pCube76
+    100216: z:ZY:pCube76 1
+    100218: z:ZY:pCube76 2
+    100220: z:ZY:pCube77
+    100222: z:ZY:pCube77 1
+    100224: z:ZY:pCube77 2
+    100226: z:ZY:pCube78
+    100228: z:ZY:pCube78 1
+    100230: z:ZY:pCube78 2
+    100232: z:ZY:pCube79
+    100234: z:ZY:pCube79 1
+    100236: z:ZY:pCube79 2
+    100238: z:ZY:pCube80
+    100240: z:ZY:pCube80 1
+    100242: z:ZY:pCube80 2
+    100244: z:ZY:pCube81
+    100246: z:ZY:pCube81 1
+    100248: z:ZY:pCube81 2
+    100250: z:ZY:pCube82
+    100252: z:ZY:pCube82 1
+    100254: z:ZY:pCube82 2
+    100256: z:ZY:pCube83
+    100258: z:ZY:pCube83 1
+    100260: z:ZY:pCube83 2
+    100262: z:ZY:pCube84
+    100264: z:ZY:pCube84 1
+    100266: z:ZY:pCube84 2
+    100268: z:ZY:pCube85
+    100270: z:ZY:pCube85 1
+    100272: z:ZY:pCube85 2
+    100274: z:ZY:pCube86
+    100276: z:ZY:pCube86 1
+    100278: z:ZY:pCube86 2
+    100280: z:ZY:pCube87
+    100282: z:ZY:pCube87 1
+    100284: z:ZY:pCube87 2
+    100286: z:ZY:pCube88
+    100288: z:ZY:pCube88 1
+    100290: z:ZY:pCube88 2
+    100292: z:ZY:pCube89
+    100294: z:ZY:pCube89 1
+    100296: z:ZY:pCube89 2
+    100298: z:ZY:pCube90
+    100300: z:ZY:pCube90 1
+    100302: z:ZY:pCube90 2
+    100304: z:ZY:pCube91
+    100306: z:ZY:pCube91 1
+    100308: z:ZY:pCube91 2
+    100310: z:ZY:pCube92
+    100312: z:ZY:pCube92 1
+    100314: z:ZY:pCube92 2
+    100316: z:ZY:pCube93
+    100318: z:ZY:pCube93 1
+    100320: z:ZY:pCube93 2
+    100322: z:ZY:pCube94
+    100324: z:ZY:pCube94 1
+    100326: z:ZY:pCube94 2
+    100328: z:ZY:pCube95
+    100330: z:ZY:pCube95 1
+    100332: z:ZY:pCube95 2
+    100334: z:ZY:pCube96
+    100336: z:ZY:pCube96 1
+    100338: z:ZY:pCube96 2
+    100340: z:ZY:pCube97
+    100342: z:ZY:pCube97 1
+    100344: z:ZY:pCube97 2
+    100346: z:ZY:pCube98
+    100348: z:ZY:pCube98 1
+    100350: z:ZY:pCube98 2
+    100352: z:ZY:pCube99
+    100354: z:ZY:pCube99 1
+    100356: z:ZY:pCube99 2
+    100358: z:ZY:polySurface106008
+    100360: z:ZY:polySurface106009
+    100362: z:ZY:polySurface106011
+    100364: z:ZY:polySurface106013
+    100366: z:ZY:polySurface106108
+    100368: z:ZY:polySurface106109
+    100370: z:ZY:polySurface3
+    100372: z:ZY:polySurface3 1
+    100374: z:ZY:polySurface3 10
+    100376: z:ZY:polySurface3 11
+    100378: z:ZY:polySurface3 12
+    100380: z:ZY:polySurface3 13
+    100382: z:ZY:polySurface3 14
+    100384: z:ZY:polySurface3 15
+    100386: z:ZY:polySurface3 2
+    100388: z:ZY:polySurface3 3
+    100390: z:ZY:polySurface3 4
+    100392: z:ZY:polySurface3 5
+    100394: z:ZY:polySurface3 6
+    100396: z:ZY:polySurface3 7
+    100398: z:ZY:polySurface3 8
+    100400: z:ZY:polySurface3 9
+    100402: z:ZY:polySurface4
+    100404: z:ZY:polySurface4 1
+    100406: z:ZY:polySurface4 10
+    100408: z:ZY:polySurface4 11
+    100410: z:ZY:polySurface4 12
+    100412: z:ZY:polySurface4 13
+    100414: z:ZY:polySurface4 14
+    100416: z:ZY:polySurface4 15
+    100418: z:ZY:polySurface4 2
+    100420: z:ZY:polySurface4 3
+    100422: z:ZY:polySurface4 4
+    100424: z:ZY:polySurface4 5
+    100426: z:ZY:polySurface4 6
+    100428: z:ZY:polySurface4 7
+    100430: z:ZY:polySurface4 8
+    100432: z:ZY:polySurface4 9
+    100434: z:ZY:q:Dianti
+    100436: z:ZY:q:dianti
+    100438: z:ZY:q:dianti 1
+    100440: z:ZY:q:Dianti1
+    100442: z:ZY:q:dianti1
+    100444: z:ZY:q:group141
+    100446: z:ZY:q:group35
+    100448: z:ZY:q:zhaji
+    100450: z:ZY:q:zhaji 1
+    100452: z:ZY:q:zhaji1
+    100454: z:ZY:q:zhaji2
+    100456: z:ZY:q:zhaji2 1
+    100458: z:ZY:q:zhaji3
+    100460: z:ZY:q:zhaji3 1
+    100462: z:ZY:q:zhaji4
+    100464: z:ZY:q:zhaji4 1
+    100466: z:ZY:q:zhaji5
+    100468: z:ZY:q:zhaji5 1
+    100470: z:ZY:q:zhaji6
+    100472: z:ZY:q:zhaji6 1
+    100474: z:ZY:q:zhaji7
+    100476: z:ZY:q:zhaji7 1
+    100478: z:ZY:q:zhaji8
+    100480: z:ZY:ShangCeng
+    100482: z:ZY:Tongfenglan
+    100484: z:ZY:XiaCeng
+    100486: z:ZY:ZhanTaimian
+    100488: z:ZY:zhazi
+    100490: z:ZY:Zhuzi
+    400000: //RootNode
+    400002: Tcb
+    400004: Tcb1
+    400006: z:anjian
+    400008: z:Buti
+    400010: z:chukou
+    400012: z:Ding
+    400014: z:dingban
+    400016: z:guanggao
+    400018: z:lubiao
+    400020: z:lubiao 1
+    400022: z:pingbimen
+    400024: z:polySurface278125
+    400026: z:polySurface278126
+    400028: z:shoupiaoji
+    400030: z:Tingchebiao
+    400032: z:Wanqiang
+    400034: z:zhantai
+    400036: z:zhiti
+    400038: z:ZY:DianTi
+    400040: z:ZY:diantifushou
+    400042: z:ZY:diantifushou1
+    400044: z:ZY:Dimian
+    400046: z:ZY:pCube100
+    400048: z:ZY:pCube100 1
+    400050: z:ZY:pCube100 2
+    400052: z:ZY:pCube101
+    400054: z:ZY:pCube101 1
+    400056: z:ZY:pCube101 2
+    400058: z:ZY:pCube102
+    400060: z:ZY:pCube102 1
+    400062: z:ZY:pCube102 2
+    400064: z:ZY:pCube103
+    400066: z:ZY:pCube103 1
+    400068: z:ZY:pCube103 2
+    400070: z:ZY:pCube104
+    400072: z:ZY:pCube104 1
+    400074: z:ZY:pCube104 2
+    400076: z:ZY:pCube105
+    400078: z:ZY:pCube105 1
+    400080: z:ZY:pCube105 2
+    400082: z:ZY:pCube106
+    400084: z:ZY:pCube106 1
+    400086: z:ZY:pCube106 2
+    400088: z:ZY:pCube107
+    400090: z:ZY:pCube107 1
+    400092: z:ZY:pCube107 2
+    400094: z:ZY:pCube108
+    400096: z:ZY:pCube108 1
+    400098: z:ZY:pCube108 2
+    400100: z:ZY:pCube109
+    400102: z:ZY:pCube109 1
+    400104: z:ZY:pCube109 2
+    400106: z:ZY:pCube110
+    400108: z:ZY:pCube110 1
+    400110: z:ZY:pCube110 2
+    400112: z:ZY:pCube111
+    400114: z:ZY:pCube111 1
+    400116: z:ZY:pCube111 2
+    400118: z:ZY:pCube112
+    400120: z:ZY:pCube112 1
+    400122: z:ZY:pCube112 2
+    400124: z:ZY:pCube113
+    400126: z:ZY:pCube113 1
+    400128: z:ZY:pCube113 2
+    400130: z:ZY:pCube114
+    400132: z:ZY:pCube114 1
+    400134: z:ZY:pCube114 2
+    400136: z:ZY:pCube115
+    400138: z:ZY:pCube115 1
+    400140: z:ZY:pCube115 2
+    400142: z:ZY:pCube116
+    400144: z:ZY:pCube116 1
+    400146: z:ZY:pCube116 2
+    400148: z:ZY:pCube118
+    400150: z:ZY:pCube118 1
+    400152: z:ZY:pCube118 2
+    400154: z:ZY:pCube119
+    400156: z:ZY:pCube119 1
+    400158: z:ZY:pCube119 2
+    400160: z:ZY:pCube67
+    400162: z:ZY:pCube67 1
+    400164: z:ZY:pCube67 2
+    400166: z:ZY:pCube68
+    400168: z:ZY:pCube68 1
+    400170: z:ZY:pCube68 2
+    400172: z:ZY:pCube69
+    400174: z:ZY:pCube69 1
+    400176: z:ZY:pCube69 2
+    400178: z:ZY:pCube70
+    400180: z:ZY:pCube70 1
+    400182: z:ZY:pCube70 2
+    400184: z:ZY:pCube71
+    400186: z:ZY:pCube71 1
+    400188: z:ZY:pCube71 2
+    400190: z:ZY:pCube72
+    400192: z:ZY:pCube72 1
+    400194: z:ZY:pCube72 2
+    400196: z:ZY:pCube73
+    400198: z:ZY:pCube73 1
+    400200: z:ZY:pCube73 2
+    400202: z:ZY:pCube74
+    400204: z:ZY:pCube74 1
+    400206: z:ZY:pCube74 2
+    400208: z:ZY:pCube75
+    400210: z:ZY:pCube75 1
+    400212: z:ZY:pCube75 2
+    400214: z:ZY:pCube76
+    400216: z:ZY:pCube76 1
+    400218: z:ZY:pCube76 2
+    400220: z:ZY:pCube77
+    400222: z:ZY:pCube77 1
+    400224: z:ZY:pCube77 2
+    400226: z:ZY:pCube78
+    400228: z:ZY:pCube78 1
+    400230: z:ZY:pCube78 2
+    400232: z:ZY:pCube79
+    400234: z:ZY:pCube79 1
+    400236: z:ZY:pCube79 2
+    400238: z:ZY:pCube80
+    400240: z:ZY:pCube80 1
+    400242: z:ZY:pCube80 2
+    400244: z:ZY:pCube81
+    400246: z:ZY:pCube81 1
+    400248: z:ZY:pCube81 2
+    400250: z:ZY:pCube82
+    400252: z:ZY:pCube82 1
+    400254: z:ZY:pCube82 2
+    400256: z:ZY:pCube83
+    400258: z:ZY:pCube83 1
+    400260: z:ZY:pCube83 2
+    400262: z:ZY:pCube84
+    400264: z:ZY:pCube84 1
+    400266: z:ZY:pCube84 2
+    400268: z:ZY:pCube85
+    400270: z:ZY:pCube85 1
+    400272: z:ZY:pCube85 2
+    400274: z:ZY:pCube86
+    400276: z:ZY:pCube86 1
+    400278: z:ZY:pCube86 2
+    400280: z:ZY:pCube87
+    400282: z:ZY:pCube87 1
+    400284: z:ZY:pCube87 2
+    400286: z:ZY:pCube88
+    400288: z:ZY:pCube88 1
+    400290: z:ZY:pCube88 2
+    400292: z:ZY:pCube89
+    400294: z:ZY:pCube89 1
+    400296: z:ZY:pCube89 2
+    400298: z:ZY:pCube90
+    400300: z:ZY:pCube90 1
+    400302: z:ZY:pCube90 2
+    400304: z:ZY:pCube91
+    400306: z:ZY:pCube91 1
+    400308: z:ZY:pCube91 2
+    400310: z:ZY:pCube92
+    400312: z:ZY:pCube92 1
+    400314: z:ZY:pCube92 2
+    400316: z:ZY:pCube93
+    400318: z:ZY:pCube93 1
+    400320: z:ZY:pCube93 2
+    400322: z:ZY:pCube94
+    400324: z:ZY:pCube94 1
+    400326: z:ZY:pCube94 2
+    400328: z:ZY:pCube95
+    400330: z:ZY:pCube95 1
+    400332: z:ZY:pCube95 2
+    400334: z:ZY:pCube96
+    400336: z:ZY:pCube96 1
+    400338: z:ZY:pCube96 2
+    400340: z:ZY:pCube97
+    400342: z:ZY:pCube97 1
+    400344: z:ZY:pCube97 2
+    400346: z:ZY:pCube98
+    400348: z:ZY:pCube98 1
+    400350: z:ZY:pCube98 2
+    400352: z:ZY:pCube99
+    400354: z:ZY:pCube99 1
+    400356: z:ZY:pCube99 2
+    400358: z:ZY:polySurface106008
+    400360: z:ZY:polySurface106009
+    400362: z:ZY:polySurface106011
+    400364: z:ZY:polySurface106013
+    400366: z:ZY:polySurface106108
+    400368: z:ZY:polySurface106109
+    400370: z:ZY:polySurface3
+    400372: z:ZY:polySurface3 1
+    400374: z:ZY:polySurface3 10
+    400376: z:ZY:polySurface3 11
+    400378: z:ZY:polySurface3 12
+    400380: z:ZY:polySurface3 13
+    400382: z:ZY:polySurface3 14
+    400384: z:ZY:polySurface3 15
+    400386: z:ZY:polySurface3 2
+    400388: z:ZY:polySurface3 3
+    400390: z:ZY:polySurface3 4
+    400392: z:ZY:polySurface3 5
+    400394: z:ZY:polySurface3 6
+    400396: z:ZY:polySurface3 7
+    400398: z:ZY:polySurface3 8
+    400400: z:ZY:polySurface3 9
+    400402: z:ZY:polySurface4
+    400404: z:ZY:polySurface4 1
+    400406: z:ZY:polySurface4 10
+    400408: z:ZY:polySurface4 11
+    400410: z:ZY:polySurface4 12
+    400412: z:ZY:polySurface4 13
+    400414: z:ZY:polySurface4 14
+    400416: z:ZY:polySurface4 15
+    400418: z:ZY:polySurface4 2
+    400420: z:ZY:polySurface4 3
+    400422: z:ZY:polySurface4 4
+    400424: z:ZY:polySurface4 5
+    400426: z:ZY:polySurface4 6
+    400428: z:ZY:polySurface4 7
+    400430: z:ZY:polySurface4 8
+    400432: z:ZY:polySurface4 9
+    400434: z:ZY:q:Dianti
+    400436: z:ZY:q:dianti
+    400438: z:ZY:q:dianti 1
+    400440: z:ZY:q:Dianti1
+    400442: z:ZY:q:dianti1
+    400444: z:ZY:q:group141
+    400446: z:ZY:q:group35
+    400448: z:ZY:q:zhaji
+    400450: z:ZY:q:zhaji 1
+    400452: z:ZY:q:zhaji1
+    400454: z:ZY:q:zhaji2
+    400456: z:ZY:q:zhaji2 1
+    400458: z:ZY:q:zhaji3
+    400460: z:ZY:q:zhaji3 1
+    400462: z:ZY:q:zhaji4
+    400464: z:ZY:q:zhaji4 1
+    400466: z:ZY:q:zhaji5
+    400468: z:ZY:q:zhaji5 1
+    400470: z:ZY:q:zhaji6
+    400472: z:ZY:q:zhaji6 1
+    400474: z:ZY:q:zhaji7
+    400476: z:ZY:q:zhaji7 1
+    400478: z:ZY:q:zhaji8
+    400480: z:ZY:ShangCeng
+    400482: z:ZY:Tongfenglan
+    400484: z:ZY:XiaCeng
+    400486: z:ZY:ZhanTaimian
+    400488: z:ZY:zhazi
+    400490: z:ZY:Zhuzi
+    2100000: z_ZY_q_ZhaoYing04_zhangdiwen_20190110_1102_zhangdiwen_20190110_1102_layeredTexture2Material
+    2100002: z_ZY_q_ZhaoYing04_zhan_kongxingzhu_1Material
+    2100004: z_ZY_q_ZhaoYing04_zhan_lambert4
+    2100006: z_ZY_q_ZhaoYing04_zhan_boli_ding_1Material
+    2100008: z_ZY_q_ZhaoYing04_zhangdiwen_20190110_1102_zhangdiwen_20190110_1102_zhantaidi_1Material
+    2100010: z_ZY_q_ZhaoYing04_zhangdiwen_20190110_1102_zhangdiwen_20190110_1102_zhannei_2_1Material
+    2100012: z_ZY_q_ZhaoYing04_zhangdiwen_20190110_1102_zhangdiwen_20190110_1102_zhannei_1Material
+    2100014: z_ZY_q_ZhaoYing04_zhangdiwen_20190110_1102_jinshu_1_1Material
+    2100016: z_ZY_q_ZhaoYing04_lgc1_1Material
+    2100018: z_ZY_q_ZhaoYing04_louti_3_1Material
+    2100020: z_ZY_q_ZhaoYing04_zhuan_2_1Material
+    2100022: z_ZY_q_ZhaoYing04_zhuan_1_1Material
+    2100024: z_ZY_q_ZhaoYing04_guanggao_1Material
+    2100026: z_ZY_q_ZhaoYing04_zhan_tianchuang_1Material
+    2100028: z_ZY_q_ZhaoYing04_zhan_dingpeng_1Material
+    2100030: z_ZY_q_jiazhantingchanghjing3_pingbimen_humen_1Material
+    2100032: z_ZY_q_jiazhantingchanghjing3_pingbimenboli_humen_1Material
+    2100034: z_ZY_q_pasted__pingbimenboli1_humen_2Material
+    2100036: z_ZY_q_ZhaoYing04_ZYZ_zhishipai_1Material
+    2100038: z_ZY_q_ZhaoYing04_guanggao2_1Material
+    2100040: z_ZY_q_ZhaoYing04_Hongtu01_1Material
+    2100042: z_ZY_q_ZhaoYing04_pasted__boli_1Material
+    2100044: z_ZY_q_ZhaoYing04_boli_1_1Material
+    2100046: z_ZY_jinan_1Material
+    2100048: z_ZY_DDWP6_pasted__pasted__pasted__pasted__pasted____file542Material3
+    2100050: z_ZY_ZY_menpai_3Material
+    2100052: z_ZY_pasted__chunse_1Material
+    2100054: z_ZY_pasted__ZY_zhanpai_1Material
+    2100056: z_ZY_q_bxg_01_1Material
+    2100058: z_ZY_q_tingchebiao2_1Material
+    2100060: z_ZY_q_ZhaoYing04_changjing_xiatingzhuzi_1Material
+    2100062: z_ZY_q_ZhaoYing04_jiazhantingchanghjing1_xia_4_sy1_ChaShanZhan_zz_20160219_1028_zz_20160218_1407_zz_20160217_1025_futi001
+    2100064: z_ZY_q_ZhaoYing04_CS_ZX_JZ_1Material
+    2100066: z_ZY_q_ZhaoYing04_pasted__uti_jpg_1Material
+    2100068: z_ZY_q_ZhaoYing04_LHGY_futi_zi_pasted__pasted__futitu
+    2100070: z_ZY_q_ZhaoYing04_pasted__utikou_jpg_1Material
+    2100072: z_ZY_q_ZhaoYing04_pasted__XG_1Material
+    2100074: z_ZY_q_ZhaoYing04_zhan_zhaji02_zhangdiwen_20190110_1102_zhangdiwen_20190110_1102_zhaji1_1Material
+    2100076: z_ZY_q_ZhaoYing04_zhan_zhaji02_1Material
+    2100078: z_ZY_q_ZhaoYing04_zhan_zhaji01_1Material
+    2100080: z_ZY_q_ZhaoYing04_layeredTexture1Material
+    2100082: z_ZY_q_ZhaoYing04_anjianji01_anjianji_zz_20151014_1333_DC4_DC_security_gate_Computer_desk_Office_chair_M
+    2100084: z_ZY_q_ZhaoYing04_anjianji01_anjianji_zz_20151014_1333_DC4_DC_security_gate_Computer_desk_Computer_desk_M
+    2100086: z_ZY_q_ZhaoYing04_anjianji01_anjianji_zz_20151014_1333_DC4_DC_security_gate_Computer_desk_Filing_cabinet_M
+    2100088: z_ZY_q_ZhaoYing04_anjianji01_anjianji_zz_20151014_1333_DC4_DC_security_gate_anjianji
+    2100090: z_ZY_q_ZhaoYing04_anjianji01_anjianji_zz_20151014_1333_DC4_DC_security_gate_anjiantu
+    2100092: z_ZY_q_ZhaoYing04_anjianji01_anjianji_zz_20151014_1333_DC4_service2_PC_monitor_M
+    2100094: z_ZY_q_ZhaoYing04_anjianji01_anjianji_zz_20151014_1333_DC4_service2_mouse_M
+    2100096: z_ZY_q_ZhaoYing04_anjianji01_anjianji_zz_20151014_1333_Default_Material
+    2100098: z_ZY_q_ZhaoYing04_louti_1Material
+    2100100: z_ZY_q_ZhaoYing04_fanghuaci_1Material
+    2100102: z_ZY_q_ZhaoYing04_louti_1_1Material
+    2100104: z_ZY_q_ZhaoYing04_ZYZ_zhishipai2_1Material
+    2100106: z_ZY_q_ZhaoYing04_dianshi_1Material
+    2100108: z_ZY_q_ZhaoYing04_dianti_1_shengjiangti1
+    2100110: z_ZY_q_ZhaoYing04_pasted__Z_1Material
+    2100112: z_ZY_q_ZhaoYing04_dianti_1_diantijiegou
+    2100114: z_ZY_q_ZhaoYing04_zhangdiwen_20190110_1102_spj1_1Material
+    2100116: z_ZY_q_ZhaoYing04_zhangdiwen_20190110_1102_spj_1Material
+    2100118: z_ZY_q_ZhaoYing04_zhan_shuini_am_1Material
+    2100120: z_ZY_q_ZhaoYing04_zhan_shuini_1Material
+    2100122: z_ZY_q_ZhaoYing04_zhan_chuanghu_1Material
+    2100124: z_ZY_q_ZhaoYing04_zhan_chuanghu_am_1Material
+    2100126: z_ZY_q_ZhaoYing04_changjing_qiangti_2Material
+    2100128: z_ZY_q_ZhaoYing04_changjing_qiangti_am_2Material
+    2100130: z_ZY_q_ZhaoYing04_Bchukoutu_1Material
+    2100132: z_ZY_q_ZhaoYing04_changjing_menboli_1Material
+    2100134: z_ZY_q_ZhaoYing04_ding_1Material
+    2100136: z_ZY_q_ZhaoYing04_boli_2_1Material
+    2100138: z_ZY_q_ZhaoYing04_zhangdiwen_20190110_1102_zhangdiwen_20190110_1102_dimian_1Material
+    2100140: z_ZY_q_ZhaoYing04_changjing_dingban_1Material
+    2100142: z_ZY_q_ZhaoYing04_ding_tianhuaban_1Material
+    2100144: z_ZY_q_ZhaoYing04_dimian1_1Material
+    2100146: z_ZY_q_ZhaoYing04_layeredTexture2Material
+    2100148: z_ZY_q_ZhaoYing04_zhant_men_1Material
+    2100150: lambert2
+    2100152: z_ZY_q_ZhaoYing04_changjing_qiangmian_4Material
+    2300000: Tcb
+    2300002: Tcb1
+    2300004: z:anjian
+    2300006: z:Buti
+    2300008: z:chukou
+    2300010: z:Ding
+    2300012: z:dingban
+    2300014: z:guanggao
+    2300016: z:lubiao
+    2300018: z:lubiao 1
+    2300020: z:pingbimen
+    2300022: z:polySurface278125
+    2300024: z:polySurface278126
+    2300026: z:shoupiaoji
+    2300028: z:Wanqiang
+    2300030: z:zhantai
+    2300032: z:zhiti
+    2300034: z:ZY:diantifushou
+    2300036: z:ZY:diantifushou1
+    2300038: z:ZY:pCube100
+    2300040: z:ZY:pCube100 1
+    2300042: z:ZY:pCube100 2
+    2300044: z:ZY:pCube101
+    2300046: z:ZY:pCube101 1
+    2300048: z:ZY:pCube101 2
+    2300050: z:ZY:pCube102
+    2300052: z:ZY:pCube102 1
+    2300054: z:ZY:pCube102 2
+    2300056: z:ZY:pCube103
+    2300058: z:ZY:pCube103 1
+    2300060: z:ZY:pCube103 2
+    2300062: z:ZY:pCube104
+    2300064: z:ZY:pCube104 1
+    2300066: z:ZY:pCube104 2
+    2300068: z:ZY:pCube105
+    2300070: z:ZY:pCube105 1
+    2300072: z:ZY:pCube105 2
+    2300074: z:ZY:pCube106
+    2300076: z:ZY:pCube106 1
+    2300078: z:ZY:pCube106 2
+    2300080: z:ZY:pCube107
+    2300082: z:ZY:pCube107 1
+    2300084: z:ZY:pCube107 2
+    2300086: z:ZY:pCube108
+    2300088: z:ZY:pCube108 1
+    2300090: z:ZY:pCube108 2
+    2300092: z:ZY:pCube109
+    2300094: z:ZY:pCube109 1
+    2300096: z:ZY:pCube109 2
+    2300098: z:ZY:pCube110
+    2300100: z:ZY:pCube110 1
+    2300102: z:ZY:pCube110 2
+    2300104: z:ZY:pCube111
+    2300106: z:ZY:pCube111 1
+    2300108: z:ZY:pCube111 2
+    2300110: z:ZY:pCube112
+    2300112: z:ZY:pCube112 1
+    2300114: z:ZY:pCube112 2
+    2300116: z:ZY:pCube113
+    2300118: z:ZY:pCube113 1
+    2300120: z:ZY:pCube113 2
+    2300122: z:ZY:pCube114
+    2300124: z:ZY:pCube114 1
+    2300126: z:ZY:pCube114 2
+    2300128: z:ZY:pCube115
+    2300130: z:ZY:pCube115 1
+    2300132: z:ZY:pCube115 2
+    2300134: z:ZY:pCube116
+    2300136: z:ZY:pCube116 1
+    2300138: z:ZY:pCube116 2
+    2300140: z:ZY:pCube118
+    2300142: z:ZY:pCube118 1
+    2300144: z:ZY:pCube118 2
+    2300146: z:ZY:pCube119
+    2300148: z:ZY:pCube119 1
+    2300150: z:ZY:pCube119 2
+    2300152: z:ZY:pCube67
+    2300154: z:ZY:pCube67 1
+    2300156: z:ZY:pCube67 2
+    2300158: z:ZY:pCube68
+    2300160: z:ZY:pCube68 1
+    2300162: z:ZY:pCube68 2
+    2300164: z:ZY:pCube69
+    2300166: z:ZY:pCube69 1
+    2300168: z:ZY:pCube69 2
+    2300170: z:ZY:pCube70
+    2300172: z:ZY:pCube70 1
+    2300174: z:ZY:pCube70 2
+    2300176: z:ZY:pCube71
+    2300178: z:ZY:pCube71 1
+    2300180: z:ZY:pCube71 2
+    2300182: z:ZY:pCube72
+    2300184: z:ZY:pCube72 1
+    2300186: z:ZY:pCube72 2
+    2300188: z:ZY:pCube73
+    2300190: z:ZY:pCube73 1
+    2300192: z:ZY:pCube73 2
+    2300194: z:ZY:pCube74
+    2300196: z:ZY:pCube74 1
+    2300198: z:ZY:pCube74 2
+    2300200: z:ZY:pCube75
+    2300202: z:ZY:pCube75 1
+    2300204: z:ZY:pCube75 2
+    2300206: z:ZY:pCube76
+    2300208: z:ZY:pCube76 1
+    2300210: z:ZY:pCube76 2
+    2300212: z:ZY:pCube77
+    2300214: z:ZY:pCube77 1
+    2300216: z:ZY:pCube77 2
+    2300218: z:ZY:pCube78
+    2300220: z:ZY:pCube78 1
+    2300222: z:ZY:pCube78 2
+    2300224: z:ZY:pCube79
+    2300226: z:ZY:pCube79 1
+    2300228: z:ZY:pCube79 2
+    2300230: z:ZY:pCube80
+    2300232: z:ZY:pCube80 1
+    2300234: z:ZY:pCube80 2
+    2300236: z:ZY:pCube81
+    2300238: z:ZY:pCube81 1
+    2300240: z:ZY:pCube81 2
+    2300242: z:ZY:pCube82
+    2300244: z:ZY:pCube82 1
+    2300246: z:ZY:pCube82 2
+    2300248: z:ZY:pCube83
+    2300250: z:ZY:pCube83 1
+    2300252: z:ZY:pCube83 2
+    2300254: z:ZY:pCube84
+    2300256: z:ZY:pCube84 1
+    2300258: z:ZY:pCube84 2
+    2300260: z:ZY:pCube85
+    2300262: z:ZY:pCube85 1
+    2300264: z:ZY:pCube85 2
+    2300266: z:ZY:pCube86
+    2300268: z:ZY:pCube86 1
+    2300270: z:ZY:pCube86 2
+    2300272: z:ZY:pCube87
+    2300274: z:ZY:pCube87 1
+    2300276: z:ZY:pCube87 2
+    2300278: z:ZY:pCube88
+    2300280: z:ZY:pCube88 1
+    2300282: z:ZY:pCube88 2
+    2300284: z:ZY:pCube89
+    2300286: z:ZY:pCube89 1
+    2300288: z:ZY:pCube89 2
+    2300290: z:ZY:pCube90
+    2300292: z:ZY:pCube90 1
+    2300294: z:ZY:pCube90 2
+    2300296: z:ZY:pCube91
+    2300298: z:ZY:pCube91 1
+    2300300: z:ZY:pCube91 2
+    2300302: z:ZY:pCube92
+    2300304: z:ZY:pCube92 1
+    2300306: z:ZY:pCube92 2
+    2300308: z:ZY:pCube93
+    2300310: z:ZY:pCube93 1
+    2300312: z:ZY:pCube93 2
+    2300314: z:ZY:pCube94
+    2300316: z:ZY:pCube94 1
+    2300318: z:ZY:pCube94 2
+    2300320: z:ZY:pCube95
+    2300322: z:ZY:pCube95 1
+    2300324: z:ZY:pCube95 2
+    2300326: z:ZY:pCube96
+    2300328: z:ZY:pCube96 1
+    2300330: z:ZY:pCube96 2
+    2300332: z:ZY:pCube97
+    2300334: z:ZY:pCube97 1
+    2300336: z:ZY:pCube97 2
+    2300338: z:ZY:pCube98
+    2300340: z:ZY:pCube98 1
+    2300342: z:ZY:pCube98 2
+    2300344: z:ZY:pCube99
+    2300346: z:ZY:pCube99 1
+    2300348: z:ZY:pCube99 2
+    2300350: z:ZY:polySurface106008
+    2300352: z:ZY:polySurface106009
+    2300354: z:ZY:polySurface106011
+    2300356: z:ZY:polySurface106013
+    2300358: z:ZY:polySurface106108
+    2300360: z:ZY:polySurface106109
+    2300362: z:ZY:polySurface3
+    2300364: z:ZY:polySurface3 1
+    2300366: z:ZY:polySurface3 10
+    2300368: z:ZY:polySurface3 11
+    2300370: z:ZY:polySurface3 12
+    2300372: z:ZY:polySurface3 13
+    2300374: z:ZY:polySurface3 14
+    2300376: z:ZY:polySurface3 15
+    2300378: z:ZY:polySurface3 2
+    2300380: z:ZY:polySurface3 3
+    2300382: z:ZY:polySurface3 4
+    2300384: z:ZY:polySurface3 5
+    2300386: z:ZY:polySurface3 6
+    2300388: z:ZY:polySurface3 7
+    2300390: z:ZY:polySurface3 8
+    2300392: z:ZY:polySurface3 9
+    2300394: z:ZY:polySurface4
+    2300396: z:ZY:polySurface4 1
+    2300398: z:ZY:polySurface4 10
+    2300400: z:ZY:polySurface4 11
+    2300402: z:ZY:polySurface4 12
+    2300404: z:ZY:polySurface4 13
+    2300406: z:ZY:polySurface4 14
+    2300408: z:ZY:polySurface4 15
+    2300410: z:ZY:polySurface4 2
+    2300412: z:ZY:polySurface4 3
+    2300414: z:ZY:polySurface4 4
+    2300416: z:ZY:polySurface4 5
+    2300418: z:ZY:polySurface4 6
+    2300420: z:ZY:polySurface4 7
+    2300422: z:ZY:polySurface4 8
+    2300424: z:ZY:polySurface4 9
+    2300426: z:ZY:Tongfenglan
+    2300428: z:ZY:Zhuzi
+    3300000: Tcb
+    3300002: Tcb1
+    3300004: z:anjian
+    3300006: z:Buti
+    3300008: z:chukou
+    3300010: z:Ding
+    3300012: z:dingban
+    3300014: z:guanggao
+    3300016: z:lubiao
+    3300018: z:lubiao 1
+    3300020: z:pingbimen
+    3300022: z:polySurface278125
+    3300024: z:polySurface278126
+    3300026: z:shoupiaoji
+    3300028: z:Wanqiang
+    3300030: z:zhantai
+    3300032: z:zhiti
+    3300034: z:ZY:diantifushou
+    3300036: z:ZY:diantifushou1
+    3300038: z:ZY:pCube100
+    3300040: z:ZY:pCube100 1
+    3300042: z:ZY:pCube100 2
+    3300044: z:ZY:pCube101
+    3300046: z:ZY:pCube101 1
+    3300048: z:ZY:pCube101 2
+    3300050: z:ZY:pCube102
+    3300052: z:ZY:pCube102 1
+    3300054: z:ZY:pCube102 2
+    3300056: z:ZY:pCube103
+    3300058: z:ZY:pCube103 1
+    3300060: z:ZY:pCube103 2
+    3300062: z:ZY:pCube104
+    3300064: z:ZY:pCube104 1
+    3300066: z:ZY:pCube104 2
+    3300068: z:ZY:pCube105
+    3300070: z:ZY:pCube105 1
+    3300072: z:ZY:pCube105 2
+    3300074: z:ZY:pCube106
+    3300076: z:ZY:pCube106 1
+    3300078: z:ZY:pCube106 2
+    3300080: z:ZY:pCube107
+    3300082: z:ZY:pCube107 1
+    3300084: z:ZY:pCube107 2
+    3300086: z:ZY:pCube108
+    3300088: z:ZY:pCube108 1
+    3300090: z:ZY:pCube108 2
+    3300092: z:ZY:pCube109
+    3300094: z:ZY:pCube109 1
+    3300096: z:ZY:pCube109 2
+    3300098: z:ZY:pCube110
+    3300100: z:ZY:pCube110 1
+    3300102: z:ZY:pCube110 2
+    3300104: z:ZY:pCube111
+    3300106: z:ZY:pCube111 1
+    3300108: z:ZY:pCube111 2
+    3300110: z:ZY:pCube112
+    3300112: z:ZY:pCube112 1
+    3300114: z:ZY:pCube112 2
+    3300116: z:ZY:pCube113
+    3300118: z:ZY:pCube113 1
+    3300120: z:ZY:pCube113 2
+    3300122: z:ZY:pCube114
+    3300124: z:ZY:pCube114 1
+    3300126: z:ZY:pCube114 2
+    3300128: z:ZY:pCube115
+    3300130: z:ZY:pCube115 1
+    3300132: z:ZY:pCube115 2
+    3300134: z:ZY:pCube116
+    3300136: z:ZY:pCube116 1
+    3300138: z:ZY:pCube116 2
+    3300140: z:ZY:pCube118
+    3300142: z:ZY:pCube118 1
+    3300144: z:ZY:pCube118 2
+    3300146: z:ZY:pCube119
+    3300148: z:ZY:pCube119 1
+    3300150: z:ZY:pCube119 2
+    3300152: z:ZY:pCube67
+    3300154: z:ZY:pCube67 1
+    3300156: z:ZY:pCube67 2
+    3300158: z:ZY:pCube68
+    3300160: z:ZY:pCube68 1
+    3300162: z:ZY:pCube68 2
+    3300164: z:ZY:pCube69
+    3300166: z:ZY:pCube69 1
+    3300168: z:ZY:pCube69 2
+    3300170: z:ZY:pCube70
+    3300172: z:ZY:pCube70 1
+    3300174: z:ZY:pCube70 2
+    3300176: z:ZY:pCube71
+    3300178: z:ZY:pCube71 1
+    3300180: z:ZY:pCube71 2
+    3300182: z:ZY:pCube72
+    3300184: z:ZY:pCube72 1
+    3300186: z:ZY:pCube72 2
+    3300188: z:ZY:pCube73
+    3300190: z:ZY:pCube73 1
+    3300192: z:ZY:pCube73 2
+    3300194: z:ZY:pCube74
+    3300196: z:ZY:pCube74 1
+    3300198: z:ZY:pCube74 2
+    3300200: z:ZY:pCube75
+    3300202: z:ZY:pCube75 1
+    3300204: z:ZY:pCube75 2
+    3300206: z:ZY:pCube76
+    3300208: z:ZY:pCube76 1
+    3300210: z:ZY:pCube76 2
+    3300212: z:ZY:pCube77
+    3300214: z:ZY:pCube77 1
+    3300216: z:ZY:pCube77 2
+    3300218: z:ZY:pCube78
+    3300220: z:ZY:pCube78 1
+    3300222: z:ZY:pCube78 2
+    3300224: z:ZY:pCube79
+    3300226: z:ZY:pCube79 1
+    3300228: z:ZY:pCube79 2
+    3300230: z:ZY:pCube80
+    3300232: z:ZY:pCube80 1
+    3300234: z:ZY:pCube80 2
+    3300236: z:ZY:pCube81
+    3300238: z:ZY:pCube81 1
+    3300240: z:ZY:pCube81 2
+    3300242: z:ZY:pCube82
+    3300244: z:ZY:pCube82 1
+    3300246: z:ZY:pCube82 2
+    3300248: z:ZY:pCube83
+    3300250: z:ZY:pCube83 1
+    3300252: z:ZY:pCube83 2
+    3300254: z:ZY:pCube84
+    3300256: z:ZY:pCube84 1
+    3300258: z:ZY:pCube84 2
+    3300260: z:ZY:pCube85
+    3300262: z:ZY:pCube85 1
+    3300264: z:ZY:pCube85 2
+    3300266: z:ZY:pCube86
+    3300268: z:ZY:pCube86 1
+    3300270: z:ZY:pCube86 2
+    3300272: z:ZY:pCube87
+    3300274: z:ZY:pCube87 1
+    3300276: z:ZY:pCube87 2
+    3300278: z:ZY:pCube88
+    3300280: z:ZY:pCube88 1
+    3300282: z:ZY:pCube88 2
+    3300284: z:ZY:pCube89
+    3300286: z:ZY:pCube89 1
+    3300288: z:ZY:pCube89 2
+    3300290: z:ZY:pCube90
+    3300292: z:ZY:pCube90 1
+    3300294: z:ZY:pCube90 2
+    3300296: z:ZY:pCube91
+    3300298: z:ZY:pCube91 1
+    3300300: z:ZY:pCube91 2
+    3300302: z:ZY:pCube92
+    3300304: z:ZY:pCube92 1
+    3300306: z:ZY:pCube92 2
+    3300308: z:ZY:pCube93
+    3300310: z:ZY:pCube93 1
+    3300312: z:ZY:pCube93 2
+    3300314: z:ZY:pCube94
+    3300316: z:ZY:pCube94 1
+    3300318: z:ZY:pCube94 2
+    3300320: z:ZY:pCube95
+    3300322: z:ZY:pCube95 1
+    3300324: z:ZY:pCube95 2
+    3300326: z:ZY:pCube96
+    3300328: z:ZY:pCube96 1
+    3300330: z:ZY:pCube96 2
+    3300332: z:ZY:pCube97
+    3300334: z:ZY:pCube97 1
+    3300336: z:ZY:pCube97 2
+    3300338: z:ZY:pCube98
+    3300340: z:ZY:pCube98 1
+    3300342: z:ZY:pCube98 2
+    3300344: z:ZY:pCube99
+    3300346: z:ZY:pCube99 1
+    3300348: z:ZY:pCube99 2
+    3300350: z:ZY:polySurface106008
+    3300352: z:ZY:polySurface106009
+    3300354: z:ZY:polySurface106011
+    3300356: z:ZY:polySurface106013
+    3300358: z:ZY:polySurface106108
+    3300360: z:ZY:polySurface106109
+    3300362: z:ZY:polySurface3
+    3300364: z:ZY:polySurface3 1
+    3300366: z:ZY:polySurface3 10
+    3300368: z:ZY:polySurface3 11
+    3300370: z:ZY:polySurface3 12
+    3300372: z:ZY:polySurface3 13
+    3300374: z:ZY:polySurface3 14
+    3300376: z:ZY:polySurface3 15
+    3300378: z:ZY:polySurface3 2
+    3300380: z:ZY:polySurface3 3
+    3300382: z:ZY:polySurface3 4
+    3300384: z:ZY:polySurface3 5
+    3300386: z:ZY:polySurface3 6
+    3300388: z:ZY:polySurface3 7
+    3300390: z:ZY:polySurface3 8
+    3300392: z:ZY:polySurface3 9
+    3300394: z:ZY:polySurface4
+    3300396: z:ZY:polySurface4 1
+    3300398: z:ZY:polySurface4 10
+    3300400: z:ZY:polySurface4 11
+    3300402: z:ZY:polySurface4 12
+    3300404: z:ZY:polySurface4 13
+    3300406: z:ZY:polySurface4 14
+    3300408: z:ZY:polySurface4 15
+    3300410: z:ZY:polySurface4 2
+    3300412: z:ZY:polySurface4 3
+    3300414: z:ZY:polySurface4 4
+    3300416: z:ZY:polySurface4 5
+    3300418: z:ZY:polySurface4 6
+    3300420: z:ZY:polySurface4 7
+    3300422: z:ZY:polySurface4 8
+    3300424: z:ZY:polySurface4 9
+    3300426: z:ZY:Tongfenglan
+    3300428: z:ZY:Zhuzi
+    4300000: z:ZY:polySurface106008
+    4300002: z:ZY:polySurface106009
+    4300004: z:ZY:polySurface106011
+    4300006: z:ZY:polySurface106013
+    4300008: z:ZY:Tongfenglan
+    4300010: z:polySurface278126
+    4300012: z:zhantai
+    4300014: z:Ding
+    4300016: z:pingbimen
+    4300018: z:lubiao
+    4300020: z:guanggao
+    4300022: Tcb
+    4300024: Tcb1
+    4300026: z:ZY:Zhuzi
+    4300028: z:ZY:pCube70
+    4300030: z:ZY:pCube71
+    4300032: z:ZY:pCube72
+    4300034: z:ZY:pCube73
+    4300036: z:ZY:pCube74
+    4300038: z:ZY:pCube75
+    4300040: z:ZY:pCube76
+    4300042: z:ZY:pCube77
+    4300044: z:ZY:pCube78
+    4300046: z:ZY:pCube79
+    4300048: z:ZY:pCube80
+    4300050: z:ZY:pCube81
+    4300052: z:ZY:pCube82
+    4300054: z:ZY:pCube83
+    4300056: z:ZY:pCube84
+    4300058: z:ZY:pCube85
+    4300060: z:ZY:pCube86
+    4300062: z:ZY:pCube87
+    4300064: z:ZY:pCube88
+    4300066: z:ZY:pCube89
+    4300068: z:ZY:pCube90
+    4300070: z:ZY:pCube91
+    4300072: z:ZY:pCube92
+    4300074: z:ZY:pCube93
+    4300076: z:ZY:pCube94
+    4300078: z:ZY:pCube95
+    4300080: z:ZY:pCube96
+    4300082: z:ZY:pCube97
+    4300084: z:ZY:pCube98
+    4300086: z:ZY:pCube99
+    4300088: z:ZY:pCube100
+    4300090: z:ZY:pCube101
+    4300092: z:ZY:pCube102
+    4300094: z:ZY:pCube103
+    4300096: z:ZY:pCube104
+    4300098: z:ZY:pCube105
+    4300100: z:ZY:pCube106
+    4300102: z:ZY:pCube107
+    4300104: z:ZY:pCube108
+    4300106: z:ZY:pCube109
+    4300108: z:ZY:pCube110
+    4300110: z:ZY:pCube111
+    4300112: z:ZY:pCube112
+    4300114: z:ZY:pCube113
+    4300116: z:ZY:pCube114
+    4300118: z:ZY:pCube115
+    4300120: z:ZY:pCube116
+    4300122: z:ZY:pCube119
+    4300124: z:ZY:pCube118
+    4300126: z:ZY:pCube67
+    4300128: z:ZY:pCube68
+    4300130: z:ZY:pCube69
+    4300132: z:ZY:pCube70
+    4300134: z:ZY:pCube71
+    4300136: z:ZY:pCube72
+    4300138: z:ZY:pCube73
+    4300140: z:ZY:pCube74
+    4300142: z:ZY:pCube75
+    4300144: z:ZY:pCube76
+    4300146: z:ZY:pCube77
+    4300148: z:ZY:pCube78
+    4300150: z:ZY:pCube79
+    4300152: z:ZY:pCube80
+    4300154: z:ZY:pCube81
+    4300156: z:ZY:pCube82
+    4300158: z:ZY:pCube83
+    4300160: z:ZY:pCube84
+    4300162: z:ZY:pCube85
+    4300164: z:ZY:pCube86
+    4300166: z:ZY:pCube87
+    4300168: z:ZY:pCube88
+    4300170: z:ZY:pCube89
+    4300172: z:ZY:pCube90
+    4300174: z:ZY:pCube91
+    4300176: z:ZY:pCube92
+    4300178: z:ZY:pCube93
+    4300180: z:ZY:pCube94
+    4300182: z:ZY:pCube95
+    4300184: z:ZY:pCube96
+    4300186: z:ZY:pCube97
+    4300188: z:ZY:pCube98
+    4300190: z:ZY:pCube99
+    4300192: z:ZY:pCube100
+    4300194: z:ZY:pCube101
+    4300196: z:ZY:pCube102
+    4300198: z:ZY:pCube103
+    4300200: z:ZY:pCube104
+    4300202: z:ZY:pCube105
+    4300204: z:ZY:pCube106
+    4300206: z:ZY:pCube107
+    4300208: z:ZY:pCube108
+    4300210: z:ZY:pCube109
+    4300212: z:ZY:pCube110
+    4300214: z:ZY:pCube111
+    4300216: z:ZY:pCube112
+    4300218: z:ZY:pCube113
+    4300220: z:ZY:pCube114
+    4300222: z:ZY:pCube115
+    4300224: z:ZY:pCube116
+    4300226: z:ZY:pCube119
+    4300228: z:ZY:pCube118
+    4300230: z:ZY:pCube67
+    4300232: z:ZY:pCube68
+    4300234: z:ZY:pCube69
+    4300236: z:ZY:diantifushou
+    4300238: z:ZY:diantifushou1
+    4300240: z:ZY:pCube70
+    4300242: z:ZY:pCube71
+    4300244: z:ZY:pCube72
+    4300246: z:ZY:pCube73
+    4300248: z:ZY:pCube74
+    4300250: z:ZY:pCube75
+    4300252: z:ZY:pCube76
+    4300254: z:ZY:pCube77
+    4300256: z:ZY:pCube78
+    4300258: z:ZY:pCube79
+    4300260: z:ZY:pCube80
+    4300262: z:ZY:pCube81
+    4300264: z:ZY:pCube82
+    4300266: z:ZY:pCube83
+    4300268: z:ZY:pCube84
+    4300270: z:ZY:pCube85
+    4300272: z:ZY:pCube86
+    4300274: z:ZY:pCube87
+    4300276: z:ZY:pCube88
+    4300278: z:ZY:pCube89
+    4300280: z:ZY:pCube90
+    4300282: z:ZY:pCube91
+    4300284: z:ZY:pCube92
+    4300286: z:ZY:pCube93
+    4300288: z:ZY:pCube94
+    4300290: z:ZY:pCube95
+    4300292: z:ZY:pCube96
+    4300294: z:ZY:pCube97
+    4300296: z:ZY:pCube98
+    4300298: z:ZY:pCube99
+    4300300: z:ZY:pCube100
+    4300302: z:ZY:pCube101
+    4300304: z:ZY:pCube102
+    4300306: z:ZY:pCube104
+    4300308: z:ZY:pCube105
+    4300310: z:ZY:pCube106
+    4300312: z:ZY:pCube107
+    4300314: z:ZY:pCube108
+    4300316: z:ZY:pCube109
+    4300318: z:ZY:pCube110
+    4300320: z:ZY:pCube111
+    4300322: z:ZY:pCube112
+    4300324: z:ZY:pCube113
+    4300326: z:ZY:pCube114
+    4300328: z:ZY:pCube115
+    4300330: z:ZY:pCube116
+    4300332: z:ZY:pCube119
+    4300334: z:ZY:pCube118
+    4300336: z:ZY:pCube67
+    4300338: z:ZY:pCube68
+    4300340: z:ZY:pCube69
+    4300342: z:ZY:pCube103
+    4300344: z:polySurface278125
+    4300346: z:ZY:polySurface3
+    4300348: z:ZY:polySurface4
+    4300350: z:ZY:polySurface3
+    4300352: z:ZY:polySurface4
+    4300354: z:ZY:polySurface3
+    4300356: z:ZY:polySurface4
+    4300358: z:ZY:polySurface3
+    4300360: z:ZY:polySurface4
+    4300362: z:ZY:polySurface3
+    4300364: z:ZY:polySurface4
+    4300366: z:ZY:polySurface3
+    4300368: z:ZY:polySurface4
+    4300370: z:ZY:polySurface3
+    4300372: z:ZY:polySurface4
+    4300374: z:ZY:polySurface3
+    4300376: z:ZY:polySurface4
+    4300378: z:ZY:polySurface3
+    4300380: z:ZY:polySurface4
+    4300382: z:ZY:polySurface3
+    4300384: z:ZY:polySurface4
+    4300386: z:ZY:polySurface3
+    4300388: z:ZY:polySurface4
+    4300390: z:ZY:polySurface3
+    4300392: z:ZY:polySurface4
+    4300394: z:ZY:polySurface3
+    4300396: z:ZY:polySurface4
+    4300398: z:ZY:polySurface3
+    4300400: z:ZY:polySurface4
+    4300402: z:ZY:polySurface3
+    4300404: z:ZY:polySurface4
+    4300406: z:ZY:polySurface3
+    4300408: z:ZY:polySurface4
+    4300410: z:ZY:polySurface106108
+    4300412: z:ZY:polySurface106109
+    4300414: z:anjian
+    4300416: z:Buti
+    4300418: z:lubiao
+    4300420: z:zhiti
+    4300422: z:shoupiaoji
+    4300424: z:Wanqiang
+    4300426: z:chukou
+    4300428: z:dingban
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

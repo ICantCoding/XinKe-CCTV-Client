@@ -37,7 +37,6 @@ public class BaseNetworkEngine : MonoBehaviour, INetworkEngine
     #region Unity生命周期
     protected virtual void Awake()
     {
-        //网络引擎不可销毁
         m_notifier = new Notifier();
     }
     protected virtual void OnDestroy()
@@ -89,6 +88,13 @@ public class BaseNetworkEngine : MonoBehaviour, INetworkEngine
         }
         StopAllCoroutines();
     }
+    //重连服务器
+    public virtual void ReLink(RemoteClientConnectServerSuccessCallback successCallback,
+        RemoteClientConnectServerFailCallback failCallback)
+    {
+        Stop();
+        Run(successCallback, failCallback);
+    }
     #endregion
 
     #region 处理队列中的Packet
@@ -117,7 +123,6 @@ public class BaseNetworkEngine : MonoBehaviour, INetworkEngine
         }
     }
     #endregion
-
 
     #region PureMVC消息发送
     public void SendNotification(string notificationName, object body, string type)

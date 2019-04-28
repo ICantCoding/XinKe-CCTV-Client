@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AllTrainLineInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TrainLineInfo>
+    <LineInfoTextFileName>XiaXingTrainLineInfoStation5.txt</LineInfoTextFileName>
+    <StationIndex>5</StationIndex>
+    <LineName>Station5XiaXingLine</LineName>
+    <PositiveMarkPosX>-3881.429</PositiveMarkPosX>
+    <PositiveMarkPosY>-42.911</PositiveMarkPosY>
+    <PositiveMarkPosZ>-10213.583</PositiveMarkPosZ>
+    <PositiveYAngle>68.5</PositiveYAngle>
+    <NegativeMarkPosX>-3917.842</NegativeMarkPosX>
+    <NegativeMarkPosY>-42.911</NegativeMarkPosY>
+    <NegativeMarkPosZ>-10227.5508</NegativeMarkPosZ>
+    <NegativeYAngle>68.5</NegativeYAngle>
+    <LineLength>850.4468</LineLength>
+    <PositiveMarkDistance>518.781</PositiveMarkDistance>
+    <NegativeMarkDistance>479.697876</NegativeMarkDistance>
+  </TrainLineInfo>
+  <TrainLineInfo>
+    <LineInfoTextFileName>ShangXingTrainLineInfoStation5.txt</LineInfoTextFileName>
+    <StationIndex>5</StationIndex>
+    <LineName>Station5ShangXingLine</LineName>
+    <PositiveMarkPosX>-3997.823</PositiveMarkPosX>
+    <PositiveMarkPosY>-42.9119873</PositiveMarkPosY>
+    <PositiveMarkPosZ>-10244.0537</PositiveMarkPosZ>
+    <PositiveYAngle>-111.75</PositiveYAngle>
+    <NegativeMarkPosX>-3961.462</NegativeMarkPosX>
+    <NegativeMarkPosY>-42.912</NegativeMarkPosY>
+    <NegativeMarkPosZ>-10229.751</NegativeMarkPosZ>
+    <NegativeYAngle>-111.75</NegativeYAngle>
+    <LineLength>850.382568</LineLength>
+    <PositiveMarkDistance>451.591125</PositiveMarkDistance>
+    <NegativeMarkDistance>412.503662</NegativeMarkDistance>
+  </TrainLineInfo>
+</AllTrainLineInfo>

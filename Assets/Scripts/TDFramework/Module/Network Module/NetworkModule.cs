@@ -15,13 +15,9 @@ namespace TDFramework
         #region 抽象方法实现
         public override void Init()
         {
-            GameObject networkEngineGo = GameObject.Find("NetworkEngine");
-            m_networkEngine = networkEngineGo.GetComponent<NetworkEngine>();
-            if (m_networkEngine == null)
-            {
-                m_networkEngine = networkEngineGo.AddComponent<NetworkEngine>();
-            }
-            m_networkEngine.DynamicAddNetwoekEngine2ChildGameObject();
+            GameObject networkEngineGo = GameObject.Find(StringMgr.NetworkEngineName);
+            m_networkEngine = networkEngineGo.AddComponent<NetworkEngine>();
+            m_networkEngine.Run();
         }
         public override void Release()
         {
@@ -29,6 +25,19 @@ namespace TDFramework
             {
                 m_networkEngine.Stop();
             }
+        }
+        #endregion
+
+        #region 公有方法
+        //根据站台索引，获取站台网络引擎
+        public StationNetworkEngine GetStationNetworkEngineByStationIndex(System.UInt16 stationIndex, System.UInt16 stationClientType)
+        {
+            return m_networkEngine.GetStationNetworkEngineByStationIndex(stationIndex, stationClientType);
+        }
+        //各站台网络引擎开启, 用不到该方法， 也不要使用该方法
+        public void AllStationNetworkEngineLink()
+        {
+            m_networkEngine.AllStationNetworkEngineLink();
         }
         #endregion
     }

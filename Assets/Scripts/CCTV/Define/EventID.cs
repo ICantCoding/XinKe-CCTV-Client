@@ -52,6 +52,10 @@ public class EventID_Cmd
     public const string CCTVCtrlClientOffLine = "CCTVCtrlClientOffLine_Cmd";//CCTV视频控制端下线事件
     public const string ATSClientOnLine = "ATSClientOnLine_Cmd";            //ATS客户端上线事件
     public const string ATSClientOffLine = "ATSClientOffLine_Cmd";          //ATS客户端下线事件
+
+    public const string DivisionBigScreen = "DivisionBigScreen_Cmd";        //切割大屏事件
+    public const string DivisionSmallScreen = "DivisionSmallScreen_Cmd";    //切割小屏事件
+    public const string ScreenBindCamera = "ScreenBindCamera_Cmd";          //屏幕绑定摄像机事件
 }
 #endregion
 
@@ -65,5 +69,9 @@ public class EventID_UI
     public const string U3DClientOffLine = "U3DClientOffLine_UI";                           //U3D客户端离线事件
     public const string StationClientOnLineSuccess = "StationClientOnLineSuccess_UI";      //Station客户端连接成功事件
     public const string StationClientOnLineFail = "StationClientOnLineFail_UI";            //Station客户端连接失败事件
+
+    public const string DivisionBigScreen = "DivisionBigScreen_UI";                        //切割大屏事件
+    public const string DivisionSmallScreen = "DivisionSmallScreen_UI";                     //切割小屏事件
+    public const string ScreenBindCamera = "ScreenBindCamera_UI";                           //屏幕绑定摄像机事件
 }
 #endregion

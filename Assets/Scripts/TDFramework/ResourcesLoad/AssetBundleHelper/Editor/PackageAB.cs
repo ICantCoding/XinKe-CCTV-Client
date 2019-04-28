@@ -25,15 +25,15 @@ namespace TDFramework
         public struct DirectoryAB
         {
             public string ABName;           //文件夹打包后的AB包名
-            public string DirectoryPath;    //文件夹的路径                 
+            public string DirectoryPath;    //文件夹的路径         
         }
     }
 
     public class PackageAssetBundle
     {
-        //Key为打包目录的AssetBundleName, Value为打包目录Assets/相对路径
+        //Key为打包目录的ABName, Value为打包目录Assets/相对路径
         private static Dictionary<string, string> m_directoryABDict = new Dictionary<string, string>();
-        //Key为预制件的AssetBundleName, Value为该预制件依赖的所有资源文件Assets/相对路径
+        //Key为预制件的ABName, Value为该预制件依赖的所有资源文件Assets/相对路径
         private static Dictionary<string, List<string>> m_prefabABDict = new Dictionary<string, List<string>>();
         private static List<string> m_buildedFiles = new List<string>(); //记录已经被标记了要打包的文件, 用于过滤，避免打包到重复的文件
         private static List<string> m_loadFiles = new List<string>(); //记录哪些会被动态加载的文件
@@ -42,10 +42,16 @@ namespace TDFramework
         private static void ProduceAssetBundleConfig()
         {
             ABConfig abConfig = new ABConfig();
+            abConfig.prefabABPathList.Add("Assets/Prefabs");
             abConfig.directoryABPathList.Add(new ABConfig.DirectoryAB()
             {
                 ABName = "assetbundleconfig",
                 DirectoryPath = "Assets/Scripts/TDFramework/ResourcesLoad/AssetBundleHelper/Config"
+            });
+            abConfig.directoryABPathList.Add(new ABConfig.DirectoryAB()
+            {
+                ABName = "rendertexture",
+                DirectoryPath = "Assets/Res/RenderTexture"
             });
             UnityEditor.AssetDatabase.CreateAsset(abConfig, ABPathConfig.AssetBundleConfigPath);
             UnityEditor.AssetDatabase.SaveAssets();
@@ -117,7 +123,7 @@ namespace TDFramework
             {
                 SetAssetBundleName(item.Key, item.Value);
             }
-            //对所有的指定文件中的Prefab设置AssetBundleName
+            //对所有的指定文件中的Prefab依赖文件设置AssetBundleName
             foreach (var item in m_prefabABDict)
             {
                 foreach (string filePath in item.Value)
@@ -235,6 +241,7 @@ namespace TDFramework
                 }
                 config.ABList.Add(abBase);
             }
+
             //写入xml
             if (File.Exists(ABPathConfig.AssetBundleDependenceXmlPath))
             {

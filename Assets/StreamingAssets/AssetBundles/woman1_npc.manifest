@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 601643881
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: efe17a40233b7bc41a46dffa8ad5e7a2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c155b631877ba064d8a259c50c35de2c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 54d95729809cc2047960fb58352aa751, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Module/Npc/Character/nv-10-410.fbx
+- Assets/Module/Npc/AnimatorController/nv_npc_animationctrl.controller
+- Assets/Module/Npc/Character/Materials/BothSideTransparent.shader
+- Assets/Module/Npc/Character/Texture/casual13_f_30_XG.jpg
+- Assets/Module/Npc/Character/Materials/sportive04_f_25_hair.mat
+- Assets/Prefabs/Npc/Woman1_Npc.prefab
+- Assets/Module/Npc/Character/Materials/casual15_f_20.mat
+- Assets/Module/Npc/Character/Texture/toufa02.png
+Dependencies: []

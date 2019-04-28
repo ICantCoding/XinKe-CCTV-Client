@@ -1,0 +1,3100 @@
+fileFormatVersion: 2
+guid: 6e7062d7c77142540a8acd49a52cdfcb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: DuiJiangJi4
+    100002: FangDuMianJU
+    100004: guge
+    100006: joint1
+    100008: joint10
+    100010: joint11
+    100012: joint12
+    100014: joint13
+    100016: joint14
+    100018: joint14 1
+    100020: joint15
+    100022: joint16
+    100024: joint2
+    100026: joint2 1
+    100028: joint20
+    100030: joint21
+    100032: joint22
+    100034: joint23
+    100036: joint24
+    100038: joint25
+    100040: joint26
+    100042: joint27
+    100044: joint28
+    100046: joint29
+    100048: joint3
+    100050: joint3 1
+    100052: joint30
+    100054: joint31
+    100056: joint32
+    100058: joint33
+    100060: joint34
+    100062: joint35
+    100064: joint36
+    100066: joint37
+    100068: joint38
+    100070: joint39
+    100072: joint4
+    100074: joint4 1
+    100076: joint43
+    100078: joint44
+    100080: joint45
+    100082: joint46
+    100084: joint47
+    100086: joint48
+    100088: joint49
+    100090: joint5
+    100092: joint5 1
+    100094: joint50
+    100096: joint51
+    100098: joint52
+    100100: joint53
+    100102: joint54
+    100104: joint55
+    100106: joint56
+    100108: joint57
+    100110: joint58
+    100112: joint59
+    100114: joint6
+    100116: joint6 1
+    100118: joint60
+    100120: joint61
+    100122: joint62
+    100124: joint63
+    100126: joint64
+    100128: joint65
+    100130: joint66
+    100132: joint67
+    100134: joint7
+    100136: joint7 1
+    100138: joint72
+    100140: joint73
+    100142: joint8
+    100144: joint8 1
+    100146: joint9
+    100148: l_fk1
+    100150: l_fk2
+    100152: l_fk3
+    100154: l_hand
+    100156: l_ik1
+    100158: l_joint1
+    100160: l_joint2
+    100162: l_joint3
+    100164: lian
+    100166: miehuoqi_joint2
+    100168: miehuoqi_miehuoqi
+    100170: miehuoqi_nurbsCircle8
+    100172: miehuoqi_polySurface7515
+    100174: moxing
+    100176: nurbsCircle1
+    100178: nurbsCircle2
+    100180: nurbsCircle3
+    100182: nurbsCircle4
+    100184: nurbsCircle5
+    100186: nurbsCircle6
+    100188: nurbsCircle7
+    100190: NV_KY_Zby:aa
+    100192: NV_KY_Zby:curve1
+    100194: NV_KY_Zby:curve1 1
+    100196: NV_KY_Zby:curve2
+    100198: NV_KY_Zby:curve2 1
+    100200: NV_KY_Zby:curve3
+    100202: NV_KY_Zby:curve3 1
+    100204: NV_KY_Zby:curve4
+    100206: NV_KY_Zby:curve4 1
+    100208: NV_KY_Zby:curve5
+    100210: NV_KY_Zby:curve5 1
+    100212: NV_KY_Zby:dazhi
+    100214: NV_KY_Zby:dazhi 1
+    100216: NV_KY_Zby:dazhi 2
+    100218: NV_KY_Zby:dazhi 3
+    100220: NV_KY_Zby:dazhi 4
+    100222: NV_KY_Zby:dazhi 5
+    100224: NV_KY_Zby:dazhi 6
+    100226: NV_KY_Zby:dazhi 7
+    100228: NV_KY_Zby:dazhi 8
+    100230: NV_KY_Zby:dazhi 9
+    100232: NV_KY_Zby:dazhi1
+    100234: NV_KY_Zby:dazhi10
+    100236: NV_KY_Zby:dazhi2
+    100238: NV_KY_Zby:dazhi3
+    100240: NV_KY_Zby:dazhi4
+    100242: NV_KY_Zby:dazhi5
+    100244: NV_KY_Zby:dazhi6
+    100246: NV_KY_Zby:dazhi7
+    100248: NV_KY_Zby:dazhi8
+    100250: NV_KY_Zby:dazhi9
+    100252: NV_KY_Zby:dazhimu
+    100254: NV_KY_Zby:f_fk1
+    100256: NV_KY_Zby:f_fk1 1
+    100258: NV_KY_Zby:f_fk2
+    100260: NV_KY_Zby:f_fk2 1
+    100262: NV_KY_Zby:f_fk3
+    100264: NV_KY_Zby:f_fk3 1
+    100266: NV_KY_Zby:ik
+    100268: NV_KY_Zby:ikHandle11
+    100270: NV_KY_Zby:ikHandle12
+    100272: NV_KY_Zby:ikHandle13
+    100274: NV_KY_Zby:ikHandle14
+    100276: NV_KY_Zby:ikHandle2
+    100278: NV_KY_Zby:ikHandle3
+    100280: NV_KY_Zby:ikHandle5
+    100282: NV_KY_Zby:ikHandle6
+    100284: NV_KY_Zby:jingzi
+    100286: NV_KY_Zby:l_foot
+    100288: NV_KY_Zby:l_ik1
+    100290: NV_KY_Zby:l_ik2
+    100292: NV_KY_Zby:l_ik2 1
+    100294: NV_KY_Zby:l_ik3
+    100296: NV_KY_Zby:l_ik3 1
+    100298: NV_KY_Zby:l_ik4
+    100300: NV_KY_Zby:l_ik5
+    100302: NV_KY_Zby:l_ik6
+    100304: NV_KY_Zby:l_ikfk
+    100306: NV_KY_Zby:l_ikfk1
+    100308: NV_KY_Zby:L_jian
+    100310: NV_KY_Zby:l_K
+    100312: NV_KY_Zby:l_M
+    100314: NV_KY_Zby:l_M 1
+    100316: NV_KY_Zby:nurbsCircle1
+    100318: NV_KY_Zby:nurbsCircle2
+    100320: NV_KY_Zby:nurbsCircle3
+    100322: NV_KY_Zby:nurbsCircle4
+    100324: NV_KY_Zby:nurbsCircle7
+    100326: NV_KY_Zby:nurbsCircle8
+    100328: NV_KY_Zby:nurbsCircle9
+    100330: NV_KY_Zby:r_fk1
+    100332: NV_KY_Zby:r_fk2
+    100334: NV_KY_Zby:r_fk2 1
+    100336: NV_KY_Zby:r_fk2 2
+    100338: NV_KY_Zby:r_fk3
+    100340: NV_KY_Zby:r_fk3 1
+    100342: NV_KY_Zby:r_fk3 2
+    100344: NV_KY_Zby:r_foot
+    100346: NV_KY_Zby:r_ik5
+    100348: NV_KY_Zby:r_ik6
+    100350: NV_KY_Zby:r_ik7
+    100352: NV_KY_Zby:r_ik8
+    100354: NV_KY_Zby:r_ik9
+    100356: NV_KY_Zby:r_ik9 1
+    100358: NV_KY_Zby:r_ikfk
+    100360: NV_KY_Zby:r_ikfk1
+    100362: NV_KY_Zby:R_jian
+    100364: NV_KY_Zby:r_K
+    100366: NV_KY_Zby:r_M
+    100368: NV_KY_Zby:r_M 1
+    100370: NV_KY_Zby:zui
+    100372: NV_KY_Zby:zui 1
+    100374: nv_kyy
+    100376: nv_kyy_moxing
+    100378: //RootNode
+    100380: polySurface1019
+    100382: polySurface7515
+    100384: polySurface7516
+    100386: polySurface7517
+    100388: polySurface7518
+    100390: polySurface7519
+    100392: polySurface7520
+    100394: polySurface7521
+    100396: r_fk1
+    100398: r_hand
+    100400: r_ik1
+    100402: r_ik2
+    100404: r_ik3
+    100406: r_joint1
+    100408: r_joint2
+    100410: r_joint3
+    100412: suiqiang
+    100414: toufa
+    100416: transform1
+    100418: transform2
+    100420: transform3
+    100422: transform4
+    100424: yachi1:mouse_down2
+    100426: yachi1:mouse_up2
+    100428: YGY
+    100430: zongkongziqi
+    400000: DuiJiangJi4
+    400002: FangDuMianJU
+    400004: guge
+    400006: joint1
+    400008: joint10
+    400010: joint11
+    400012: joint12
+    400014: joint13
+    400016: joint14
+    400018: joint14 1
+    400020: joint15
+    400022: joint16
+    400024: joint2
+    400026: joint2 1
+    400028: joint20
+    400030: joint21
+    400032: joint22
+    400034: joint23
+    400036: joint24
+    400038: joint25
+    400040: joint26
+    400042: joint27
+    400044: joint28
+    400046: joint29
+    400048: joint3
+    400050: joint3 1
+    400052: joint30
+    400054: joint31
+    400056: joint32
+    400058: joint33
+    400060: joint34
+    400062: joint35
+    400064: joint36
+    400066: joint37
+    400068: joint38
+    400070: joint39
+    400072: joint4
+    400074: joint4 1
+    400076: joint43
+    400078: joint44
+    400080: joint45
+    400082: joint46
+    400084: joint47
+    400086: joint48
+    400088: joint49
+    400090: joint5
+    400092: joint5 1
+    400094: joint50
+    400096: joint51
+    400098: joint52
+    400100: joint53
+    400102: joint54
+    400104: joint55
+    400106: joint56
+    400108: joint57
+    400110: joint58
+    400112: joint59
+    400114: joint6
+    400116: joint6 1
+    400118: joint60
+    400120: joint61
+    400122: joint62
+    400124: joint63
+    400126: joint64
+    400128: joint65
+    400130: joint66
+    400132: joint67
+    400134: joint7
+    400136: joint7 1
+    400138: joint72
+    400140: joint73
+    400142: joint8
+    400144: joint8 1
+    400146: joint9
+    400148: l_fk1
+    400150: l_fk2
+    400152: l_fk3
+    400154: l_hand
+    400156: l_ik1
+    400158: l_joint1
+    400160: l_joint2
+    400162: l_joint3
+    400164: lian
+    400166: miehuoqi_joint2
+    400168: miehuoqi_miehuoqi
+    400170: miehuoqi_nurbsCircle8
+    400172: miehuoqi_polySurface7515
+    400174: moxing
+    400176: nurbsCircle1
+    400178: nurbsCircle2
+    400180: nurbsCircle3
+    400182: nurbsCircle4
+    400184: nurbsCircle5
+    400186: nurbsCircle6
+    400188: nurbsCircle7
+    400190: NV_KY_Zby:aa
+    400192: NV_KY_Zby:curve1
+    400194: NV_KY_Zby:curve1 1
+    400196: NV_KY_Zby:curve2
+    400198: NV_KY_Zby:curve2 1
+    400200: NV_KY_Zby:curve3
+    400202: NV_KY_Zby:curve3 1
+    400204: NV_KY_Zby:curve4
+    400206: NV_KY_Zby:curve4 1
+    400208: NV_KY_Zby:curve5
+    400210: NV_KY_Zby:curve5 1
+    400212: NV_KY_Zby:dazhi
+    400214: NV_KY_Zby:dazhi 1
+    400216: NV_KY_Zby:dazhi 2
+    400218: NV_KY_Zby:dazhi 3
+    400220: NV_KY_Zby:dazhi 4
+    400222: NV_KY_Zby:dazhi 5
+    400224: NV_KY_Zby:dazhi 6
+    400226: NV_KY_Zby:dazhi 7
+    400228: NV_KY_Zby:dazhi 8
+    400230: NV_KY_Zby:dazhi 9
+    400232: NV_KY_Zby:dazhi1
+    400234: NV_KY_Zby:dazhi10
+    400236: NV_KY_Zby:dazhi2
+    400238: NV_KY_Zby:dazhi3
+    400240: NV_KY_Zby:dazhi4
+    400242: NV_KY_Zby:dazhi5
+    400244: NV_KY_Zby:dazhi6
+    400246: NV_KY_Zby:dazhi7
+    400248: NV_KY_Zby:dazhi8
+    400250: NV_KY_Zby:dazhi9
+    400252: NV_KY_Zby:dazhimu
+    400254: NV_KY_Zby:f_fk1
+    400256: NV_KY_Zby:f_fk1 1
+    400258: NV_KY_Zby:f_fk2
+    400260: NV_KY_Zby:f_fk2 1
+    400262: NV_KY_Zby:f_fk3
+    400264: NV_KY_Zby:f_fk3 1
+    400266: NV_KY_Zby:ik
+    400268: NV_KY_Zby:ikHandle11
+    400270: NV_KY_Zby:ikHandle12
+    400272: NV_KY_Zby:ikHandle13
+    400274: NV_KY_Zby:ikHandle14
+    400276: NV_KY_Zby:ikHandle2
+    400278: NV_KY_Zby:ikHandle3
+    400280: NV_KY_Zby:ikHandle5
+    400282: NV_KY_Zby:ikHandle6
+    400284: NV_KY_Zby:jingzi
+    400286: NV_KY_Zby:l_foot
+    400288: NV_KY_Zby:l_ik1
+    400290: NV_KY_Zby:l_ik2
+    400292: NV_KY_Zby:l_ik2 1
+    400294: NV_KY_Zby:l_ik3
+    400296: NV_KY_Zby:l_ik3 1
+    400298: NV_KY_Zby:l_ik4
+    400300: NV_KY_Zby:l_ik5
+    400302: NV_KY_Zby:l_ik6
+    400304: NV_KY_Zby:l_ikfk
+    400306: NV_KY_Zby:l_ikfk1
+    400308: NV_KY_Zby:L_jian
+    400310: NV_KY_Zby:l_K
+    400312: NV_KY_Zby:l_M
+    400314: NV_KY_Zby:l_M 1
+    400316: NV_KY_Zby:nurbsCircle1
+    400318: NV_KY_Zby:nurbsCircle2
+    400320: NV_KY_Zby:nurbsCircle3
+    400322: NV_KY_Zby:nurbsCircle4
+    400324: NV_KY_Zby:nurbsCircle7
+    400326: NV_KY_Zby:nurbsCircle8
+    400328: NV_KY_Zby:nurbsCircle9
+    400330: NV_KY_Zby:r_fk1
+    400332: NV_KY_Zby:r_fk2
+    400334: NV_KY_Zby:r_fk2 1
+    400336: NV_KY_Zby:r_fk2 2
+    400338: NV_KY_Zby:r_fk3
+    400340: NV_KY_Zby:r_fk3 1
+    400342: NV_KY_Zby:r_fk3 2
+    400344: NV_KY_Zby:r_foot
+    400346: NV_KY_Zby:r_ik5
+    400348: NV_KY_Zby:r_ik6
+    400350: NV_KY_Zby:r_ik7
+    400352: NV_KY_Zby:r_ik8
+    400354: NV_KY_Zby:r_ik9
+    400356: NV_KY_Zby:r_ik9 1
+    400358: NV_KY_Zby:r_ikfk
+    400360: NV_KY_Zby:r_ikfk1
+    400362: NV_KY_Zby:R_jian
+    400364: NV_KY_Zby:r_K
+    400366: NV_KY_Zby:r_M
+    400368: NV_KY_Zby:r_M 1
+    400370: NV_KY_Zby:zui
+    400372: NV_KY_Zby:zui 1
+    400374: nv_kyy
+    400376: nv_kyy_moxing
+    400378: //RootNode
+    400380: polySurface1019
+    400382: polySurface7515
+    400384: polySurface7516
+    400386: polySurface7517
+    400388: polySurface7518
+    400390: polySurface7519
+    400392: polySurface7520
+    400394: polySurface7521
+    400396: r_fk1
+    400398: r_hand
+    400400: r_ik1
+    400402: r_ik2
+    400404: r_ik3
+    400406: r_joint1
+    400408: r_joint2
+    400410: r_joint3
+    400412: suiqiang
+    400414: toufa
+    400416: transform1
+    400418: transform2
+    400420: transform3
+    400422: transform4
+    400424: yachi1:mouse_down2
+    400426: yachi1:mouse_up2
+    400428: YGY
+    400430: zongkongziqi
+    2300000: DuiJiangJi4
+    2300002: FangDuMianJU
+    2300004: polySurface7520
+    2300006: suiqiang
+    2300008: yachi1:mouse_down2
+    2300010: yachi1:mouse_up2
+    3300000: DuiJiangJi4
+    3300002: FangDuMianJU
+    3300004: polySurface7520
+    3300006: suiqiang
+    3300008: yachi1:mouse_down2
+    3300010: yachi1:mouse_up2
+    4300000: polySurface7521
+    4300002: polySurface1019
+    4300004: FangDuMianJU
+    4300006: polySurface7520
+    4300008: DuiJiangJi4
+    4300010: suiqiang
+    4300012: yachi1:mouse_up2
+    4300014: yachi1:mouse_down2
+    4300016: nv_kyy_moxing
+    4300018: polySurface7515
+    4300020: YGY
+    7400000: Walk
+    7400002: Tool_0_Start
+    7400004: Tool_0_End
+    7400006: Post_0
+    7400008: Tool_0_Using
+    9500000: //RootNode
+    13700000: nv_kyy_moxing
+    13700002: polySurface1019
+    13700004: polySurface7515
+    13700006: polySurface7521
+    13700008: YGY
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JT_0_230_miehuoqi_lambert10
+    second: {fileID: 2100000, guid: de9fddc933ca9d54da7b8154c92b7e1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JT_0_230_miehuoqi_lambert11
+    second: {fileID: 2100000, guid: 813001e6becf53741bfbf7402f528bd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JT_0_230_miehuoqi_lambert12
+    second: {fileID: 2100000, guid: c94ef6dd3659da148b760700195f5cb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NV_KY_Zby_nvjing_xiugaiwangcheng04_lambert8
+    second: {fileID: 2100000, guid: 17a6e9d54709e2b44ac1c2c1ff2def80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ZZ_0_49_zx_3_blinn63
+    second: {fileID: 2100000, guid: 7e6c7657bc560de47a027cb1178b80a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coat_01_lambert3
+    second: {fileID: 2100000, guid: 72839b4c3d810e847abfe198420dddc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fdmj_FangDuMianJU_blinn1
+    second: {fileID: 2100000, guid: 37331ca103877874a9f109fcfc5c1dae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fdmj_FangDuMianJU_mianju_blinn2
+    second: {fileID: 2100000, guid: 6cacaf3f3ae6fc342bf29bd3d7eaae44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 4c9b4d862cf51574587c0838e6b27c98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: miehuoqikuan_suiqiang_hhh_2Material
+    second: {fileID: 2100000, guid: 153a8fc7f6a1e2c46a5a604cbfb1e96e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: Event ToolUsingFinish has a time (0.800000) outside the
+      clip's valid range (-0.000000..0.800000). It will never be fired
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: miehuoqi_miehuoqi
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1/joint7 1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7515
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7516
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7516/transform4
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7517
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7517/transform1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7518
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7518/transform3
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7519
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7519/transform2
+        weight: 1
+      - path: nv_kyy
+        weight: 1
+      - path: nv_kyy/guge
+        weight: 1
+      - path: nv_kyy/guge/joint6
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1/joint4 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/FangDuMianJU
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint15
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint15/joint16
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1/l_joint2
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1/l_joint2/l_joint3
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1/r_joint2
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1/r_joint2/r_joint3
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65/joint66/joint67
+        weight: 1
+      - path: nv_kyy/guge/joint73
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint13
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint13/joint14
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint72
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint72/joint14 1
+        weight: 1
+      - path: nv_kyy/guge/joint73/yachi1:mouse_up2
+        weight: 1
+      - path: nv_kyy/guge/l_fk1
+        weight: 1
+      - path: nv_kyy/guge/l_fk1/l_fk2
+        weight: 1
+      - path: nv_kyy/guge/l_fk1/l_fk2/l_fk3
+        weight: 1
+      - path: nv_kyy/guge/l_hand
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21/joint22
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21/joint22/joint23
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25/joint26
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29/joint30
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29/joint30/joint31
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33/joint34
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37/joint38
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: nv_kyy/guge/l_ik1
+        weight: 1
+      - path: nv_kyy/guge/l_ik1/NV_KY_Zby:l_ik2
+        weight: 1
+      - path: nv_kyy/guge/l_ik1/NV_KY_Zby:l_ik2/NV_KY_Zby:l_ik3
+        weight: 1
+      - path: nv_kyy/guge/r_fk1
+        weight: 1
+      - path: nv_kyy/guge/r_fk1/NV_KY_Zby:r_fk2
+        weight: 1
+      - path: nv_kyy/guge/r_fk1/NV_KY_Zby:r_fk2/NV_KY_Zby:r_fk3
+        weight: 1
+      - path: nv_kyy/guge/r_hand
+        weight: 1
+      - path: nv_kyy/guge/r_hand/DuiJiangJi4
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44/joint45
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44/joint45/joint46
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48/joint49
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52/joint53
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52/joint53/joint54
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56/joint57
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56/joint57/joint58
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60/joint61
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5/nurbsCircle6
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5/nurbsCircle6/nurbsCircle7
+        weight: 1
+      - path: nv_kyy/guge/r_hand/suiqiang
+        weight: 1
+      - path: nv_kyy/guge/r_ik1
+        weight: 1
+      - path: nv_kyy/guge/r_ik1/r_ik2
+        weight: 1
+      - path: nv_kyy/guge/r_ik1/r_ik2/r_ik3
+        weight: 1
+      - path: nv_kyy/moxing
+        weight: 1
+      - path: nv_kyy/moxing/lian
+        weight: 1
+      - path: nv_kyy/moxing/toufa
+        weight: 1
+      - path: nv_kyy/moxing/toufa/polySurface1019
+        weight: 1
+      - path: nv_kyy/moxing/toufa/polySurface7521
+        weight: 1
+      - path: nv_kyy/zongkongziqi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ik
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ikHandle11
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ikHandle12
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik1/NV_KY_Zby:ikHandle14
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:ikHandle2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:l_ik2 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:l_ik2 1/NV_KY_Zby:ikHandle3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_K
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6/NV_KY_Zby:l_M
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6/NV_KY_Zby:l_M/NV_KY_Zby:l_M
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi1/NV_KY_Zby:dazhi
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi2/NV_KY_Zby:dazhi
+          2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi3/NV_KY_Zby:dazhi
+          3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi4/NV_KY_Zby:dazhi
+          4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi10
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi10/NV_KY_Zby:dazhimu
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1/NV_KY_Zby:f_fk3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1/NV_KY_Zby:f_fk3/NV_KY_Zby:f_fk3 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9/NV_KY_Zby:nurbsCircle7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9/NV_KY_Zby:nurbsCircle8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui/NV_KY_Zby:zui
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui/NV_KY_Zby:zui
+          1/yachi1:mouse_down2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:L_jian
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2/NV_KY_Zby:r_fk3 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2/NV_KY_Zby:r_fk3 1/NV_KY_Zby:r_fk3 2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:R_jian
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik5/NV_KY_Zby:ikHandle13
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:ikHandle5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:r_ik6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:r_ik6/NV_KY_Zby:ikHandle6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_K
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1/NV_KY_Zby:r_M
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1/NV_KY_Zby:r_M/NV_KY_Zby:r_M
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi5/NV_KY_Zby:dazhi
+          5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi6/NV_KY_Zby:dazhi
+          6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi7/NV_KY_Zby:dazhi
+          7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi8/NV_KY_Zby:dazhi
+          8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi9/NV_KY_Zby:dazhi
+          9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve1
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve2
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve3
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve4
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve5
+          1
+        weight: 1
+      - path: nv_kyy_moxing
+        weight: 1
+      - path: YGY
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tool_0_Start
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.98929155
+        functionName: ToolReady
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: miehuoqi_miehuoqi
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1/joint7 1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7515
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7516
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7516/transform4
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7517
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7517/transform1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7518
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7518/transform3
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7519
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7519/transform2
+        weight: 1
+      - path: nv_kyy
+        weight: 1
+      - path: nv_kyy/guge
+        weight: 1
+      - path: nv_kyy/guge/joint6
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1/joint4 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/FangDuMianJU
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint15
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint15/joint16
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1/l_joint2
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1/l_joint2/l_joint3
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1/r_joint2
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1/r_joint2/r_joint3
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65/joint66/joint67
+        weight: 1
+      - path: nv_kyy/guge/joint73
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint13
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint13/joint14
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint72
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint72/joint14 1
+        weight: 1
+      - path: nv_kyy/guge/joint73/yachi1:mouse_up2
+        weight: 1
+      - path: nv_kyy/guge/l_fk1
+        weight: 1
+      - path: nv_kyy/guge/l_fk1/l_fk2
+        weight: 1
+      - path: nv_kyy/guge/l_fk1/l_fk2/l_fk3
+        weight: 1
+      - path: nv_kyy/guge/l_hand
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21/joint22
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21/joint22/joint23
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25/joint26
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29/joint30
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29/joint30/joint31
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33/joint34
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37/joint38
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: nv_kyy/guge/l_ik1
+        weight: 1
+      - path: nv_kyy/guge/l_ik1/NV_KY_Zby:l_ik2
+        weight: 1
+      - path: nv_kyy/guge/l_ik1/NV_KY_Zby:l_ik2/NV_KY_Zby:l_ik3
+        weight: 1
+      - path: nv_kyy/guge/r_fk1
+        weight: 1
+      - path: nv_kyy/guge/r_fk1/NV_KY_Zby:r_fk2
+        weight: 1
+      - path: nv_kyy/guge/r_fk1/NV_KY_Zby:r_fk2/NV_KY_Zby:r_fk3
+        weight: 1
+      - path: nv_kyy/guge/r_hand
+        weight: 1
+      - path: nv_kyy/guge/r_hand/DuiJiangJi4
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44/joint45
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44/joint45/joint46
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48/joint49
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52/joint53
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52/joint53/joint54
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56/joint57
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56/joint57/joint58
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60/joint61
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5/nurbsCircle6
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5/nurbsCircle6/nurbsCircle7
+        weight: 1
+      - path: nv_kyy/guge/r_hand/suiqiang
+        weight: 1
+      - path: nv_kyy/guge/r_ik1
+        weight: 1
+      - path: nv_kyy/guge/r_ik1/r_ik2
+        weight: 1
+      - path: nv_kyy/guge/r_ik1/r_ik2/r_ik3
+        weight: 1
+      - path: nv_kyy/moxing
+        weight: 1
+      - path: nv_kyy/moxing/lian
+        weight: 1
+      - path: nv_kyy/moxing/toufa
+        weight: 1
+      - path: nv_kyy/moxing/toufa/polySurface1019
+        weight: 1
+      - path: nv_kyy/moxing/toufa/polySurface7521
+        weight: 1
+      - path: nv_kyy/zongkongziqi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ik
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ikHandle11
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ikHandle12
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik1/NV_KY_Zby:ikHandle14
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:ikHandle2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:l_ik2 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:l_ik2 1/NV_KY_Zby:ikHandle3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_K
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6/NV_KY_Zby:l_M
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6/NV_KY_Zby:l_M/NV_KY_Zby:l_M
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi1/NV_KY_Zby:dazhi
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi2/NV_KY_Zby:dazhi
+          2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi3/NV_KY_Zby:dazhi
+          3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi4/NV_KY_Zby:dazhi
+          4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi10
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi10/NV_KY_Zby:dazhimu
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1/NV_KY_Zby:f_fk3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1/NV_KY_Zby:f_fk3/NV_KY_Zby:f_fk3 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9/NV_KY_Zby:nurbsCircle7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9/NV_KY_Zby:nurbsCircle8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui/NV_KY_Zby:zui
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui/NV_KY_Zby:zui
+          1/yachi1:mouse_down2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:L_jian
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2/NV_KY_Zby:r_fk3 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2/NV_KY_Zby:r_fk3 1/NV_KY_Zby:r_fk3 2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:R_jian
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik5/NV_KY_Zby:ikHandle13
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:ikHandle5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:r_ik6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:r_ik6/NV_KY_Zby:ikHandle6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_K
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1/NV_KY_Zby:r_M
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1/NV_KY_Zby:r_M/NV_KY_Zby:r_M
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi5/NV_KY_Zby:dazhi
+          5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi6/NV_KY_Zby:dazhi
+          6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi7/NV_KY_Zby:dazhi
+          7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi8/NV_KY_Zby:dazhi
+          8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi9/NV_KY_Zby:dazhi
+          9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve1
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve2
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve3
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve4
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve5
+          1
+        weight: 1
+      - path: nv_kyy_moxing
+        weight: 1
+      - path: YGY
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tool_0_End
+      takeName: Take 001
+      firstFrame: 105
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: ToolEnd
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: miehuoqi_miehuoqi
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1/joint7 1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7515
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7516
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7516/transform4
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7517
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7517/transform1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7518
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7518/transform3
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7519
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7519/transform2
+        weight: 1
+      - path: nv_kyy
+        weight: 1
+      - path: nv_kyy/guge
+        weight: 1
+      - path: nv_kyy/guge/joint6
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1/joint4 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/FangDuMianJU
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint15
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint15/joint16
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1/l_joint2
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1/l_joint2/l_joint3
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1/r_joint2
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1/r_joint2/r_joint3
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65/joint66/joint67
+        weight: 1
+      - path: nv_kyy/guge/joint73
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint13
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint13/joint14
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint72
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint72/joint14 1
+        weight: 1
+      - path: nv_kyy/guge/joint73/yachi1:mouse_up2
+        weight: 1
+      - path: nv_kyy/guge/l_fk1
+        weight: 1
+      - path: nv_kyy/guge/l_fk1/l_fk2
+        weight: 1
+      - path: nv_kyy/guge/l_fk1/l_fk2/l_fk3
+        weight: 1
+      - path: nv_kyy/guge/l_hand
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21/joint22
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21/joint22/joint23
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25/joint26
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29/joint30
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29/joint30/joint31
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33/joint34
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37/joint38
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: nv_kyy/guge/l_ik1
+        weight: 1
+      - path: nv_kyy/guge/l_ik1/NV_KY_Zby:l_ik2
+        weight: 1
+      - path: nv_kyy/guge/l_ik1/NV_KY_Zby:l_ik2/NV_KY_Zby:l_ik3
+        weight: 1
+      - path: nv_kyy/guge/r_fk1
+        weight: 1
+      - path: nv_kyy/guge/r_fk1/NV_KY_Zby:r_fk2
+        weight: 1
+      - path: nv_kyy/guge/r_fk1/NV_KY_Zby:r_fk2/NV_KY_Zby:r_fk3
+        weight: 1
+      - path: nv_kyy/guge/r_hand
+        weight: 1
+      - path: nv_kyy/guge/r_hand/DuiJiangJi4
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44/joint45
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44/joint45/joint46
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48/joint49
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52/joint53
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52/joint53/joint54
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56/joint57
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56/joint57/joint58
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60/joint61
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5/nurbsCircle6
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5/nurbsCircle6/nurbsCircle7
+        weight: 1
+      - path: nv_kyy/guge/r_hand/suiqiang
+        weight: 1
+      - path: nv_kyy/guge/r_ik1
+        weight: 1
+      - path: nv_kyy/guge/r_ik1/r_ik2
+        weight: 1
+      - path: nv_kyy/guge/r_ik1/r_ik2/r_ik3
+        weight: 1
+      - path: nv_kyy/moxing
+        weight: 1
+      - path: nv_kyy/moxing/lian
+        weight: 1
+      - path: nv_kyy/moxing/toufa
+        weight: 1
+      - path: nv_kyy/moxing/toufa/polySurface1019
+        weight: 1
+      - path: nv_kyy/moxing/toufa/polySurface7521
+        weight: 1
+      - path: nv_kyy/zongkongziqi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ik
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ikHandle11
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ikHandle12
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik1/NV_KY_Zby:ikHandle14
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:ikHandle2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:l_ik2 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:l_ik2 1/NV_KY_Zby:ikHandle3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_K
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6/NV_KY_Zby:l_M
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6/NV_KY_Zby:l_M/NV_KY_Zby:l_M
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi1/NV_KY_Zby:dazhi
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi2/NV_KY_Zby:dazhi
+          2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi3/NV_KY_Zby:dazhi
+          3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi4/NV_KY_Zby:dazhi
+          4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi10
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi10/NV_KY_Zby:dazhimu
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1/NV_KY_Zby:f_fk3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1/NV_KY_Zby:f_fk3/NV_KY_Zby:f_fk3 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9/NV_KY_Zby:nurbsCircle7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9/NV_KY_Zby:nurbsCircle8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui/NV_KY_Zby:zui
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui/NV_KY_Zby:zui
+          1/yachi1:mouse_down2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:L_jian
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2/NV_KY_Zby:r_fk3 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2/NV_KY_Zby:r_fk3 1/NV_KY_Zby:r_fk3 2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:R_jian
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik5/NV_KY_Zby:ikHandle13
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:ikHandle5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:r_ik6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:r_ik6/NV_KY_Zby:ikHandle6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_K
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1/NV_KY_Zby:r_M
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1/NV_KY_Zby:r_M/NV_KY_Zby:r_M
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi5/NV_KY_Zby:dazhi
+          5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi6/NV_KY_Zby:dazhi
+          6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi7/NV_KY_Zby:dazhi
+          7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi8/NV_KY_Zby:dazhi
+          8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi9/NV_KY_Zby:dazhi
+          9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve1
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve2
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve3
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve4
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve5
+          1
+        weight: 1
+      - path: nv_kyy_moxing
+        weight: 1
+      - path: YGY
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Post_0
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: miehuoqi_miehuoqi
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1/joint7 1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7515
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7516
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7516/transform4
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7517
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7517/transform1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7518
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7518/transform3
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7519
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7519/transform2
+        weight: 1
+      - path: nv_kyy
+        weight: 1
+      - path: nv_kyy/guge
+        weight: 1
+      - path: nv_kyy/guge/joint6
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1/joint4 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/FangDuMianJU
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint15
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint15/joint16
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1/l_joint2
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1/l_joint2/l_joint3
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1/r_joint2
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1/r_joint2/r_joint3
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65/joint66/joint67
+        weight: 1
+      - path: nv_kyy/guge/joint73
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint13
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint13/joint14
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint72
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint72/joint14 1
+        weight: 1
+      - path: nv_kyy/guge/joint73/yachi1:mouse_up2
+        weight: 1
+      - path: nv_kyy/guge/l_fk1
+        weight: 1
+      - path: nv_kyy/guge/l_fk1/l_fk2
+        weight: 1
+      - path: nv_kyy/guge/l_fk1/l_fk2/l_fk3
+        weight: 1
+      - path: nv_kyy/guge/l_hand
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21/joint22
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21/joint22/joint23
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25/joint26
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29/joint30
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29/joint30/joint31
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33/joint34
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37/joint38
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: nv_kyy/guge/l_ik1
+        weight: 1
+      - path: nv_kyy/guge/l_ik1/NV_KY_Zby:l_ik2
+        weight: 1
+      - path: nv_kyy/guge/l_ik1/NV_KY_Zby:l_ik2/NV_KY_Zby:l_ik3
+        weight: 1
+      - path: nv_kyy/guge/r_fk1
+        weight: 1
+      - path: nv_kyy/guge/r_fk1/NV_KY_Zby:r_fk2
+        weight: 1
+      - path: nv_kyy/guge/r_fk1/NV_KY_Zby:r_fk2/NV_KY_Zby:r_fk3
+        weight: 1
+      - path: nv_kyy/guge/r_hand
+        weight: 1
+      - path: nv_kyy/guge/r_hand/DuiJiangJi4
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44/joint45
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44/joint45/joint46
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48/joint49
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52/joint53
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52/joint53/joint54
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56/joint57
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56/joint57/joint58
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60/joint61
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5/nurbsCircle6
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5/nurbsCircle6/nurbsCircle7
+        weight: 1
+      - path: nv_kyy/guge/r_hand/suiqiang
+        weight: 1
+      - path: nv_kyy/guge/r_ik1
+        weight: 1
+      - path: nv_kyy/guge/r_ik1/r_ik2
+        weight: 1
+      - path: nv_kyy/guge/r_ik1/r_ik2/r_ik3
+        weight: 1
+      - path: nv_kyy/moxing
+        weight: 1
+      - path: nv_kyy/moxing/lian
+        weight: 1
+      - path: nv_kyy/moxing/toufa
+        weight: 1
+      - path: nv_kyy/moxing/toufa/polySurface1019
+        weight: 1
+      - path: nv_kyy/moxing/toufa/polySurface7521
+        weight: 1
+      - path: nv_kyy/zongkongziqi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ik
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ikHandle11
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ikHandle12
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik1/NV_KY_Zby:ikHandle14
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:ikHandle2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:l_ik2 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:l_ik2 1/NV_KY_Zby:ikHandle3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_K
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6/NV_KY_Zby:l_M
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6/NV_KY_Zby:l_M/NV_KY_Zby:l_M
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi1/NV_KY_Zby:dazhi
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi2/NV_KY_Zby:dazhi
+          2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi3/NV_KY_Zby:dazhi
+          3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi4/NV_KY_Zby:dazhi
+          4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi10
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi10/NV_KY_Zby:dazhimu
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1/NV_KY_Zby:f_fk3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1/NV_KY_Zby:f_fk3/NV_KY_Zby:f_fk3 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9/NV_KY_Zby:nurbsCircle7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9/NV_KY_Zby:nurbsCircle8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui/NV_KY_Zby:zui
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui/NV_KY_Zby:zui
+          1/yachi1:mouse_down2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:L_jian
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2/NV_KY_Zby:r_fk3 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2/NV_KY_Zby:r_fk3 1/NV_KY_Zby:r_fk3 2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:R_jian
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik5/NV_KY_Zby:ikHandle13
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:ikHandle5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:r_ik6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:r_ik6/NV_KY_Zby:ikHandle6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_K
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1/NV_KY_Zby:r_M
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1/NV_KY_Zby:r_M/NV_KY_Zby:r_M
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi5/NV_KY_Zby:dazhi
+          5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi6/NV_KY_Zby:dazhi
+          6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi7/NV_KY_Zby:dazhi
+          7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi8/NV_KY_Zby:dazhi
+          8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi9/NV_KY_Zby:dazhi
+          9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve1
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve2
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve3
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve4
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve5
+          1
+        weight: 1
+      - path: nv_kyy_moxing
+        weight: 1
+      - path: YGY
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Tool_0_Using
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: ToolUsingFinish
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: miehuoqi_miehuoqi
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1/joint7 1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_joint2/joint2/joint3/joint4/joint5/joint6
+          1/joint7 1/joint8 1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7515
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7516
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7516/transform4
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7517
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7517/transform1
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7518
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7518/transform3
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7519
+        weight: 1
+      - path: miehuoqi_miehuoqi/miehuoqi_polySurface7515/polySurface7519/transform2
+        weight: 1
+      - path: nv_kyy
+        weight: 1
+      - path: nv_kyy/guge
+        weight: 1
+      - path: nv_kyy/guge/joint6
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1/joint4 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint1/joint2 1/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/FangDuMianJU
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint15
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/joint10/joint11/joint15/joint16
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1/l_joint2
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/l_joint1/l_joint2/l_joint3
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1/r_joint2
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint7/joint8/joint9/r_joint1/r_joint2/r_joint3
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65/joint66
+        weight: 1
+      - path: nv_kyy/guge/joint6/joint63/joint64/joint65/joint66/joint67
+        weight: 1
+      - path: nv_kyy/guge/joint73
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint13
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint13/joint14
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint72
+        weight: 1
+      - path: nv_kyy/guge/joint73/joint72/joint14 1
+        weight: 1
+      - path: nv_kyy/guge/joint73/yachi1:mouse_up2
+        weight: 1
+      - path: nv_kyy/guge/l_fk1
+        weight: 1
+      - path: nv_kyy/guge/l_fk1/l_fk2
+        weight: 1
+      - path: nv_kyy/guge/l_fk1/l_fk2/l_fk3
+        weight: 1
+      - path: nv_kyy/guge/l_hand
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21/joint22
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint20/joint21/joint22/joint23
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25/joint26
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint24/joint25/joint26/joint27
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29/joint30
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint28/joint29/joint30/joint31
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33/joint34
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint32/joint33/joint34/joint35
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37/joint38
+        weight: 1
+      - path: nv_kyy/guge/l_hand/joint36/joint37/joint38/joint39
+        weight: 1
+      - path: nv_kyy/guge/l_ik1
+        weight: 1
+      - path: nv_kyy/guge/l_ik1/NV_KY_Zby:l_ik2
+        weight: 1
+      - path: nv_kyy/guge/l_ik1/NV_KY_Zby:l_ik2/NV_KY_Zby:l_ik3
+        weight: 1
+      - path: nv_kyy/guge/r_fk1
+        weight: 1
+      - path: nv_kyy/guge/r_fk1/NV_KY_Zby:r_fk2
+        weight: 1
+      - path: nv_kyy/guge/r_fk1/NV_KY_Zby:r_fk2/NV_KY_Zby:r_fk3
+        weight: 1
+      - path: nv_kyy/guge/r_hand
+        weight: 1
+      - path: nv_kyy/guge/r_hand/DuiJiangJi4
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44/joint45
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint43/joint44/joint45/joint46
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48/joint49
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint47/joint48/joint49/joint50
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52/joint53
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint51/joint52/joint53/joint54
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56/joint57
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint55/joint56/joint57/joint58
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60/joint61
+        weight: 1
+      - path: nv_kyy/guge/r_hand/joint59/joint60/joint61/joint62
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5/nurbsCircle6
+        weight: 1
+      - path: nv_kyy/guge/r_hand/miehuoqi_nurbsCircle8/polySurface7520/nurbsCircle1/nurbsCircle2/nurbsCircle3/nurbsCircle4/nurbsCircle5/nurbsCircle6/nurbsCircle7
+        weight: 1
+      - path: nv_kyy/guge/r_hand/suiqiang
+        weight: 1
+      - path: nv_kyy/guge/r_ik1
+        weight: 1
+      - path: nv_kyy/guge/r_ik1/r_ik2
+        weight: 1
+      - path: nv_kyy/guge/r_ik1/r_ik2/r_ik3
+        weight: 1
+      - path: nv_kyy/moxing
+        weight: 1
+      - path: nv_kyy/moxing/lian
+        weight: 1
+      - path: nv_kyy/moxing/toufa
+        weight: 1
+      - path: nv_kyy/moxing/toufa/polySurface1019
+        weight: 1
+      - path: nv_kyy/moxing/toufa/polySurface7521
+        weight: 1
+      - path: nv_kyy/zongkongziqi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ik
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ikHandle11
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:ikHandle12
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik1/NV_KY_Zby:ikHandle14
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:ikHandle2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:l_ik2 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_ik4/NV_KY_Zby:l_ik3
+          1/NV_KY_Zby:l_ik2 1/NV_KY_Zby:ikHandle3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_foot/NV_KY_Zby:l_K
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6/NV_KY_Zby:l_M
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ik5/NV_KY_Zby:l_ik6/NV_KY_Zby:l_M/NV_KY_Zby:l_M
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi1/NV_KY_Zby:dazhi
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi2/NV_KY_Zby:dazhi
+          2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi3/NV_KY_Zby:dazhi
+          3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi4/NV_KY_Zby:dazhi
+          4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi10
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:dazhi10/NV_KY_Zby:dazhimu
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:l_ikfk/NV_KY_Zby:l_ikfk1/NV_KY_Zby:curve5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1/NV_KY_Zby:f_fk3
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:f_fk1/NV_KY_Zby:f_fk1
+          1/NV_KY_Zby:f_fk2/NV_KY_Zby:f_fk2 1/NV_KY_Zby:f_fk3/NV_KY_Zby:f_fk3 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9/NV_KY_Zby:nurbsCircle7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:nurbsCircle9/NV_KY_Zby:nurbsCircle8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui/NV_KY_Zby:zui
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:jingzi/NV_KY_Zby:zui/NV_KY_Zby:zui
+          1/yachi1:mouse_down2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:L_jian
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2/NV_KY_Zby:r_fk3 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:r_fk1/NV_KY_Zby:aa/NV_KY_Zby:r_fk2
+          1/NV_KY_Zby:r_fk2 2/NV_KY_Zby:r_fk3 1/NV_KY_Zby:r_fk3 2
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:nurbsCircle1/NV_KY_Zby:nurbsCircle2/NV_KY_Zby:nurbsCircle3/NV_KY_Zby:nurbsCircle4/NV_KY_Zby:R_jian
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik5/NV_KY_Zby:ikHandle13
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:ikHandle5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:r_ik6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_ik8/NV_KY_Zby:r_ik7/NV_KY_Zby:r_ik6/NV_KY_Zby:ikHandle6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_foot/NV_KY_Zby:r_K
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1/NV_KY_Zby:r_M
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ik9/NV_KY_Zby:r_ik9 1/NV_KY_Zby:r_M/NV_KY_Zby:r_M
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi5/NV_KY_Zby:dazhi
+          5
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi6/NV_KY_Zby:dazhi
+          6
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi7/NV_KY_Zby:dazhi
+          7
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi8/NV_KY_Zby:dazhi
+          8
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:dazhi9/NV_KY_Zby:dazhi
+          9
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve1
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve2
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve3
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve4
+          1
+        weight: 1
+      - path: nv_kyy/zongkongziqi/NV_KY_Zby:r_ikfk/NV_KY_Zby:r_ikfk1/NV_KY_Zby:curve5
+          1
+        weight: 1
+      - path: nv_kyy_moxing
+        weight: 1
+      - path: YGY
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

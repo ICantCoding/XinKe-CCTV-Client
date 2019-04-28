@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 1001211569
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f4027533180357dbf4481419b293ed2a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c155b631877ba064d8a259c50c35de2c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 54d95729809cc2047960fb58352aa751, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Module/Npc/Character/Materials/casual16_m_35_XG.mat
+- Assets/Prefabs/Npc/Man1_Npc.prefab
+- Assets/Module/Npc/AnimatorController/nan_npc_animationctrl.controller
+- Assets/Module/Npc/Character/Texture/casual05_m_35_XG.jpg
+- Assets/Module/Npc/Character/nan-10-490.fbx
+Dependencies: []

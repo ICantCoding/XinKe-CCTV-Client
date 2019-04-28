@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 1956466472
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2c40862654d9a79abc29a22eb603e69c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1ec78ff77a07ab64b434aff666d5ec90
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: da0569b6291fb45499c664dd88babe69, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Camera/CCTV Camera.prefab
+Dependencies: []

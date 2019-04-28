@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 47667022ddb02594b98d479cfd604ea3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: l_foot01
+    100002: l_foot02
+    100004: l_foot03
+    100006: l_foot04
+    100008: l_hand01
+    100010: l_hand02
+    100012: l_hand03
+    100014: nr01
+    100016: nr02
+    100018: nr03
+    100020: nr04
+    100022: //RootNode
+    100024: Nv_Mx
+    100026: r_foot01
+    100028: r_foot02
+    100030: r_foot03
+    100032: r_foot04
+    100034: r_hand01
+    100036: r_hand02
+    100038: r_hand03
+    400000: l_foot01
+    400002: l_foot02
+    400004: l_foot03
+    400006: l_foot04
+    400008: l_hand01
+    400010: l_hand02
+    400012: l_hand03
+    400014: nr01
+    400016: nr02
+    400018: nr03
+    400020: nr04
+    400022: //RootNode
+    400024: Nv_Mx
+    400026: r_foot01
+    400028: r_foot02
+    400030: r_foot03
+    400032: r_foot04
+    400034: r_hand01
+    400036: r_hand02
+    400038: r_hand03
+    4300000: Nv_Mx
+    7400000: "\u7AD9\u7ACB"
+    7400002: "\u8D70\u8DEF"
+    7400004: "\u5F85\u673A01"
+    7400006: "\u8D2D\u7968"
+    7400008: "\u5237\u5361\u5F00\u95E8"
+    7400010: "\u5F85\u673A02"
+    7400012: "\u5F85\u673A03"
+    9500000: //RootNode
+    13700000: Nv_Mx
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body
+    second: {fileID: 2100000, guid: 621b5f4e61234c04f8fd432ef32024eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_transparent
+    second: {fileID: 2100000, guid: 7193b7eb91510294aa84f2ec94074dc4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: Event WaitComplete has a time (2.916667) outside the
+      clip's valid range (0.000000..2.916667). It will never be fired
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "\u7AD9\u7ACB"
+      takeName: Take 001
+      firstFrame: -10
+      lastFrame: -1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: nr01
+        weight: 1
+      - path: nr01/l_foot01
+        weight: 1
+      - path: nr01/l_foot01/l_foot02
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03/l_foot04
+        weight: 1
+      - path: nr01/nr02
+        weight: 1
+      - path: nr01/nr02/nr03
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02/l_hand03
+        weight: 1
+      - path: nr01/nr02/nr03/nr04
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02/r_hand03
+        weight: 1
+      - path: nr01/r_foot01
+        weight: 1
+      - path: nr01/r_foot01/r_foot02
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03/r_foot04
+        weight: 1
+      - path: Nv_Mx
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u8D70\u8DEF"
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: nr01
+        weight: 1
+      - path: nr01/l_foot01
+        weight: 1
+      - path: nr01/l_foot01/l_foot02
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03/l_foot04
+        weight: 1
+      - path: nr01/nr02
+        weight: 1
+      - path: nr01/nr02/nr03
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02/l_hand03
+        weight: 1
+      - path: nr01/nr02/nr03/nr04
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02/r_hand03
+        weight: 1
+      - path: nr01/r_foot01
+        weight: 1
+      - path: nr01/r_foot01/r_foot02
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03/r_foot04
+        weight: 1
+      - path: Nv_Mx
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u5F85\u673A01"
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: WaitComplete
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: nr01
+        weight: 1
+      - path: nr01/l_foot01
+        weight: 1
+      - path: nr01/l_foot01/l_foot02
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03/l_foot04
+        weight: 1
+      - path: nr01/nr02
+        weight: 1
+      - path: nr01/nr02/nr03
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02/l_hand03
+        weight: 1
+      - path: nr01/nr02/nr03/nr04
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02/r_hand03
+        weight: 1
+      - path: nr01/r_foot01
+        weight: 1
+      - path: nr01/r_foot01/r_foot02
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03/r_foot04
+        weight: 1
+      - path: Nv_Mx
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u8D2D\u7968"
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: nr01
+        weight: 1
+      - path: nr01/l_foot01
+        weight: 1
+      - path: nr01/l_foot01/l_foot02
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03/l_foot04
+        weight: 1
+      - path: nr01/nr02
+        weight: 1
+      - path: nr01/nr02/nr03
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02/l_hand03
+        weight: 1
+      - path: nr01/nr02/nr03/nr04
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02/r_hand03
+        weight: 1
+      - path: nr01/r_foot01
+        weight: 1
+      - path: nr01/r_foot01/r_foot02
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03/r_foot04
+        weight: 1
+      - path: Nv_Mx
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u5237\u5361\u5F00\u95E8"
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: nr01
+        weight: 1
+      - path: nr01/l_foot01
+        weight: 1
+      - path: nr01/l_foot01/l_foot02
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03/l_foot04
+        weight: 1
+      - path: nr01/nr02
+        weight: 1
+      - path: nr01/nr02/nr03
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02/l_hand03
+        weight: 1
+      - path: nr01/nr02/nr03/nr04
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02/r_hand03
+        weight: 1
+      - path: nr01/r_foot01
+        weight: 1
+      - path: nr01/r_foot01/r_foot02
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03/r_foot04
+        weight: 1
+      - path: Nv_Mx
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u5F85\u673A02"
+      takeName: Take 001
+      firstFrame: 250
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: WaitComplete
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: nr01
+        weight: 1
+      - path: nr01/l_foot01
+        weight: 1
+      - path: nr01/l_foot01/l_foot02
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03/l_foot04
+        weight: 1
+      - path: nr01/nr02
+        weight: 1
+      - path: nr01/nr02/nr03
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02/l_hand03
+        weight: 1
+      - path: nr01/nr02/nr03/nr04
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02/r_hand03
+        weight: 1
+      - path: nr01/r_foot01
+        weight: 1
+      - path: nr01/r_foot01/r_foot02
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03/r_foot04
+        weight: 1
+      - path: Nv_Mx
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: "\u5F85\u673A03"
+      takeName: Take 001
+      firstFrame: 320
+      lastFrame: 410
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: WaitComplete
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: nr01
+        weight: 1
+      - path: nr01/l_foot01
+        weight: 1
+      - path: nr01/l_foot01/l_foot02
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03
+        weight: 1
+      - path: nr01/l_foot01/l_foot02/l_foot03/l_foot04
+        weight: 1
+      - path: nr01/nr02
+        weight: 1
+      - path: nr01/nr02/nr03
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/l_hand01/l_hand02/l_hand03
+        weight: 1
+      - path: nr01/nr02/nr03/nr04
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02
+        weight: 1
+      - path: nr01/nr02/nr03/r_hand01/r_hand02/r_hand03
+        weight: 1
+      - path: nr01/r_foot01
+        weight: 1
+      - path: nr01/r_foot01/r_foot02
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03
+        weight: 1
+      - path: nr01/r_foot01/r_foot02/r_foot03/r_foot04
+        weight: 1
+      - path: Nv_Mx
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

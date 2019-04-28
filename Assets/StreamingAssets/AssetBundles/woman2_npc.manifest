@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 3384604457
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5490580515f78bd516b74cc24f0b05f4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ef926ffd7a60a3fc7f32493c2f9ddd11
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 54d95729809cc2047960fb58352aa751, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Npc/Woman2_Npc.prefab
+- Assets/Module/Npc/Character/Texture/casual14_f_25_XG.jpg
+- Assets/Module/Npc/Character/Materials/casual15_f_21.mat
+Dependencies:
+- E:/XinKeWork/Day20190219/CCTV Client/CCTV Client/Assets/StreamingAssets/AssetBundles/woman1_npc

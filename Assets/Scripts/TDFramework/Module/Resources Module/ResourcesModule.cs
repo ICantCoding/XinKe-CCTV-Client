@@ -14,18 +14,10 @@ namespace TDFramework
         #region 抽象方法实现
         public override void Init()
         {
-            Transform poolGoTrans = new GameObject(GameTagMgr.PoolGos_Tag).transform;
-            GameObject.DontDestroyOnLoad(poolGoTrans.gameObject);
-            Transform sceneGoTrans = new GameObject(GameTagMgr.SceneGos_Tag).transform;
-            GameObject.DontDestroyOnLoad(sceneGoTrans.gameObject);
             string goName = StringMgr.ResourceEngineName;
             GameObject resourceEngineGo = GameObject.Find(goName);
-            if(resourceEngineGo == null)
-            {
-                resourceEngineGo = new GameObject(goName);
-            }
             m_resourceEngine = resourceEngineGo.AddComponent<ResourceEngine>();
-            m_resourceEngine.InitResourceEngine(poolGoTrans, sceneGoTrans);
+            m_resourceEngine.InitResourceEngine();
         }
         public override void Release()
         {

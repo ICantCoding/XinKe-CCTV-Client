@@ -5,12 +5,13 @@ using TDFramework;
 
 public class NetworkEngine : MonoBehaviour
 {
-
     #region 字段
     private Transform m_playerTrans;
-    private List<BaseNetworkEngine> m_networkEngineList = new List<BaseNetworkEngine>();
+    //客户端网络引擎
+    private PlayerNetworkEngine m_playerNetworkEngine;
+    //存放站台网络引擎的List
+    private List<StationNetworkEngine> m_stationNetworkEngineList = new List<StationNetworkEngine>();
     #endregion
-
 
     #region Unity生命周期
     void Awake()
@@ -20,17 +21,45 @@ public class NetworkEngine : MonoBehaviour
     #endregion
 
     #region 公有方法
-    public void DynamicAddNetwoekEngine2ChildGameObject()
+    public void Run()
     {
         AddPlayerNetworkEngine();
         AddStationNetworkEngine();
     }
     public void Stop()
     {
-        int count = m_networkEngineList.Count;
-        for(int i = 0; i < count; ++i)
+        if (m_playerNetworkEngine != null)
+            m_playerNetworkEngine.Stop();
+        int count = m_stationNetworkEngineList.Count;
+        for (int i = 0; i < count; ++i)
         {
-            m_networkEngineList[i].Stop();
+            if (m_stationNetworkEngineList[i] != null)
+                m_stationNetworkEngineList[i].Stop();
+        }
+    }
+    //根据站台索引，获取站台网络引擎
+    public StationNetworkEngine GetStationNetworkEngineByStationIndex(System.UInt16 stationIndex, System.UInt16 stationClientType)
+    {
+        int count = m_stationNetworkEngineList.Count;
+        StationNetworkEngine stationNetworkEngine = null;
+        for (int i = 0; i < count; i++)
+        {
+            stationNetworkEngine = m_stationNetworkEngineList[i];
+            if (stationNetworkEngine.StationIndex == stationIndex && stationNetworkEngine.StationClientType == stationClientType)
+            {
+                return (StationNetworkEngine)stationNetworkEngine;
+            }
+        }
+        return null;
+    }
+    //各站台网络引擎开启, 用不到该方法
+    public void AllStationNetworkEngineLink()
+    {
+        int count = m_stationNetworkEngineList.Count;
+        for (int i = 0; i < count; ++i)
+        {
+            if (m_stationNetworkEngineList[i] != null)
+                m_stationNetworkEngineList[i].Link();
         }
     }
     #endregion
@@ -41,7 +70,7 @@ public class NetworkEngine : MonoBehaviour
         m_playerTrans = transform.Find("Player");
         if (m_playerTrans != null)
         {
-            m_networkEngineList.Add(m_playerTrans.gameObject.AddComponent<PlayerNetworkEngine>());
+            m_playerNetworkEngine = m_playerTrans.gameObject.AddComponent<PlayerNetworkEngine>();
         }
     }
     private void AddStationNetworkEngine()
@@ -57,37 +86,33 @@ public class NetworkEngine : MonoBehaviour
                 Transform item = stationTrans.GetChild(j);
                 string engineName = item.gameObject.name;
                 StationNetworkEngine engine = item.gameObject.AddComponent<StationNetworkEngine>();
-                m_networkEngineList.Add(engine);
+                m_stationNetworkEngineList.Add(engine);
                 switch (engineName)
                 {
-                    case "ShangXingShangChe":
-                    {
-                        engine.StationClientType = 1;
-                        engine.StationIndex = stationInfo.Index;
-                        break;
-                    }
-                    case "ShangXingXiaChe":
-                    {
-                        engine.StationClientType = 2;
-                        engine.StationIndex = stationInfo.Index;
-                        break;
-                    }
-                    case "XiaXingShangChe":
-                    {
-                        engine.StationClientType = 3;
-                        engine.StationIndex = stationInfo.Index;
-                        break;
-                    }
-                    case "XiaXingXiaChe":
-                    {
-                        engine.StationClientType = 4;
-                        engine.StationIndex = stationInfo.Index;
-                        break;
-                    }
-                    default:
-                    {
-                        break;
-                    }
+                    case StringMgr.ShangXingShangChe:
+                        {
+                            engine.StationClientType = IntMgr.ShangXingShangChe;
+                            engine.StationIndex = stationInfo.Index;
+                            break;
+                        }
+                    case StringMgr.ShangXingXiaChe:
+                        {
+                            engine.StationClientType = IntMgr.ShangXingXiaChe;
+                            engine.StationIndex = stationInfo.Index;
+                            break;
+                        }
+                    case StringMgr.XiaXingShangChe:
+                        {
+                            engine.StationClientType = IntMgr.XiaXingShangChe;
+                            engine.StationIndex = stationInfo.Index;
+                            break;
+                        }
+                    case StringMgr.XiaXingXiaChe:
+                        {
+                            engine.StationClientType = IntMgr.XiaXingXiaChe;
+                            engine.StationIndex = stationInfo.Index;
+                            break;
+                        }
                 }
             }
         }

@@ -93,6 +93,7 @@ namespace TDFramework
         }
     }
 
+    //AssetBundleManager只负责处理读取资源依赖文件，和加载指定资源的AssetBundle
     public class AssetBundleManager : Singleton<AssetBundleManager>
     {
 
@@ -103,7 +104,7 @@ namespace TDFramework
          new Dictionary<uint, AssetBundleItem>();
         //AssetBundleItem的类对象池, 先分配500个AssetBundleItem的类对象池
         protected ClassObjectPool<AssetBundleItem> m_assetBundleItemPool =
-         ObjectManager.Instance.GetOrCreateClassObjectPool<AssetBundleItem>(500);
+            ObjectManager.Instance.GetOrCreateClassObjectPool<AssetBundleItem>(500);
         #endregion	
 
         #region 构造函数
@@ -114,6 +115,7 @@ namespace TDFramework
         #endregion
 
         #region 方法
+        //读取资源依赖文件， 初始化所有资源都一一对应的ResourceItem类对象
         public bool LoadAssetBundleConfig()
         {
             m_resourceItemDict.Clear();
@@ -150,7 +152,12 @@ namespace TDFramework
             }
             return true;
         }
-        //根据crc获取ResourceItem
+        //获取指定crc的ResourceItem
+        public ResourceItem FindResourceItem(uint crc)
+        {
+            return m_resourceItemDict[crc];
+        }
+        //根据crc获取ResourceItem， 只负责获取到资源所在AssetBundle.
         public ResourceItem LoadResourceItem(uint crc)
         {
             ResourceItem resourceItem = null;
@@ -179,6 +186,7 @@ namespace TDFramework
             uint crc = CrcHelper.StringToCRC32(filePath);
             return LoadResourceItem(crc);
         }
+        //卸载ResourceItem
         public void UnLoadResourceItem(ResourceItem item)
         {
             if (item == null) return;
@@ -191,6 +199,7 @@ namespace TDFramework
             }
             UnLoadAssetBundle(item.ABName);
         }
+        //加载指定ab包名的ab包
         public AssetBundle LoadAssetBundle(string abName)
         {
             AssetBundleItem abItem = null;
@@ -219,6 +228,7 @@ namespace TDFramework
             }
             return abItem.assetBundle;
         }
+        //卸载指定ab包名的ab包
         public void UnLoadAssetBundle(string abName)
         {
             AssetBundleItem abItem = null;
@@ -234,10 +244,6 @@ namespace TDFramework
                     m_assetBundleItemDict.Remove(crc);
                 }
             }
-        }
-        public ResourceItem FindResourceItem(uint crc)
-        {
-            return m_resourceItemDict[crc];
         }
         #endregion
     }

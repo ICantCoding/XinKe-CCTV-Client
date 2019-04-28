@@ -14,6 +14,7 @@ public class NpcPosition : IPacket
     public float m_angleY;
     public float m_angleZ;
     public int m_npcId;
+    public int m_npcType;
     public UInt16 m_stationIndex;
     public UInt16 m_stationClientType;
     public UInt16 Size
@@ -45,6 +46,8 @@ public class NpcPosition : IPacket
         readIndex += 4;
         m_npcId = BitConverter.ToInt32(bytes, readIndex);
         readIndex += 4;
+        m_npcType = BitConverter.ToInt32(bytes, readIndex);
+        readIndex += 4;
         m_stationIndex = BitConverter.ToUInt16(bytes, readIndex);
         readIndex += 2;
         m_stationClientType = BitConverter.ToUInt16(bytes, readIndex);
@@ -60,6 +63,7 @@ public class NpcPosition : IPacket
         byte[] angleYBytes = BitConverter.GetBytes(m_angleY);
         byte[] angleZBytes = BitConverter.GetBytes(m_angleZ);
         byte[] npcIdBytes = BitConverter.GetBytes(m_npcId);
+        byte[] npcTypeBytes = BitConverter.GetBytes(m_npcType);
         byte[] stationIndexBytes = BitConverter.GetBytes(m_stationIndex);
         byte[] stationClientTypeBytes = BitConverter.GetBytes(m_stationClientType);
         byte[] bytes = new byte[Size];
@@ -79,6 +83,8 @@ public class NpcPosition : IPacket
         startIndex += angleZBytes.Length;
         Array.Copy(npcIdBytes, 0, bytes, startIndex, npcIdBytes.Length);
         startIndex += npcIdBytes.Length;
+        Array.Copy(npcTypeBytes, 0, bytes, startIndex, npcTypeBytes.Length);
+        startIndex += npcTypeBytes.Length;
         Array.Copy(stationIndexBytes, 0, bytes, startIndex, stationIndexBytes.Length);
         startIndex += stationIndexBytes.Length;
         Array.Copy(stationClientTypeBytes, 0, bytes, startIndex, stationClientTypeBytes.Length);

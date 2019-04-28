@@ -1,12 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StationInfoList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <StationInfo>
-    <ShangXingShangCheId>1001</ShangXingShangCheId>
-    <ShangXingXiaCheId>1002</ShangXingXiaCheId>
-    <XiaXingShangCheId>1003</XiaXingShangCheId>
-    <XiaXingXiaCheId>1004</XiaXingXiaCheId>
     <Index>0</Index>
+    <Name>池东</Name>
+    <EngName>ChiDong</EngName>
+  </StationInfo>
+  <StationInfo>
+    <Index>1</Index>
+    <Name>前大彦</Name>
+    <EngName>QianDaYan</EngName>
+  </StationInfo>
+  <StationInfo>
+    <Index>2</Index>
+    <Name>园博园</Name>
+    <EngName>YuanBoYuan</EngName>
+  </StationInfo>
+  <StationInfo>
+    <Index>3</Index>
+    <Name>大学城</Name>
+    <EngName>DaXueCheng</EngName>
+  </StationInfo>
+  <StationInfo>
+    <Index>4</Index>
+    <Name>紫薇路</Name>
+    <EngName>ZiWeiLu</EngName>
+  </StationInfo>
+  <StationInfo>
+    <Index>5</Index>
     <Name>赵营</Name>
     <EngName>ZhaoYing</EngName>
+  </StationInfo>
+  <StationInfo>
+    <Index>6</Index>
+    <Name>玉符河</Name>
+    <EngName>YuFuHe</EngName>
+  </StationInfo>
+  <StationInfo>
+    <Index>7</Index>
+    <Name>王府庄</Name>
+    <EngName>WangFuZhuang</EngName>
+  </StationInfo>
+  <StationInfo>
+    <Index>8</Index>
+    <Name>大杨庄</Name>
+    <EngName>DaYangZhuang</EngName>
+  </StationInfo>
+  <StationInfo>
+    <Index>9</Index>
+    <Name>济南西</Name>
+    <EngName>JiNanXi</EngName>
+  </StationInfo>
+  <StationInfo>
+    <Index>10</Index>
+    <Name>演马庄西</Name>
+    <EngName>YanMaZhuangXi</EngName>
   </StationInfo>
 </StationInfoList>

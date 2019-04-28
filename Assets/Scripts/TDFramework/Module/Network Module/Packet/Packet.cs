@@ -33,6 +33,15 @@ public class Packet : IPacket
         this.m_msgLen = msgLen;
         this.m_data = bytes;
     }
+    public Packet(UInt16 sendId, UInt16 nodeId, MessageID messageId, UInt16 msgLen, byte[] bytes)
+    {
+        this.m_sendId = sendId;
+        this.m_nodeId = nodeId;
+        this.m_firstId = messageId.FirstID;
+        this.m_secondId = messageId.SecondID;
+        this.m_msgLen = msgLen;
+        this.m_data = bytes;
+    }
     public Packet()
     {
 
