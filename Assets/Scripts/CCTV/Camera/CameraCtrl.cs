@@ -50,11 +50,11 @@ public class CameraCtrl : MonoBehaviour {
     }
     //向上旋转
     public void UpRotationAction () {
-        transform.Rotate(1f, 0, 0, Space.World);
+        transform.Rotate(1f, 0, 0, Space.Self);
     }
     //向下旋转
     public void DownRotationAction () {
-        transform.Rotate(-1f, 0, 0, Space.World);
+        transform.Rotate(-1f, 0, 0, Space.Self);
     }
     public void ZoomAction (byte zoomFlag) {
         switch (zoomFlag) {

@@ -21,7 +21,7 @@ public class UIScreenPanel : UIPanel {
     #region Unity生命周期
     protected override void Awake () {
         base.Awake ();
-
+        
         UIScreenPanel_Command command = new UIScreenPanel_Command ();
         RegisterCommand (EventID_Cmd.DivisionBigScreen, command);
         RegisterCommand (EventID_Cmd.DivisionSmallScreen, command);
